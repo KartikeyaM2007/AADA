@@ -143,7 +143,7 @@ class AIQueryPlan(BaseModel):
     """Typed plan the model must emit; execution always happens locally."""
 
     answerable: bool
-    intent: Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview", "greeting"] = "aggregate"
+    intent: Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview", "greeting", "scatter"] = "aggregate"
     aggregation: Literal["sum", "mean", "median", "min", "max", "count"] = "sum"
     measure: str | None = None
     dimension: str | None = None
@@ -154,6 +154,8 @@ class AIQueryPlan(BaseModel):
     month: int | None = Field(default=None, ge=1, le=12)
     grain: Literal["D", "W", "M", "Q", "Y"] | None = None
     explanation: str | None = Field(default=None, max_length=350)
+    use_pie: bool = False
+    scatter_x: str | None = None  # secondary numeric column for scatter chart
 
 
 PLANNER_CONFIG = AIConfig("gpt-5.6-luna", "low", "Query planner")
@@ -170,6 +172,11 @@ Rules:
    - Set answerable = true, match listed column names exactly.
 4. OUT-OF-DOMAIN / UNRELATED QUESTIONS ("who won the world cup", "tell me a joke", "recipe for pizza"):
    - Set answerable = false, and set explanation to a polite note stating you are an AI Data Analyst focused on the uploaded dataset, suggesting relevant dataset questions instead.
+5. PROPORTION / SHARE / COMPOSITION QUESTIONS ("what share", "percentage", "pie chart", "distribution", "proportion"):
+   - Set intent = "breakdown" or "rank" AND set use_pie = true. Do NOT set intent to "pie".
+6. CORRELATION / COMPARISON BETWEEN TWO COLUMNS ("vs", "versus", "compare X and Y", "relationship between", "scatter"):
+   - Set intent = "scatter", measure = primary numeric column (y-axis), scatter_x = secondary numeric column (x-axis).
+7. FOLLOW-UP / CONTEXT-DEPENDENT QUESTIONS: When the conversation history contains prior questions, resolve ambiguous references like "that", "same", "it", "by region" by using the prior turn's measure/dimension as context.
 Return your output as a valid JSON object matching the query plan schema."""
 
 
@@ -258,6 +265,8 @@ def _to_query_plan(
         grain=parsed.grain,
         source="ai",
         explanation=parsed.explanation,
+        use_pie=getattr(parsed, "use_pie", False),
+        scatter_x=getattr(parsed, "scatter_x", None),
     )
 
 
@@ -271,8 +280,15 @@ def plan_query_with_ai(
     config: AIConfig = PLANNER_CONFIG,
     base_url: str | None = None,
     client: _Client | None = None,
+    chat_history: list[dict] | None = None,
 ) -> QueryPlan | None:
-    """Ask the model for a typed plan over the schema; execution stays local."""
+    """Ask the model for a typed plan over the schema; execution stays local.
+
+    Args:
+        chat_history: Optional list of prior chat entries (dicts with 'question' and 'result' keys).
+            The last up to 5 turns are forwarded as conversation context so the model can resolve
+            follow-up references like 'now show that by region' or 'same for last year'.
+    """
     if not api_key.strip():
         raise ValueError("An API key is required for the optional AI query planner.")
     if not question.strip():
@@ -286,12 +302,22 @@ def plan_query_with_ai(
         client = OpenAI(api_key=api_key, base_url=resolved_base_url, timeout=25.0, max_retries=1)
 
     if is_groq:
+        # Build messages list: system + last-N prior turns + current question
+        messages: list[dict] = [{"role": "system", "content": PLANNER_INSTRUCTIONS}]
+        # Inject up to 5 prior turns for multi-turn context (question + answer text only)
+        if chat_history:
+            for prior in chat_history[-5:]:
+                prior_q = prior.get("question", "")
+                prior_result = prior.get("result")
+                if prior_q:
+                    messages.append({"role": "user", "content": prior_q})
+                if prior_result is not None and hasattr(prior_result, "answer"):
+                    messages.append({"role": "assistant", "content": prior_result.answer})
+        # Current question payload
+        messages.append({"role": "user", "content": build_planner_payload(question, dataframe, roles)})
         chat_res = client.chat.completions.create(
             model=config.model if "llama" in config.model or "qwen" in config.model or "mixtral" in config.model else "llama-3.3-70b-versatile",
-            messages=[
-                {"role": "system", "content": PLANNER_INSTRUCTIONS},
-                {"role": "user", "content": build_planner_payload(question, dataframe, roles)},
-            ],
+            messages=messages,
             response_format={"type": "json_object"},
             temperature=0.1,
         )

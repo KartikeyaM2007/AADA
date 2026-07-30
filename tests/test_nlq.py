@@ -136,6 +136,37 @@ class NLQParsingTests(unittest.TestCase):
         plan = parse_question("monthly revenue trend", frame, roles)
         self.assertNotEqual(plan.intent if plan else None, "trend")
 
+    def test_breakdown_with_pie_language_uses_pie_chart(self):
+        """Breakdown questions with proportion/share language should emit chart='pie'."""
+        result = self.ask("revenue share by region")
+        self.assertEqual(result.plan.intent, "breakdown")
+        self.assertTrue(result.plan.use_pie, "use_pie should be True for share questions")
+        self.assertEqual(result.chart, "pie")
+
+    def test_rank_with_distribution_language_uses_pie_chart(self):
+        """Top-N rank questions with distribution language should emit chart='pie'."""
+        result = self.ask("top 5 region by revenue distribution")
+        self.assertEqual(result.plan.intent, "rank")
+        self.assertTrue(result.plan.use_pie, "use_pie should be True for distribution questions")
+        self.assertEqual(result.chart, "pie")
+
+    def test_plain_breakdown_still_uses_bar_chart(self):
+        """Breakdown questions without pie-signal words should still use a bar chart."""
+        result = self.ask("revenue by region")
+        self.assertEqual(result.plan.intent, "breakdown")
+        self.assertFalse(result.plan.use_pie, "use_pie should be False without pie signal words")
+        self.assertEqual(result.chart, "bar")
+
+    def test_scatter_intent_on_two_numeric_columns(self):
+        """'vs' / 'versus' questions with 2 numeric cols should emit intent='scatter'."""
+        # The demo dataset has Revenue and Profit — two numeric cols
+        result = self.ask("revenue vs profit")
+        if result is not None:
+            self.assertEqual(result.plan.intent, "scatter")
+            self.assertEqual(result.chart, "scatter")
+            self.assertIsNotNone(result.plan.scatter_x)
+            self.assertIn("relationship between", result.answer)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -207,8 +207,13 @@ def answer_with_ai_planner(
     dataframe: pd.DataFrame,
     roles,
     api_key: str,
+    chat_history: list[dict] | None = None,
 ) -> QueryAnswer | None:
-    """Plan with the model over schema only, then execute locally."""
+    """Plan with the model over schema only, then execute locally.
+
+    Passes the last 5 chat history entries as multi-turn context to Groq so
+    follow-up questions like 'now show that by region' are resolved correctly.
+    """
     try:
         plan = plan_query_with_ai(
             question,
@@ -216,6 +221,7 @@ def answer_with_ai_planner(
             roles,
             api_key=api_key,
             safety_identifier=get_safety_identifier(),
+            chat_history=chat_history,
         )
         if plan is None:
             return None
@@ -230,6 +236,7 @@ def answer_with_ai_planner(
         table=executed.table,
         chart=executed.chart,
     )
+
 
 
 def render_ask_ada(dataframe: pd.DataFrame, roles, source_name: str, api_key: str) -> None:
@@ -252,7 +259,9 @@ def render_ask_ada(dataframe: pd.DataFrame, roles, source_name: str, api_key: st
         result = answer_question(question, dataframe, roles)
         if result is None and api_key:
             with st.spinner("Planning the calculation…"):
-                result = answer_with_ai_planner(question, dataframe, roles, api_key)
+                # Pass last 5 turns as multi-turn memory context to Groq
+                history_ctx = st.session_state.chat_history[-5:] if st.session_state.chat_history else None
+                result = answer_with_ai_planner(question, dataframe, roles, api_key, chat_history=history_ctx)
         st.session_state.chat_history.append({"question": question, "result": result})
 
     if not st.session_state.chat_history:

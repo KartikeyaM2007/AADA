@@ -17,7 +17,7 @@ import pandas as pd
 
 from business_insights import ColumnRoles, format_number, preferred_frequency, trend_frame
 
-Intent = Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview", "greeting"]
+Intent = Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview", "greeting", "scatter"]
 Aggregation = Literal["sum", "mean", "median", "min", "max", "count"]
 
 AGGREGATION_WORDS: dict[str, Aggregation] = {
@@ -60,6 +60,16 @@ GROWTH_WORDS = (
     "decline", "declined", "dropped", "drop", "shrank", "fell",
 )
 TREND_WORDS = ("over time", "trend", "timeline", "history", "trajectory")
+# Pie chart signal words — proportion / share / composition questions
+PIE_WORDS = (
+    "share", "proportion", "percentage", "pie", "composition",
+    "distribution", "make up", "split", "portion", "ratio",
+)
+# Scatter chart signal words — correlation / comparison between two columns
+SCATTER_WORDS = (
+    " vs ", " versus ", "compare", "correlation", "relationship",
+    "against", "scatter", "plotted against",
+)
 GRAIN_WORDS = {
     "daily": "D",
     "day": "D",
@@ -120,6 +130,8 @@ class QueryPlan:
     grain: str | None = None
     source: str = "rules"
     explanation: str | None = None
+    use_pie: bool = False
+    scatter_x: str | None = None  # secondary numeric column for scatter
 
 
 @dataclass(frozen=True)
@@ -129,7 +141,7 @@ class QueryAnswer:
     answer: str
     calculation: str
     table: pd.DataFrame | None = None
-    chart: Literal["bar", "line"] | None = None
+    chart: Literal["bar", "line", "pie", "scatter"] | None = None
     sql: str | None = None
 
 
@@ -235,6 +247,10 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
     wants_count = bool(re.search(r"\b(how many|count|number of)\b", q))
     wants_growth = any(re.search(rf"\b{word}\b", q) for word in GROWTH_WORDS)
     wants_trend = grain is not None or any(phrase in q for phrase in TREND_WORDS)
+    # Pie chart: proportion / share / composition language
+    wants_pie = any(word in q for word in PIE_WORDS)
+    # Scatter chart: correlation / vs / compare between two numeric columns
+    wants_scatter = any(word in q for word in SCATTER_WORDS)
 
     base = {
         "measure": measure or roles.measure,
@@ -289,6 +305,7 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
                 dimension=rank_dimension,
                 top_n=top_n,
                 ascending=ascending,
+                use_pie=wants_pie,
                 **base,
             )
 
@@ -300,8 +317,24 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
             intent="breakdown",
             aggregation=aggregation if aggregation in ("mean", "median") else "sum",
             dimension=dimension,
+            use_pie=wants_pie,
             **base,
         )
+
+    # Scatter: correlation / vs / comparison between two numeric columns
+    if wants_scatter and len(numeric_columns) >= 2:
+        # primary measure is the y-axis; pick a second numeric col as x
+        primary = measure or roles.measure or numeric_columns[0]
+        scatter_x = next((c for c in numeric_columns if c != primary), None)
+        if scatter_x:
+            # Build scatter-specific kwargs — exclude 'measure' from base to avoid duplicate keyword
+            scatter_base = {k: v for k, v in base.items() if k != "measure"}
+            return QueryPlan(
+                intent="scatter",
+                measure=primary,
+                scatter_x=scatter_x,
+                **scatter_base,
+            )
 
     if base["measure"] and (aggregation or measure):
         return QueryPlan(intent="aggregate", aggregation=aggregation or "sum", **base)
@@ -435,7 +468,7 @@ def execute_plan(plan: QueryPlan, dataframe: pd.DataFrame, roles: ColumnRoles) -
                 f"{order}, showing {len(table)}{scope}"
             ),
             table=table,
-            chart="bar",
+            chart="pie" if plan.use_pie else "bar",
         )
 
     if plan.intent == "trend":
@@ -514,6 +547,26 @@ def execute_plan(plan: QueryPlan, dataframe: pd.DataFrame, roles: ColumnRoles) -
 
     if plan.intent == "growth":
         return _execute_growth(plan, working, roles, scope, applied)
+
+    if plan.intent == "scatter":
+        assert plan.measure is not None
+        assert plan.scatter_x is not None
+        for col in (plan.measure, plan.scatter_x):
+            if col not in working.columns:
+                raise ValueError(f"Unknown column for scatter: {col}")
+        table = working[[plan.measure, plan.scatter_x]].dropna().head(500)
+        answer = (
+            f"Showing the relationship between {plan.measure} (y-axis) "
+            f"and {plan.scatter_x} (x-axis){_phrase(applied)} across {len(table):,} data points."
+        )
+        return QueryAnswer(
+            question="",
+            plan=plan,
+            answer=answer,
+            calculation=f"scatter({plan.measure} vs {plan.scatter_x}){scope}",
+            table=table,
+            chart="scatter",
+        )
 
     raise ValueError(f"Unsupported intent: {plan.intent}")
 

@@ -404,6 +404,8 @@ def _chat_answer_figure(result: QueryAnswer) -> go.Figure | None:
     table = result.table
     if table is None or table.empty or result.chart is None:
         return None
+
+    # ── Line / Area chart (trend, growth over time) ──
     if result.chart == "line" and {"Period", "Value"}.issubset(table.columns):
         figure = px.area(
             table,
@@ -415,6 +417,47 @@ def _chat_answer_figure(result: QueryAnswer) -> go.Figure | None:
         )
         figure.update_traces(line={"width": 3}, fillcolor="rgba(99,91,255,.11)")
         return style_chart(figure, height=320)
+
+    # ── Pie chart (breakdown / rank with share/proportion language) ──
+    if result.chart == "pie":
+        category = table.columns[0]
+        value = "Change %" if "Change %" in table.columns else table.columns[1]
+        figure = px.pie(
+            table,
+            names=category,
+            values=value,
+            title=f"{value} by {category}",
+            color_discrete_sequence=[ACCENT, LIME, "#26A17B", "#F2B84B", "#EC6F91",
+                                      "#8B5CF6", "#06B6D4", "#F97316", "#84CC16"],
+            hole=0.35,  # donut style looks more modern
+        )
+        figure.update_traces(
+            textposition="inside",
+            textinfo="percent+label",
+            hovertemplate="%{label}: %{value:,.2f} (%{percent})<extra></extra>",
+        )
+        return style_chart(figure, height=360)
+
+    # ── Scatter chart (correlation / vs / comparison) ──
+    if result.chart == "scatter" and len(table.columns) >= 2:
+        x_col, y_col = table.columns[0], table.columns[1]
+        figure = px.scatter(
+            table,
+            x=x_col,
+            y=y_col,
+            title=f"{y_col} vs {x_col}",
+            opacity=0.65,
+            color_discrete_sequence=[ACCENT],
+            trendline="ols",
+            trendline_color_override=LIME,
+        )
+        figure.update_traces(
+            marker={"size": 7},
+            hovertemplate=f"{x_col}: %{{x:,.2f}}<br>{y_col}: %{{y:,.2f}}<extra></extra>",
+        )
+        return style_chart(figure, height=360)
+
+    # ── Bar chart (rank, breakdown, growth by segment) ──
     category = table.columns[0]
     value = "Change %" if "Change %" in table.columns else table.columns[1]
     figure = px.bar(
@@ -427,6 +470,7 @@ def _chat_answer_figure(result: QueryAnswer) -> go.Figure | None:
     )
     figure.update_traces(marker_line_width=0, hovertemplate="%{y}: %{x:,.2f}<extra></extra>")
     return style_chart(figure, height=320)
+
 
 
 def render_chat_answer(result: QueryAnswer) -> None:
