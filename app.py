@@ -89,9 +89,12 @@ def get_openai_api_key() -> str:
     if environment_key:
         return environment_key
     try:
-        return str(st.secrets.get("GROQ_API_KEY", st.secrets.get("OPENAI_API_KEY", ""))).strip()
-    except (FileNotFoundError, StreamlitSecretNotFoundError):
-        return ""
+        secret_key = str(st.secrets.get("GROQ_API_KEY", st.secrets.get("OPENAI_API_KEY", ""))).strip()
+        if secret_key:
+            return secret_key
+    except (FileNotFoundError, StreamlitSecretNotFoundError, AttributeError):
+        pass
+    return ""
 
 
 def get_safety_identifier() -> str:
@@ -462,21 +465,31 @@ with executive_tab:
 
     narrative = None
     narrative_model = None
-    if api_key:
-        render_section_heading(
-            "Optional strategy agent",
-            "Connect the signals into a strategic read",
-            "Only the computed evidence and supplied business context are sent. Raw uploaded rows stay out of the model prompt.",
-        )
+    render_section_heading(
+        "Optional strategy agent",
+        "Connect the signals into a strategic read",
+        "Only the computed evidence and supplied business context are sent. Raw uploaded rows stay out of the model prompt.",
+    )
+    active_key = api_key
+    if not active_key:
+        active_key = st.text_input(
+            "Enter Groq (gsk_...) or OpenAI API key to enable AI strategic read",
+            type="password",
+            placeholder="gsk_... or sk-...",
+            key="tab_api_key_input",
+            help="Paste your Groq key (gsk_...) or OpenAI key (sk-...) to generate high-confidence executive actions.",
+        ).strip()
+
+    if active_key:
         control_column, note_column = st.columns([.42, .58], gap="large")
         with control_column:
             narrative, narrative_model = maybe_generate_narrative(
-                api_key=api_key,
+                api_key=active_key,
                 brief=brief,
                 business_context=business_context,
             )
         with note_column:
-            if api_key.startswith("gsk_") or os.getenv("GROQ_API_KEY"):
+            if active_key.startswith("gsk_") or os.getenv("GROQ_API_KEY"):
                 st.info(
                     "Groq LLaMA 3.3 70B is the active default for ultra-fast strategic reasoning. "
                     "Qwen 2.5 Coder & Mixtral 8x7B are also available. "
@@ -490,8 +503,7 @@ with executive_tab:
         if narrative and narrative_model:
             render_ai_narrative(narrative, model=narrative_model)
     else:
-        narrative = None
-        narrative_model = None
+        st.info("💡 Enter your Groq (gsk_...) or OpenAI key above to unlock the purple 'Generate AI strategic read' button!")
 
 with ask_tab:
     render_section_heading(
