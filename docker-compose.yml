@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ada-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: automated-data-analyst
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
