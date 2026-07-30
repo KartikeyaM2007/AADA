@@ -243,7 +243,12 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
         "grain": grain,
     }
 
-    if any(phrase in q for phrase in ("what is this data", "what is this dataset", "explain this data", "explain the dataset", "about this data", "dataset overview", "summary of dataset")):
+    if any(phrase in q for phrase in (
+        "what is this data", "what is this dataset", "explain this data", "explain the dataset",
+        "about this data", "about this dataset", "dataset overview", "data overview",
+        "summary of dataset", "summary of data", "summarize this dataset", "summarize dataset",
+        "tell me about this dataset", "tell me about the data", "what dataset is this", "overview"
+    )):
         return QueryPlan(intent="overview", **base)
 
     if wants_count and not wants_growth:
