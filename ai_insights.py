@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import time
 from dataclasses import asdict, dataclass
 from typing import Literal, Protocol
 
@@ -342,3 +343,31 @@ def narrative_to_markdown(narrative: AINarrative, *, model: str) -> str:
         ]
     )
     return "\n".join(lines)
+
+
+def test_ai_connection(api_key: str) -> tuple[bool, int, str]:
+    """Test API connection to Groq / OpenAI model and measure latency in ms."""
+    if not api_key or not api_key.strip():
+        return False, 0, "No API key provided"
+
+    start_time = time.time()
+    try:
+        is_groq = api_key.startswith("gsk_")
+        resolved_base_url = "https://api.groq.com/openai/v1" if is_groq else None
+        from openai import OpenAI
+
+        client = OpenAI(api_key=api_key.strip(), base_url=resolved_base_url, timeout=10.0, max_retries=0)
+
+        model = "llama-3.3-70b-versatile" if is_groq else "gpt-4o-mini"
+        client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": "ping"}],
+            max_tokens=5,
+        )
+        latency_ms = int((time.time() - start_time) * 1000)
+        model_label = "Groq LLaMA 3.3 70B" if is_groq else "OpenAI Model"
+        return True, latency_ms, f"{model_label} Online ({latency_ms}ms)"
+    except Exception as exc:
+        latency_ms = int((time.time() - start_time) * 1000)
+        return False, latency_ms, f"Offline ({str(exc)[:60]})"
+

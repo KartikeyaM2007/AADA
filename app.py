@@ -25,6 +25,7 @@ from ai_insights import (
     generate_ai_narrative,
     narrative_to_markdown,
     plan_query_with_ai,
+    test_ai_connection,
 )
 from analysis import column_profile
 from business_insights import BusinessBrief, analyze_business, build_business_report
@@ -270,11 +271,55 @@ def render_ask_ada(dataframe: pd.DataFrame, roles, source_name: str, api_key: st
                 render_chat_fallback(suggestions)
 
 
+def render_ai_agent_status_bar(api_key: str) -> None:
+    """Render interactive AI Agent status badge and connection tester at top of page."""
+    if "ai_status_ok" not in st.session_state:
+        if api_key:
+            is_ok, latency, msg = test_ai_connection(api_key)
+            st.session_state.ai_status_ok = is_ok
+            st.session_state.ai_status_msg = msg
+        else:
+            st.session_state.ai_status_ok = False
+            st.session_state.ai_status_msg = "No API key configured"
+
+    col_status, col_btn = st.columns([0.68, 0.32])
+    with col_status:
+        if st.session_state.ai_status_ok:
+            st.markdown(
+                f'<div style="background-color: rgba(16, 185, 129, 0.12); border: 1px solid #10b981; color: #10b981; padding: 8px 16px; border-radius: 8px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px;">'
+                f'<span style="height: 10px; width: 10px; background-color: #10b981; border-radius: 50%; display: inline-block;"></span>'
+                f'🤖 AI Agent Status: ONLINE — {st.session_state.ai_status_msg}</div>',
+                unsafe_allow_html=True,
+            )
+        else:
+            st.markdown(
+                f'<div style="background-color: rgba(239, 68, 68, 0.12); border: 1px solid #ef4444; color: #ef4444; padding: 8px 16px; border-radius: 8px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px;">'
+                f'<span style="height: 10px; width: 10px; background-color: #ef4444; border-radius: 50%; display: inline-block;"></span>'
+                f'🤖 AI Agent Status: OFFLINE — {st.session_state.ai_status_msg}</div>',
+                unsafe_allow_html=True,
+            )
+
+    with col_btn:
+        if st.button("⚡ Test AI Connection", key="test_ai_btn", type="secondary", width="stretch"):
+            with st.spinner("Testing Groq LLaMA 3.3 70B AI Agent connectivity..."):
+                is_ok, latency, msg = test_ai_connection(api_key)
+                st.session_state.ai_status_ok = is_ok
+                st.session_state.ai_status_msg = msg
+            if is_ok:
+                st.toast(f"✅ Groq AI Agent is ONLINE! Response time: {latency}ms", icon="🟢")
+            else:
+                st.toast(f"❌ AI Agent is OFFLINE: {msg}", icon="🔴")
+            st.rerun()
+
+
 inject_styles()
 render_nav()
 render_landing()
 
 api_key = render_sidebar(server_api_key=get_openai_api_key())
+
+render_ai_agent_status_bar(api_key)
+st.markdown("<br>", unsafe_allow_html=True)
 
 source_mode = st.segmented_control(
     "Choose a source",
