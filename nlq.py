@@ -476,13 +476,13 @@ def execute_plan(plan: QueryPlan, dataframe: pd.DataFrame, roles: ColumnRoles) -
 
     if plan.intent == "greeting":
         if plan.explanation:
-            answer = f"🤖 {plan.explanation}"
+            answer = f"[ADA Agent] {plan.explanation}"
         else:
             rows_cnt = len(working)
             cols_cnt = len(working.columns)
             measure_name = roles.measure or "metrics"
             answer = (
-                f"👋 Hello! I am ADA, your automated AI data analyst. "
+                f"[ADA Agent] Hello! I am ADA, your automated AI data analyst. "
                 f"Your currently loaded dataset has {rows_cnt:,} rows and {cols_cnt} attributes, tracking primary measure '{measure_name}'. "
                 f"Ask me about totals, trends, top rankings, or type 'dataset overview' for a complete summary!"
             )
