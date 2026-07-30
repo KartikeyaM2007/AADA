@@ -268,7 +268,7 @@ def render_ask_ada(dataframe: pd.DataFrame, roles, source_name: str, api_key: st
             if entry["result"] is not None:
                 render_chat_answer(entry["result"])
             else:
-                render_chat_fallback(suggestions)
+                render_chat_fallback(entry["question"], suggestions)
 
 
 def render_ai_agent_status_bar(api_key: str) -> None:

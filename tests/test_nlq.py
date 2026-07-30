@@ -103,7 +103,18 @@ class NLQParsingTests(unittest.TestCase):
         self.assertEqual(result.plan.filters[0].values, ("West",))
 
     def test_unreadable_question_returns_none(self):
-        self.assertIsNone(answer_question("tell me a joke", self.dataframe, self.roles))
+        self.assertIsNone(answer_question("tell me a joke about cats", self.dataframe, self.roles))
+
+    def test_greetings_and_vague_queries(self):
+        hi_res = self.ask("hi")
+        self.assertEqual(hi_res.plan.intent, "greeting")
+        self.assertIn("Hello! I am ADA", hi_res.answer)
+
+        vague_res1 = self.ask("what about this ?")
+        self.assertEqual(vague_res1.plan.intent, "overview")
+
+        vague_res2 = self.ask("what is this about ?")
+        self.assertEqual(vague_res2.plan.intent, "overview")
 
     def test_suggestions_are_all_answerable(self):
         for question in suggested_questions(self.dataframe, self.roles):

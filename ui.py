@@ -457,11 +457,12 @@ def render_chat_answer(result: QueryAnswer) -> None:
     )
 
 
-def render_chat_fallback(suggestions: list[str]) -> None:
+def render_chat_fallback(question: str, suggestions: list[str]) -> None:
     """Shown when a question cannot be mapped to a local calculation."""
+    q_str = f'"{question}"' if question else "that question"
     st.markdown(
-        "I map questions to transparent calculations, and I could not map that one. "
-        "Try naming a metric, a segment, or a time scope — for example:"
+        f"🤖 **ADA Analyst Note**: I couldn't map {q_str} directly to a column calculation on this table's schema. "
+        "I am focused on analyzing your spreadsheet's metrics, trends, and breakdowns. Try asking:"
     )
     st.markdown("\n".join(f"- {suggestion}" for suggestion in suggestions))
 

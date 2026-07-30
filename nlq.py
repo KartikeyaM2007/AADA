@@ -17,7 +17,7 @@ import pandas as pd
 
 from business_insights import ColumnRoles, format_number, preferred_frequency, trend_frame
 
-Intent = Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview"]
+Intent = Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview", "greeting"]
 Aggregation = Literal["sum", "mean", "median", "min", "max", "count"]
 
 AGGREGATION_WORDS: dict[str, Aggregation] = {
@@ -119,6 +119,7 @@ class QueryPlan:
     month: int | None = None
     grain: str | None = None
     source: str = "rules"
+    explanation: str | None = None
 
 
 @dataclass(frozen=True)
@@ -243,13 +244,22 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
         "grain": grain,
     }
 
-    if any(phrase in q for phrase in (
+    # 1. Greetings & Conversational Intro
+    greetings = ("hi", "hello", "hey", "who are you", "what can you do", "help", "good morning", "good afternoon", "good evening", "sup", "yo")
+    if q in greetings or any(q.startswith(g + " ") for g in ("hi", "hello", "hey")):
+        return QueryPlan(intent="greeting", **base)
+
+    # 2. Vague & Shorthand Dataset Overview
+    overview_phrases = (
         "what is this data", "what is this dataset", "explain this data", "explain the dataset",
         "about this data", "about this dataset", "dataset overview", "data overview",
         "summary of dataset", "summary of data", "summarize this dataset", "summarize dataset",
         "tell me about this dataset", "tell me about the data", "what dataset is this", "overview",
-        "give a brief", "give brief", "brief", "give a summary", "dataset brief", "executive summary"
-    )):
+        "give a brief", "give brief", "brief", "give a summary", "dataset brief", "executive summary",
+        "what about this", "what is this about", "what is this", "tell me about this", "what about it",
+        "brief it", "brief it bro", "explain this", "summarize"
+    )
+    if any(phrase in q for phrase in overview_phrases):
         return QueryPlan(intent="overview", **base)
 
     if wants_count and not wants_growth:
@@ -462,6 +472,25 @@ def execute_plan(plan: QueryPlan, dataframe: pd.DataFrame, roles: ColumnRoles) -
             calculation=f"sum({plan.measure or 'rows'}) grouped per {grain_name}{scope}",
             table=trend,
             chart="line",
+        )
+
+    if plan.intent == "greeting":
+        if plan.explanation:
+            answer = f"🤖 {plan.explanation}"
+        else:
+            rows_cnt = len(working)
+            cols_cnt = len(working.columns)
+            measure_name = roles.measure or "metrics"
+            answer = (
+                f"👋 Hello! I am ADA, your automated AI data analyst. "
+                f"Your currently loaded dataset has {rows_cnt:,} rows and {cols_cnt} attributes, tracking primary measure '{measure_name}'. "
+                f"Ask me about totals, trends, top rankings, or type 'dataset overview' for a complete summary!"
+            )
+        return QueryAnswer(
+            question="",
+            plan=plan,
+            answer=answer,
+            calculation="conversational response",
         )
 
     if plan.intent == "overview":

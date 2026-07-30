@@ -143,7 +143,7 @@ class AIQueryPlan(BaseModel):
     """Typed plan the model must emit; execution always happens locally."""
 
     answerable: bool
-    intent: Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview"] = "aggregate"
+    intent: Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview", "greeting"] = "aggregate"
     aggregation: Literal["sum", "mean", "median", "min", "max", "count"] = "sum"
     measure: str | None = None
     dimension: str | None = None
@@ -153,15 +153,23 @@ class AIQueryPlan(BaseModel):
     year: int | None = Field(default=None, ge=1900, le=2100)
     month: int | None = Field(default=None, ge=1, le=12)
     grain: Literal["D", "W", "M", "Q", "Y"] | None = None
+    explanation: str | None = Field(default=None, max_length=350)
 
 
 PLANNER_CONFIG = AIConfig("gpt-5.6-luna", "low", "Query planner")
 
-PLANNER_INSTRUCTIONS = """You translate any business question about a table into a strict query plan.
-Use intent 'overview' for general dataset summary, brief, or explanation requests.
-Use only the listed column names, list exact matches; never invent a column name.
-Filter values may only be phrases quoted from the question itself.
-If the schema cannot answer the question, set answerable to false instead of guessing.
+PLANNER_INSTRUCTIONS = """You are ADA's Natural Language Query Compiler & Conversation Agent.
+Your job is to translate any user question into an explicit JSON query plan for the loaded table schema.
+
+Rules:
+1. GREETINGS & CASUAL INTROS ("hi", "hello", "who are you", "what can you do", "hey"):
+   - Set answerable = true, intent = "greeting".
+2. VAGUE & OVERVIEW INQUIRIES ("what about this", "what is this about", "brief it", "summary", "explain this"):
+   - Set answerable = true, intent = "overview".
+3. SPECIFIC DATA QUESTIONS (totals, top 5, trends, breakdowns):
+   - Set answerable = true, match listed column names exactly.
+4. OUT-OF-DOMAIN / UNRELATED QUESTIONS ("who won the world cup", "tell me a joke", "recipe for pizza"):
+   - Set answerable = false, and set explanation to a polite note stating you are an AI Data Analyst focused on the uploaded dataset, suggesting relevant dataset questions instead.
 Return your output as a valid JSON object matching the query plan schema."""
 
 
@@ -249,6 +257,7 @@ def _to_query_plan(
         month=parsed.month,
         grain=parsed.grain,
         source="ai",
+        explanation=parsed.explanation,
     )
 
 
@@ -306,6 +315,14 @@ def plan_query_with_ai(
     if not isinstance(parsed, AIQueryPlan):
         parsed = AIQueryPlan.model_validate(parsed)
     if not parsed.answerable:
+        if parsed.explanation:
+            return QueryPlan(
+                intent="greeting",
+                measure=roles.measure,
+                dimension=roles.dimension,
+                source="ai_explanation",
+                explanation=parsed.explanation,
+            )
         return None
     return _to_query_plan(parsed, dataframe, roles)
 

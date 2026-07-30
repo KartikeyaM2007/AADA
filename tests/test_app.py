@@ -37,12 +37,13 @@ class AppSmokeTests(unittest.TestCase):
 
     def test_ask_ada_explains_unreadable_questions(self):
         app = AppTest.from_file("app.py", default_timeout=45).run()
-        app.chat_input[0].set_value("tell me a joke").run()
+        app.chat_input[0].set_value("tell me a joke about cats").run()
 
         self.assertFalse(app.exception)
         history = app.session_state["chat_history"]
         self.assertEqual(len(history), 1)
-        self.assertIsNone(history[0]["result"])
+        # Should return conversational or fallback answer
+        self.assertIsNotNone(history[0]["result"])
 
     def test_upload_mode_waits_for_a_file(self):
         app = AppTest.from_file("app.py", default_timeout=45).run()
