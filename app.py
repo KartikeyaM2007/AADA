@@ -268,10 +268,15 @@ def render_ask_ada(dataframe: pd.DataFrame, roles, source_name: str, api_key: st
             if entry["result"] is not None:
                 render_chat_answer(entry["result"])
             else:
-                try:
-                    render_chat_fallback(entry["question"], suggestions)
-                except TypeError:
-                    render_chat_fallback(suggestions)
+                # Inline fallback — never relies on a cached version of render_chat_fallback
+                _q = entry["question"]
+                _q_str = f'"{_q}"' if _q else "that question"
+                st.markdown(
+                    f"**ADA Analyst Note**: I couldn't map {_q_str} directly to a column calculation "
+                    "on this table's schema. I'm focused on analyzing your spreadsheet's metrics, "
+                    "trends, and breakdowns. Try one of these:"
+                )
+                st.markdown("\n".join(f"- {s}" for s in suggestions))
 
 
 def render_ai_agent_status_bar(api_key: str) -> None:
