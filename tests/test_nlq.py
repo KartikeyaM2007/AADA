@@ -42,6 +42,17 @@ class NLQParsingTests(unittest.TestCase):
         first, second = result.table.iloc[0], result.table.iloc[1]
         self.assertGreaterEqual(float(first["Total Revenue"]), float(second["Total Revenue"]))
 
+    def test_top_1_without_explicit_dimension(self):
+        result = self.ask("tell me top 1 by revenue")
+        self.assertEqual(result.plan.intent, "rank")
+        self.assertEqual(result.plan.top_n, 1)
+        self.assertEqual(result.plan.dimension, self.roles.dimension)
+
+    def test_dataset_overview_question(self):
+        result = self.ask("what is this data about?")
+        self.assertEqual(result.plan.intent, "overview")
+        self.assertIn("records", result.answer)
+
     def test_bottom_rank_is_ascending(self):
         result = self.ask("bottom 2 regions by profit")
         self.assertTrue(result.plan.ascending)

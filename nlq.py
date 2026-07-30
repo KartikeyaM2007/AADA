@@ -17,7 +17,7 @@ import pandas as pd
 
 from business_insights import ColumnRoles, format_number, preferred_frequency, trend_frame
 
-Intent = Literal["aggregate", "count", "rank", "breakdown", "trend", "growth"]
+Intent = Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview"]
 Aggregation = Literal["sum", "mean", "median", "min", "max", "count"]
 
 AGGREGATION_WORDS: dict[str, Aggregation] = {
@@ -243,6 +243,9 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
         "grain": grain,
     }
 
+    if any(phrase in q for phrase in ("what is this data", "what is this dataset", "explain this data", "explain the dataset", "about this data", "dataset overview", "summary of dataset")):
+        return QueryPlan(intent="overview", **base)
+
     if wants_count and not wants_growth:
         if dimension and wants_breakdown:
             return QueryPlan(intent="breakdown", aggregation="count", dimension=dimension, **base)
@@ -255,21 +258,23 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
         ascending = bool(re.search(r"\b(slowest|least|declined|decreased|dropped|fell|shrank|worst)\b", q))
         return QueryPlan(intent="growth", dimension=rank_dimension, ascending=ascending, **base)
 
-    if (top_match or superlative) and dimension:
-        if top_match:
-            top_n = int(top_match.group(2))
-            ascending = top_match.group(1) == "bottom"
-        else:
-            top_n = 1
-            ascending = bool(re.search(r"\b(worst|lowest|smallest|bottom)\b", q))
-        return QueryPlan(
-            intent="rank",
-            aggregation=aggregation if aggregation in ("mean", "median") else "sum",
-            dimension=dimension,
-            top_n=top_n,
-            ascending=ascending,
-            **base,
-        )
+    if top_match or superlative:
+        rank_dimension = dimension or roles.dimension
+        if rank_dimension:
+            if top_match:
+                top_n = int(top_match.group(2))
+                ascending = top_match.group(1) == "bottom"
+            else:
+                top_n = 1
+                ascending = bool(re.search(r"\b(worst|lowest|smallest|bottom)\b", q))
+            return QueryPlan(
+                intent="rank",
+                aggregation=aggregation if aggregation in ("mean", "median") else "sum",
+                dimension=rank_dimension,
+                top_n=top_n,
+                ascending=ascending,
+                **base,
+            )
 
     if wants_trend and roles.date:
         return QueryPlan(intent="trend", aggregation="sum", **base)
@@ -451,6 +456,25 @@ def execute_plan(plan: QueryPlan, dataframe: pd.DataFrame, roles: ColumnRoles) -
             calculation=f"sum({plan.measure or 'rows'}) grouped per {grain_name}{scope}",
             table=trend,
             chart="line",
+        )
+
+    if plan.intent == "overview":
+        rows_cnt = len(working)
+        cols_cnt = len(working.columns)
+        date_str = ""
+        if roles.date and roles.date in working.columns:
+            min_d = working[roles.date].min()
+            max_d = working[roles.date].max()
+            if pd.notna(min_d) and pd.notna(max_d):
+                date_str = f" from {str(min_d)[:10]} to {str(max_d)[:10]}"
+        metric_str = f" tracking total {roles.measure} of {format_number(float(working[roles.measure].sum()), roles.measure)}" if roles.measure else ""
+        dim_str = f" broken down by {roles.dimension}" if roles.dimension else ""
+        answer = f"This dataset contains {rows_cnt:,} records across {cols_cnt} attributes{date_str}{metric_str}{dim_str}."
+        return QueryAnswer(
+            question="",
+            plan=plan,
+            answer=answer,
+            calculation=f"count(rows), sum({roles.measure or 'records'}){scope}",
         )
 
     if plan.intent == "growth":
