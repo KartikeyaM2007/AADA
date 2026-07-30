@@ -247,7 +247,8 @@ def parse_question(question: str, dataframe: pd.DataFrame, roles: ColumnRoles) -
         "what is this data", "what is this dataset", "explain this data", "explain the dataset",
         "about this data", "about this dataset", "dataset overview", "data overview",
         "summary of dataset", "summary of data", "summarize this dataset", "summarize dataset",
-        "tell me about this dataset", "tell me about the data", "what dataset is this", "overview"
+        "tell me about this dataset", "tell me about the data", "what dataset is this", "overview",
+        "give a brief", "give brief", "brief", "give a summary", "dataset brief", "executive summary"
     )):
         return QueryPlan(intent="overview", **base)
 
