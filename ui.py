@@ -457,14 +457,21 @@ def render_chat_answer(result: QueryAnswer) -> None:
     )
 
 
-def render_chat_fallback(question: str, suggestions: list[str]) -> None:
-    """Shown when a question cannot be mapped to a local calculation."""
-    q_str = f'"{question}"' if question else "that question"
+def render_chat_fallback(question: str | list[str] = "", suggestions: list[str] | None = None) -> None:
+    """Shown when a question cannot be mapped to a local calculation. Backwards compatible with 1 or 2 positional args."""
+    if isinstance(question, list):
+        suggest_list = question
+        q_text = ""
+    else:
+        q_text = str(question) if question else ""
+        suggest_list = suggestions or []
+
+    q_str = f'"{q_text}"' if q_text else "that question"
     st.markdown(
         f"🤖 **ADA Analyst Note**: I couldn't map {q_str} directly to a column calculation on this table's schema. "
         "I am focused on analyzing your spreadsheet's metrics, trends, and breakdowns. Try asking:"
     )
-    st.markdown("\n".join(f"- {suggestion}" for suggestion in suggestions))
+    st.markdown("\n".join(f"- {suggestion}" for suggestion in suggest_list))
 
 
 def render_footer() -> None:
