@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import os
 import secrets
+from pathlib import Path
 
 import pandas as pd
 import streamlit as st
@@ -645,5 +646,16 @@ with data_tab:
         st.dataframe(filtered_prof, hide_index=True, width="stretch")
     else:
         st.dataframe(prof_df, hide_index=True, width="stretch")
+
+    pdf_guide_path = Path(__file__).with_name("assets").joinpath("ADA_Interview_Prep_and_Live_Demo_Guide.pdf")
+    if pdf_guide_path.exists():
+        st.subheader("Technical Interview & Live Demo Guide")
+        st.download_button(
+            "📥 Download Interview & Demo Guide (PDF)",
+            data=pdf_guide_path.read_bytes(),
+            file_name="ADA_Interview_Prep_and_Live_Demo_Guide.pdf",
+            mime="application/pdf",
+            help="Download the complete interview preparation script, live demo walkthrough, and top 10 interview questions for ADA.",
+        )
 
 render_footer()
