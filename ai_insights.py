@@ -142,7 +142,7 @@ class AIQueryPlan(BaseModel):
     """Typed plan the model must emit; execution always happens locally."""
 
     answerable: bool
-    intent: Literal["aggregate", "count", "rank", "breakdown", "trend", "growth"] = "aggregate"
+    intent: Literal["aggregate", "count", "rank", "breakdown", "trend", "growth", "overview"] = "aggregate"
     aggregation: Literal["sum", "mean", "median", "min", "max", "count"] = "sum"
     measure: str | None = None
     dimension: str | None = None
@@ -156,8 +156,9 @@ class AIQueryPlan(BaseModel):
 
 PLANNER_CONFIG = AIConfig("gpt-5.6-luna", "low", "Query planner")
 
-PLANNER_INSTRUCTIONS = """You translate one business question about a single table into a strict query plan.
-Use only the listed column names, exactly as written; never invent a column.
+PLANNER_INSTRUCTIONS = """You translate any business question about a table into a strict query plan.
+Use intent 'overview' for general dataset summary, brief, or explanation requests.
+Use only the listed column names, list exact matches; never invent a column name.
 Filter values may only be phrases quoted from the question itself.
 If the schema cannot answer the question, set answerable to false instead of guessing.
 Return your output as a valid JSON object matching the query plan schema."""
