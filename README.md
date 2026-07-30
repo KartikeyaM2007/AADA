@@ -4,10 +4,11 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.59-ff4b4b?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![DuckDB](https://img.shields.io/badge/DuckDB-SQL_Engine-fff000?logo=duckdb&logoColor=black)](https://duckdb.org/)
 [![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-f55036?logo=meta&logoColor=white)](https://groq.com/)
+[![Live App](https://img.shields.io/badge/Live_App-Streamlit_Cloud-ff4b4b?logo=streamlit&logoColor=white)](https://automated-data-analyst-ada.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-20a779.svg)](LICENSE)
 [![Author](https://img.shields.io/badge/Author-Kartikeya_Mishra-635bff.svg)](https://port-folio-main-window.vercel.app/)
 
-> Developed by **Kartikeya Mishra** | [Portfolio](https://port-folio-main-window.vercel.app/)
+> Developed by **Kartikeya Mishra** | 🚀 **Live App**: [https://automated-data-analyst-ada.streamlit.app/](https://automated-data-analyst-ada.streamlit.app/) | [Portfolio](https://port-folio-main-window.vercel.app/)
 
 ADA is a production-ready, privacy-conscious **AI-powered Data Analyst** built with Python, Streamlit, DuckDB, Pandas, and Plotly. Upload single or multiple CSV / Excel files, interact with your data in natural language, generate business insights, execute live SQL queries, perform anomaly detection, and view guarded forecasts.
 
