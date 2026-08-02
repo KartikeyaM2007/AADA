@@ -1,0 +1,401 @@
+Checkin Date,Room Type,Booking Channel,Nights Stayed,Nightly Rate,Total Bill Amount,Cancelled
+2025-01-02,Executive King,Airbnb,4,829.7,1009.21,No
+2025-01-03,Executive King,Airbnb,6,825.76,3891.17,No
+2025-01-04,Deluxe Ocean View,Expedia,1,474.42,1611.61,No
+2025-01-05,Family Room,Airbnb,4,614.96,1580.0,No
+2025-01-06,Presidential Suite,Direct Website,9,382.84,536.18,No
+2025-01-06,Deluxe Ocean View,Airbnb,9,499.69,4794.7,No
+2025-01-07,Presidential Suite,Direct Website,8,668.42,4476.37,No
+2025-01-07,Presidential Suite,Expedia,9,948.38,2070.36,No
+2025-01-09,Executive King,Expedia,7,336.83,6315.34,No
+2025-01-10,Family Room,Booking.com,4,515.26,4157.23,No
+2025-01-10,Family Room,Direct Website,4,428.57,3365.71,No
+2025-01-11,Executive King,Direct Website,6,628.25,5250.27,Yes
+2025-01-12,Presidential Suite,Booking.com,7,186.58,1524.91,No
+2025-01-13,Deluxe Ocean View,Direct Website,7,477.36,2891.34,Yes
+2025-01-13,Executive King,Airbnb,7,534.69,5080.98,No
+2025-01-16,Family Room,Airbnb,9,411.2,2650.03,No
+2025-01-17,Executive King,Airbnb,9,545.39,2311.96,No
+2025-01-17,Presidential Suite,Expedia,8,942.29,6466.72,No
+2025-01-17,Executive King,Corporate Travel,3,392.99,2640.0,No
+2025-01-17,Deluxe Ocean View,Expedia,9,521.82,2263.93,No
+2025-01-20,Executive King,Direct Website,7,217.62,3990.01,Yes
+2025-01-21,Presidential Suite,Airbnb,9,585.98,5527.18,No
+2025-01-21,Family Room,Direct Website,1,751.85,2703.71,No
+2025-01-23,Presidential Suite,Corporate Travel,3,238.82,4164.97,No
+2025-01-23,Family Room,Direct Website,8,782.09,2582.33,No
+2025-01-24,Family Room,Direct Website,1,871.16,5900.2,No
+2025-01-26,Executive King,Booking.com,7,270.91,5766.3,No
+2025-01-27,Presidential Suite,Expedia,7,687.16,5187.09,No
+2025-01-27,Family Room,Corporate Travel,7,916.75,5958.68,No
+2025-01-28,Deluxe Ocean View,Direct Website,5,123.29,3672.21,No
+2025-01-28,Standard Suite,Direct Website,2,694.42,506.84,No
+2025-01-29,Presidential Suite,Direct Website,8,766.72,2169.06,Yes
+2025-01-30,Presidential Suite,Airbnb,3,809.77,422.04,No
+2025-01-31,Presidential Suite,Airbnb,6,230.13,2946.97,No
+2025-01-31,Deluxe Ocean View,Airbnb,1,837.16,5811.56,No
+2025-02-02,Standard Suite,Expedia,7,161.95,1855.69,No
+2025-02-02,Deluxe Ocean View,Airbnb,7,249.64,314.47,No
+2025-02-03,Standard Suite,Booking.com,9,300.22,1142.6,No
+2025-02-04,Deluxe Ocean View,Booking.com,9,305.28,319.7,No
+2025-02-04,Standard Suite,Booking.com,4,670.7,1502.17,Yes
+2025-02-06,Executive King,Airbnb,3,623.23,300.53,No
+2025-02-07,Deluxe Ocean View,Expedia,2,536.43,5270.58,No
+2025-02-08,Standard Suite,Expedia,7,803.41,1989.69,No
+2025-02-09,Presidential Suite,Expedia,4,317.69,4189.52,No
+2025-02-09,Standard Suite,Airbnb,8,393.23,5914.02,Yes
+2025-02-09,Family Room,Corporate Travel,2,445.85,4456.89,No
+2025-02-11,Family Room,Booking.com,8,328.87,5277.99,No
+2025-02-13,Deluxe Ocean View,Airbnb,5,608.9,380.48,No
+2025-02-14,Standard Suite,Expedia,4,513.0,1290.73,Yes
+2025-02-14,Standard Suite,Expedia,4,255.4,6167.88,No
+2025-02-14,Executive King,Booking.com,9,784.63,2479.64,Yes
+2025-02-14,Deluxe Ocean View,Corporate Travel,9,903.95,6144.82,Yes
+2025-02-14,Family Room,Corporate Travel,7,546.41,3454.01,No
+2025-02-15,Deluxe Ocean View,Direct Website,6,733.59,5326.76,No
+2025-02-17,Presidential Suite,Corporate Travel,8,177.94,4494.28,No
+2025-02-19,Family Room,Airbnb,5,660.73,3946.3,No
+2025-02-19,Family Room,Booking.com,3,619.96,3391.21,No
+2025-02-19,Standard Suite,Booking.com,8,445.99,5157.72,No
+2025-02-21,Presidential Suite,Booking.com,8,348.89,1524.79,No
+2025-02-21,Deluxe Ocean View,Booking.com,2,379.19,1063.68,No
+2025-02-22,Family Room,Expedia,8,196.05,6330.31,Yes
+2025-02-22,Executive King,Booking.com,5,757.58,5728.99,No
+2025-02-22,Family Room,Corporate Travel,1,919.33,4094.39,No
+2025-02-23,Deluxe Ocean View,Corporate Travel,1,386.02,4675.5,Yes
+2025-02-26,Deluxe Ocean View,Expedia,9,939.37,910.94,No
+2025-02-26,Standard Suite,Airbnb,9,668.15,4296.91,No
+2025-02-28,Family Room,Corporate Travel,6,591.67,3777.87,No
+2025-02-28,Presidential Suite,Expedia,5,517.92,1933.2,No
+2025-02-28,Executive King,Booking.com,4,425.92,4565.91,No
+2025-03-01,Presidential Suite,Booking.com,3,328.01,3849.62,No
+2025-03-02,Standard Suite,Expedia,6,431.41,849.36,No
+2025-03-04,Standard Suite,Booking.com,1,499.56,545.4,No
+2025-03-04,Family Room,Airbnb,6,874.37,3149.74,No
+2025-03-05,Deluxe Ocean View,Airbnb,7,406.3,249.82,No
+2025-03-05,Presidential Suite,Airbnb,3,200.08,5869.35,No
+2025-03-07,Family Room,Airbnb,4,905.85,592.93,No
+2025-03-07,Presidential Suite,Booking.com,6,847.94,782.05,No
+2025-03-07,Executive King,Expedia,6,864.31,1365.68,No
+2025-03-08,Deluxe Ocean View,Airbnb,1,519.38,5839.16,No
+2025-03-09,Deluxe Ocean View,Corporate Travel,7,582.52,2113.37,No
+2025-03-09,Family Room,Corporate Travel,5,784.56,6227.14,Yes
+2025-03-09,Presidential Suite,Airbnb,9,789.7,5806.54,Yes
+2025-03-10,Standard Suite,Expedia,7,318.25,2026.7,No
+2025-03-11,Executive King,Direct Website,8,544.83,2056.16,No
+2025-03-11,Family Room,Booking.com,7,481.93,3519.34,No
+2025-03-11,Presidential Suite,Booking.com,9,339.74,190.6,Yes
+2025-03-12,Executive King,Corporate Travel,2,732.51,4610.07,No
+2025-03-12,Presidential Suite,Booking.com,5,718.47,5468.16,No
+2025-03-14,Executive King,Expedia,5,268.91,2931.4,No
+2025-03-16,Executive King,Corporate Travel,8,451.29,4112.53,No
+2025-03-18,Executive King,Direct Website,7,467.82,1358.79,No
+2025-03-18,Family Room,Corporate Travel,8,167.32,1255.33,Yes
+2025-03-18,Presidential Suite,Direct Website,7,299.96,695.96,No
+2025-03-19,Family Room,Expedia,5,597.47,3247.69,No
+2025-03-22,Deluxe Ocean View,Booking.com,5,344.01,779.26,No
+2025-03-22,Deluxe Ocean View,Booking.com,9,320.56,3855.86,No
+2025-03-24,Presidential Suite,Expedia,1,619.04,5022.72,No
+2025-03-25,Standard Suite,Corporate Travel,9,394.99,4546.36,No
+2025-03-27,Deluxe Ocean View,Booking.com,1,314.83,2604.33,No
+2025-03-29,Presidential Suite,Direct Website,5,926.75,595.12,No
+2025-03-29,Family Room,Corporate Travel,5,523.87,6356.72,No
+2025-03-30,Deluxe Ocean View,Booking.com,5,832.51,1131.33,No
+2025-03-31,Executive King,Booking.com,2,816.87,5516.6,No
+2025-04-01,Presidential Suite,Airbnb,9,472.73,945.04,No
+2025-04-02,Presidential Suite,Corporate Travel,9,460.09,3920.82,No
+2025-04-02,Standard Suite,Corporate Travel,1,258.43,513.39,No
+2025-04-02,Deluxe Ocean View,Expedia,8,771.94,4403.43,No
+2025-04-05,Executive King,Direct Website,7,161.37,3539.7,Yes
+2025-04-06,Executive King,Corporate Travel,9,763.53,4823.44,No
+2025-04-08,Standard Suite,Airbnb,9,902.7,2512.38,No
+2025-04-08,Family Room,Expedia,9,420.01,4055.34,No
+2025-04-09,Family Room,Airbnb,3,624.34,3607.66,Yes
+2025-04-09,Deluxe Ocean View,Booking.com,3,767.1,4880.19,No
+2025-04-10,Family Room,Direct Website,8,882.39,1945.92,No
+2025-04-10,Standard Suite,Airbnb,1,328.37,3951.01,No
+2025-04-13,Family Room,Booking.com,4,862.23,655.69,No
+2025-04-15,Executive King,Expedia,8,149.75,897.41,No
+2025-04-17,Presidential Suite,Corporate Travel,1,141.15,4125.79,No
+2025-04-18,Family Room,Booking.com,6,599.35,5116.54,Yes
+2025-04-19,Deluxe Ocean View,Airbnb,4,373.34,1916.28,No
+2025-04-20,Family Room,Corporate Travel,1,678.48,5053.32,No
+2025-04-21,Executive King,Direct Website,7,557.22,4321.38,No
+2025-04-22,Family Room,Expedia,8,691.93,2480.65,No
+2025-04-23,Family Room,Airbnb,7,613.22,6397.39,No
+2025-04-24,Executive King,Booking.com,7,512.38,5977.07,No
+2025-04-25,Deluxe Ocean View,Airbnb,2,934.8,3733.73,Yes
+2025-04-26,Family Room,Corporate Travel,4,618.19,4598.89,No
+2025-04-27,Executive King,Corporate Travel,5,158.82,1442.56,No
+2025-04-28,Standard Suite,Airbnb,1,644.84,2774.93,No
+2025-04-29,Executive King,Airbnb,4,655.22,1897.06,No
+2025-04-30,Deluxe Ocean View,Expedia,4,240.23,6425.3,No
+2025-05-01,Presidential Suite,Corporate Travel,7,643.6,736.75,Yes
+2025-05-02,Executive King,Expedia,2,316.45,2267.83,No
+2025-05-02,Presidential Suite,Booking.com,2,392.87,2606.07,No
+2025-05-03,Standard Suite,Airbnb,3,703.58,3877.19,Yes
+2025-05-03,Presidential Suite,Airbnb,9,287.73,5789.82,No
+2025-05-04,Deluxe Ocean View,Corporate Travel,1,153.01,5901.48,No
+2025-05-08,Executive King,Corporate Travel,5,558.36,5727.7,No
+2025-05-09,Executive King,Corporate Travel,1,528.43,2666.78,No
+2025-05-09,Presidential Suite,Expedia,9,275.88,5381.87,Yes
+2025-05-10,Family Room,Expedia,9,275.11,5605.71,No
+2025-05-10,Executive King,Corporate Travel,4,641.48,2495.74,Yes
+2025-05-13,Standard Suite,Corporate Travel,5,750.43,5974.84,No
+2025-05-15,Deluxe Ocean View,Corporate Travel,8,156.29,5223.35,No
+2025-05-15,Presidential Suite,Airbnb,7,213.57,4181.12,No
+2025-05-17,Deluxe Ocean View,Booking.com,5,295.14,1051.65,No
+2025-05-17,Family Room,Expedia,8,920.48,3702.23,No
+2025-05-19,Family Room,Corporate Travel,7,218.75,674.86,No
+2025-05-20,Presidential Suite,Expedia,8,787.14,5848.96,No
+2025-05-20,Executive King,Expedia,1,738.91,5588.31,No
+2025-05-20,Presidential Suite,Corporate Travel,6,814.88,1642.87,No
+2025-05-21,Presidential Suite,Booking.com,2,523.06,4304.39,No
+2025-05-22,Deluxe Ocean View,Expedia,2,223.33,2924.93,No
+2025-05-23,Standard Suite,Corporate Travel,4,638.88,6039.01,Yes
+2025-05-23,Executive King,Corporate Travel,9,123.32,832.7,No
+2025-05-25,Executive King,Airbnb,2,259.05,3516.09,No
+2025-05-25,Presidential Suite,Booking.com,3,326.93,2778.33,Yes
+2025-05-25,Executive King,Airbnb,7,813.5,6279.96,No
+2025-05-26,Standard Suite,Corporate Travel,6,485.74,3931.74,Yes
+2025-05-27,Standard Suite,Corporate Travel,4,937.63,3982.22,No
+2025-05-27,Family Room,Expedia,4,418.92,4948.75,No
+2025-05-28,Executive King,Airbnb,7,594.98,2788.4,No
+2025-05-29,Deluxe Ocean View,Corporate Travel,2,680.68,1938.98,No
+2025-05-30,Presidential Suite,Direct Website,5,499.32,4492.48,No
+2025-05-30,Executive King,Expedia,9,420.15,4671.42,No
+2025-05-30,Executive King,Direct Website,9,253.01,815.64,No
+2025-05-31,Presidential Suite,Booking.com,1,490.46,1939.81,Yes
+2025-06-01,Presidential Suite,Expedia,2,414.02,4907.09,No
+2025-06-03,Presidential Suite,Booking.com,3,359.95,3987.96,No
+2025-06-04,Presidential Suite,Direct Website,1,761.28,5361.19,No
+2025-06-04,Executive King,Corporate Travel,2,689.11,1576.02,No
+2025-06-05,Family Room,Airbnb,2,211.45,3786.23,No
+2025-06-05,Family Room,Expedia,5,288.62,5569.11,No
+2025-06-07,Deluxe Ocean View,Expedia,2,377.43,6384.54,No
+2025-06-07,Deluxe Ocean View,Direct Website,1,474.57,3471.0,No
+2025-06-09,Standard Suite,Direct Website,4,687.28,1220.84,No
+2025-06-09,Presidential Suite,Direct Website,8,279.19,4774.21,No
+2025-06-09,Standard Suite,Booking.com,1,636.76,1686.4,No
+2025-06-10,Standard Suite,Airbnb,3,373.47,5191.92,No
+2025-06-10,Family Room,Corporate Travel,3,673.47,3295.59,No
+2025-06-11,Standard Suite,Airbnb,7,476.57,5036.61,No
+2025-06-13,Standard Suite,Airbnb,1,360.78,2027.28,No
+2025-06-14,Executive King,Expedia,8,781.85,6189.66,No
+2025-06-14,Presidential Suite,Direct Website,4,713.76,5282.14,No
+2025-06-14,Executive King,Corporate Travel,1,460.83,997.02,No
+2025-06-15,Family Room,Direct Website,6,609.06,2005.64,No
+2025-06-16,Deluxe Ocean View,Booking.com,6,525.02,1853.52,No
+2025-06-17,Executive King,Corporate Travel,1,165.3,1556.51,No
+2025-06-18,Executive King,Airbnb,2,494.63,5015.57,No
+2025-06-20,Standard Suite,Booking.com,4,496.18,2921.05,No
+2025-06-20,Family Room,Corporate Travel,8,227.45,291.79,No
+2025-06-20,Presidential Suite,Direct Website,2,328.11,3420.79,No
+2025-06-22,Presidential Suite,Airbnb,5,808.26,3803.65,Yes
+2025-06-22,Family Room,Corporate Travel,9,618.0,5386.31,No
+2025-06-22,Family Room,Corporate Travel,9,606.28,248.94,No
+2025-06-25,Deluxe Ocean View,Airbnb,6,160.44,5062.14,No
+2025-06-25,Standard Suite,Expedia,5,481.43,3487.2,Yes
+2025-06-26,Deluxe Ocean View,Corporate Travel,1,430.1,418.94,No
+2025-06-28,Executive King,Expedia,2,667.85,3397.8,No
+2025-06-28,Presidential Suite,Direct Website,5,529.86,6371.74,No
+2025-06-30,Standard Suite,Expedia,7,592.64,2639.9,No
+2025-06-30,Family Room,Airbnb,7,410.34,1114.48,No
+2025-06-30,Executive King,Expedia,6,120.85,165.67,No
+2025-07-01,Standard Suite,Expedia,9,186.99,5819.73,No
+2025-07-05,Executive King,Corporate Travel,7,607.85,2570.56,No
+2025-07-05,Deluxe Ocean View,Airbnb,6,740.01,3516.45,No
+2025-07-06,Family Room,Expedia,8,859.38,662.18,Yes
+2025-07-10,Presidential Suite,Corporate Travel,3,835.31,2451.03,No
+2025-07-11,Standard Suite,Direct Website,2,287.34,5993.22,No
+2025-07-14,Executive King,Airbnb,2,936.27,4211.75,No
+2025-07-14,Deluxe Ocean View,Airbnb,4,742.22,891.08,No
+2025-07-15,Family Room,Airbnb,3,416.34,171.86,No
+2025-07-18,Executive King,Direct Website,6,206.27,595.2,No
+2025-07-18,Executive King,Booking.com,3,498.74,3736.28,No
+2025-07-19,Executive King,Booking.com,7,829.01,1661.46,No
+2025-07-19,Executive King,Corporate Travel,7,393.38,1765.97,No
+2025-07-21,Standard Suite,Expedia,6,254.58,4957.56,No
+2025-07-21,Family Room,Booking.com,3,595.27,5543.27,No
+2025-07-22,Presidential Suite,Booking.com,4,887.65,4985.85,Yes
+2025-07-23,Deluxe Ocean View,Booking.com,1,304.56,4400.22,No
+2025-07-23,Standard Suite,Corporate Travel,6,448.43,1301.34,No
+2025-07-24,Standard Suite,Airbnb,5,506.75,3318.61,No
+2025-07-27,Executive King,Airbnb,7,908.47,4004.45,No
+2025-07-29,Presidential Suite,Corporate Travel,6,219.1,2188.69,No
+2025-07-30,Deluxe Ocean View,Direct Website,5,159.21,5466.06,No
+2025-08-01,Presidential Suite,Direct Website,7,493.89,3319.01,No
+2025-08-01,Standard Suite,Booking.com,6,550.23,5772.37,No
+2025-08-02,Deluxe Ocean View,Direct Website,3,458.72,1805.5,No
+2025-08-04,Presidential Suite,Expedia,9,589.32,1632.3,No
+2025-08-04,Presidential Suite,Corporate Travel,8,261.05,6168.86,No
+2025-08-05,Family Room,Direct Website,1,493.66,5388.94,No
+2025-08-06,Deluxe Ocean View,Expedia,1,697.65,2115.38,Yes
+2025-08-07,Family Room,Expedia,4,842.75,3345.97,No
+2025-08-08,Presidential Suite,Direct Website,2,482.92,2859.77,No
+2025-08-09,Executive King,Corporate Travel,3,193.66,4912.39,No
+2025-08-11,Deluxe Ocean View,Booking.com,2,125.1,1887.56,No
+2025-08-11,Executive King,Booking.com,6,332.33,3095.73,No
+2025-08-11,Executive King,Direct Website,8,264.81,1366.3,No
+2025-08-12,Standard Suite,Booking.com,2,581.68,3557.97,No
+2025-08-12,Deluxe Ocean View,Airbnb,4,325.22,4841.44,No
+2025-08-13,Family Room,Expedia,4,586.07,6444.73,Yes
+2025-08-13,Family Room,Expedia,2,706.45,6329.61,No
+2025-08-14,Executive King,Airbnb,7,232.91,595.04,No
+2025-08-18,Family Room,Booking.com,3,364.79,5036.98,Yes
+2025-08-20,Standard Suite,Airbnb,4,473.65,2878.86,No
+2025-08-21,Deluxe Ocean View,Corporate Travel,1,331.99,1796.98,No
+2025-08-21,Family Room,Booking.com,2,361.45,5728.55,No
+2025-08-23,Presidential Suite,Booking.com,5,291.23,445.7,No
+2025-08-23,Family Room,Corporate Travel,5,346.12,6044.27,No
+2025-08-25,Executive King,Airbnb,6,396.34,4396.34,No
+2025-08-26,Family Room,Corporate Travel,7,387.61,4969.39,No
+2025-08-27,Executive King,Airbnb,9,450.81,6495.06,No
+2025-08-29,Standard Suite,Airbnb,7,302.41,2608.22,No
+2025-08-30,Presidential Suite,Expedia,4,832.34,1306.39,No
+2025-08-30,Standard Suite,Airbnb,2,289.52,2097.53,No
+2025-08-31,Standard Suite,Corporate Travel,7,933.92,4000.59,No
+2025-09-01,Family Room,Booking.com,5,823.72,887.0,No
+2025-09-01,Presidential Suite,Expedia,8,166.6,1472.97,No
+2025-09-01,Deluxe Ocean View,Booking.com,4,428.89,5080.55,Yes
+2025-09-02,Standard Suite,Airbnb,8,403.68,5770.14,No
+2025-09-03,Executive King,Airbnb,9,595.38,6364.54,No
+2025-09-04,Standard Suite,Airbnb,6,477.14,2085.67,No
+2025-09-04,Standard Suite,Corporate Travel,7,603.97,2085.87,No
+2025-09-06,Presidential Suite,Corporate Travel,3,301.77,5885.39,Yes
+2025-09-06,Presidential Suite,Booking.com,8,164.75,2721.45,No
+2025-09-06,Standard Suite,Booking.com,6,667.23,6174.3,Yes
+2025-09-10,Deluxe Ocean View,Airbnb,1,689.53,2750.46,No
+2025-09-11,Presidential Suite,Booking.com,7,361.82,5635.44,No
+2025-09-13,Deluxe Ocean View,Booking.com,8,709.86,843.23,No
+2025-09-13,Presidential Suite,Airbnb,6,885.05,1101.97,Yes
+2025-09-13,Standard Suite,Airbnb,7,214.82,1485.12,No
+2025-09-14,Standard Suite,Expedia,3,473.7,5939.2,No
+2025-09-14,Standard Suite,Corporate Travel,7,205.77,1591.58,No
+2025-09-15,Presidential Suite,Airbnb,8,537.93,2075.4,Yes
+2025-09-16,Deluxe Ocean View,Expedia,5,274.45,5947.77,No
+2025-09-17,Executive King,Direct Website,4,230.83,4548.13,No
+2025-09-17,Standard Suite,Booking.com,1,712.63,3152.13,No
+2025-09-17,Standard Suite,Airbnb,7,120.28,2281.24,No
+2025-09-18,Standard Suite,Booking.com,6,813.13,1156.01,No
+2025-09-18,Deluxe Ocean View,Booking.com,8,620.5,865.54,No
+2025-09-19,Executive King,Corporate Travel,7,343.48,4350.65,No
+2025-09-20,Presidential Suite,Airbnb,9,205.62,1916.79,No
+2025-09-21,Standard Suite,Direct Website,5,932.17,5473.2,No
+2025-09-22,Executive King,Corporate Travel,7,817.89,698.24,No
+2025-09-22,Family Room,Expedia,9,935.79,4265.31,No
+2025-09-22,Family Room,Booking.com,7,672.62,2826.59,No
+2025-09-24,Deluxe Ocean View,Airbnb,4,144.53,1424.28,No
+2025-09-26,Executive King,Direct Website,2,307.02,2737.79,No
+2025-09-26,Standard Suite,Direct Website,9,270.12,5971.87,No
+2025-09-28,Family Room,Corporate Travel,3,254.08,2715.12,No
+2025-09-29,Family Room,Booking.com,2,508.65,6482.07,No
+2025-09-30,Executive King,Direct Website,2,175.87,3507.08,No
+2025-10-01,Executive King,Booking.com,7,279.58,2989.48,No
+2025-10-02,Family Room,Corporate Travel,8,600.56,5621.39,No
+2025-10-03,Executive King,Booking.com,5,396.69,2325.31,No
+2025-10-04,Executive King,Booking.com,8,861.49,4389.62,Yes
+2025-10-04,Standard Suite,Corporate Travel,9,190.04,4585.35,No
+2025-10-04,Standard Suite,Corporate Travel,5,224.49,1942.75,No
+2025-10-05,Deluxe Ocean View,Corporate Travel,4,717.42,5598.07,No
+2025-10-06,Deluxe Ocean View,Airbnb,7,924.91,5993.16,No
+2025-10-08,Standard Suite,Airbnb,2,727.21,5427.79,No
+2025-10-08,Standard Suite,Expedia,4,823.67,4350.37,No
+2025-10-09,Family Room,Corporate Travel,1,626.73,6416.96,No
+2025-10-09,Deluxe Ocean View,Expedia,5,867.31,2059.14,No
+2025-10-10,Executive King,Expedia,7,568.18,3976.73,Yes
+2025-10-11,Presidential Suite,Booking.com,8,941.32,6364.09,Yes
+2025-10-11,Presidential Suite,Corporate Travel,2,365.5,4236.45,No
+2025-10-12,Presidential Suite,Direct Website,7,319.74,4678.92,No
+2025-10-12,Executive King,Booking.com,5,345.46,1869.21,No
+2025-10-12,Deluxe Ocean View,Corporate Travel,5,181.67,721.14,No
+2025-10-12,Deluxe Ocean View,Corporate Travel,1,897.35,1328.65,No
+2025-10-13,Family Room,Expedia,1,647.92,3387.72,No
+2025-10-13,Standard Suite,Airbnb,5,555.58,3205.98,No
+2025-10-15,Presidential Suite,Airbnb,8,400.32,6439.4,Yes
+2025-10-17,Presidential Suite,Expedia,9,635.79,1207.39,No
+2025-10-17,Presidential Suite,Booking.com,9,733.35,4492.43,No
+2025-10-20,Presidential Suite,Corporate Travel,3,378.15,2490.16,No
+2025-10-21,Standard Suite,Corporate Travel,3,856.76,4963.28,No
+2025-10-21,Standard Suite,Airbnb,8,276.16,6404.45,No
+2025-10-21,Family Room,Booking.com,2,247.95,3957.43,No
+2025-10-21,Family Room,Booking.com,5,368.31,1433.61,No
+2025-10-22,Presidential Suite,Corporate Travel,2,935.26,4199.91,No
+2025-10-26,Executive King,Direct Website,1,631.22,4540.05,No
+2025-10-27,Presidential Suite,Corporate Travel,8,312.82,2101.85,No
+2025-10-27,Presidential Suite,Booking.com,5,662.98,5747.63,Yes
+2025-10-28,Family Room,Expedia,2,448.3,3207.18,No
+2025-10-28,Standard Suite,Expedia,6,340.9,5638.55,Yes
+2025-10-30,Executive King,Expedia,2,255.41,5722.1,Yes
+2025-11-02,Executive King,Expedia,5,333.99,5836.19,No
+2025-11-02,Standard Suite,Airbnb,3,152.36,5817.33,No
+2025-11-05,Executive King,Booking.com,5,424.93,4322.03,Yes
+2025-11-06,Executive King,Direct Website,1,629.99,3377.76,No
+2025-11-07,Deluxe Ocean View,Booking.com,5,910.0,6407.42,No
+2025-11-09,Presidential Suite,Booking.com,5,504.85,6132.48,No
+2025-11-09,Executive King,Booking.com,4,364.99,5899.68,No
+2025-11-09,Executive King,Expedia,1,279.1,320.27,No
+2025-11-09,Deluxe Ocean View,Booking.com,1,122.73,368.01,No
+2025-11-11,Deluxe Ocean View,Expedia,1,808.41,1572.92,No
+2025-11-11,Standard Suite,Expedia,7,561.4,1294.23,No
+2025-11-12,Family Room,Airbnb,8,865.82,1063.26,No
+2025-11-14,Family Room,Expedia,6,801.64,1387.79,No
+2025-11-15,Executive King,Direct Website,8,441.96,2685.01,Yes
+2025-11-16,Standard Suite,Direct Website,8,378.23,1538.56,No
+2025-11-16,Deluxe Ocean View,Expedia,6,713.91,6171.35,No
+2025-11-16,Deluxe Ocean View,Booking.com,7,320.59,4061.47,No
+2025-11-17,Presidential Suite,Booking.com,8,312.39,1619.5,No
+2025-11-19,Family Room,Direct Website,4,249.08,3474.64,No
+2025-11-19,Executive King,Airbnb,9,442.24,901.97,No
+2025-11-20,Executive King,Corporate Travel,3,233.79,3656.44,Yes
+2025-11-22,Standard Suite,Expedia,2,379.29,3714.54,No
+2025-11-22,Executive King,Corporate Travel,2,806.69,6358.27,No
+2025-11-23,Family Room,Corporate Travel,1,470.53,3457.49,No
+2025-11-23,Standard Suite,Corporate Travel,5,477.88,4850.99,No
+2025-11-23,Family Room,Direct Website,4,276.06,2933.56,No
+2025-11-24,Family Room,Airbnb,1,480.47,735.84,No
+2025-11-24,Standard Suite,Booking.com,3,384.83,2846.29,No
+2025-11-25,Executive King,Direct Website,1,899.62,5471.33,No
+2025-11-25,Presidential Suite,Corporate Travel,5,681.46,5092.11,No
+2025-11-27,Standard Suite,Direct Website,1,645.09,922.05,No
+2025-11-28,Family Room,Direct Website,7,422.01,4657.27,No
+2025-11-30,Deluxe Ocean View,Direct Website,5,668.42,6159.66,No
+2025-12-01,Family Room,Booking.com,2,566.4,517.36,No
+2025-12-02,Presidential Suite,Expedia,5,904.79,4053.0,No
+2025-12-02,Deluxe Ocean View,Corporate Travel,3,684.74,5851.46,No
+2025-12-03,Standard Suite,Corporate Travel,5,719.96,991.92,No
+2025-12-04,Presidential Suite,Airbnb,9,125.29,5584.44,No
+2025-12-04,Executive King,Corporate Travel,5,190.3,3530.08,No
+2025-12-05,Family Room,Corporate Travel,1,876.95,4137.91,No
+2025-12-05,Family Room,Direct Website,2,540.1,819.6,No
+2025-12-07,Standard Suite,Corporate Travel,9,215.41,2243.47,No
+2025-12-07,Presidential Suite,Corporate Travel,4,903.23,1255.22,No
+2025-12-11,Presidential Suite,Airbnb,7,784.89,5600.43,No
+2025-12-12,Family Room,Corporate Travel,5,188.08,5545.7,No
+2025-12-12,Family Room,Corporate Travel,1,429.86,627.07,No
+2025-12-12,Deluxe Ocean View,Expedia,4,314.54,5872.64,No
+2025-12-13,Family Room,Corporate Travel,8,657.51,3525.05,No
+2025-12-13,Standard Suite,Direct Website,3,805.23,4911.38,No
+2025-12-15,Standard Suite,Expedia,1,713.31,1009.8,Yes
+2025-12-15,Deluxe Ocean View,Expedia,1,869.53,5993.56,No
+2025-12-17,Executive King,Expedia,1,205.93,6496.72,No
+2025-12-17,Executive King,Booking.com,7,725.18,4376.86,Yes
+2025-12-17,Family Room,Airbnb,9,144.74,3524.49,No
+2025-12-18,Standard Suite,Booking.com,7,292.6,4347.5,No
+2025-12-18,Presidential Suite,Direct Website,5,164.26,2553.48,No
+2025-12-20,Standard Suite,Expedia,6,876.15,4008.55,No
+2025-12-20,Family Room,Airbnb,3,701.78,4286.98,No
+2025-12-21,Executive King,Corporate Travel,4,374.27,4187.95,No
+2025-12-21,Executive King,Booking.com,7,217.03,1965.85,No
+2025-12-22,Family Room,Airbnb,4,868.16,5620.52,No
+2025-12-22,Standard Suite,Airbnb,1,606.08,5624.86,No
+2025-12-23,Deluxe Ocean View,Corporate Travel,9,854.46,6182.14,No
+2025-12-24,Executive King,Corporate Travel,1,526.26,885.38,Yes
+2025-12-24,Family Room,Expedia,5,459.94,1260.03,No
+2025-12-28,Executive King,Expedia,4,417.41,1696.52,No
+2025-12-29,Deluxe Ocean View,Corporate Travel,2,155.83,3997.5,No
+2025-12-30,Family Room,Direct Website,9,632.7,3903.15,No
+2025-12-30,Standard Suite,Airbnb,1,907.58,921.18,No
+2025-12-31,Deluxe Ocean View,Direct Website,4,540.8,5873.04,Yes
+2025-12-31,Standard Suite,Direct Website,8,263.18,3504.65,Yes
+2025-12-31,Deluxe Ocean View,Expedia,4,609.81,2301.09,No

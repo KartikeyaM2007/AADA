@@ -1,0 +1,401 @@
+Signup Date,Customer ID,Plan Tier,Country,MRR,LTV,Status,Churn Reason
+2025-01-01,CUST-1292,Custom,Australia,49,31352.15,Active,Competitor
+2025-01-02,CUST-1350,Basic,Germany,1200,10238.06,Active,Budget Cut
+2025-01-03,CUST-1232,Custom,Australia,49,7825.52,Paused,Price
+2025-01-03,CUST-1306,Basic,Canada,1200,19582.36,Cancelled,None
+2025-01-03,CUST-1031,Enterprise,United Kingdom,49,16529.15,Cancelled,None
+2025-01-04,CUST-1205,Custom,India,499,7227.81,Active,Missing Feature
+2025-01-05,CUST-1371,Professional,Germany,499,31330.42,Active,Support
+2025-01-05,CUST-1008,Basic,Germany,499,31524.48,Active,Price
+2025-01-06,CUST-1032,Custom,United States,1200,13596.78,Active,Competitor
+2025-01-07,CUST-1354,Professional,Canada,2500,22990.58,Active,Budget Cut
+2025-01-08,CUST-1081,Enterprise,India,499,32134.5,Active,Price
+2025-01-08,CUST-1078,Basic,United Kingdom,499,31105.62,Active,None
+2025-01-08,CUST-1034,Custom,United Kingdom,2500,10356.64,Active,Competitor
+2025-01-09,CUST-1267,Professional,Australia,499,27574.55,Active,None
+2025-01-10,CUST-1116,Professional,India,1200,715.88,Active,Competitor
+2025-01-10,CUST-1269,Basic,India,499,21389.1,Active,None
+2025-01-11,CUST-1043,Enterprise,Germany,2500,778.04,Active,Support
+2025-01-12,CUST-1364,Professional,Australia,49,14271.25,Cancelled,Competitor
+2025-01-13,CUST-1339,Custom,India,199,3691.27,Active,Budget Cut
+2025-01-14,CUST-1391,Enterprise,Germany,199,19491.28,Paused,Competitor
+2025-01-15,CUST-1016,Basic,Germany,1200,10436.18,Active,Missing Feature
+2025-01-16,CUST-1253,Professional,Germany,49,28306.27,Active,Missing Feature
+2025-01-17,CUST-1139,Enterprise,Germany,499,30536.87,Paused,Support
+2025-01-19,CUST-1062,Enterprise,Germany,199,7775.57,Active,Competitor
+2025-01-19,CUST-1380,Professional,Canada,2500,25767.4,Paused,Budget Cut
+2025-01-22,CUST-1351,Enterprise,Germany,49,10783.61,Cancelled,Budget Cut
+2025-01-22,CUST-1254,Custom,Australia,199,20924.58,Paused,Missing Feature
+2025-01-24,CUST-1204,Professional,Canada,49,17482.01,Active,Budget Cut
+2025-01-24,CUST-1203,Enterprise,Germany,49,16747.78,Active,Support
+2025-01-25,CUST-1246,Professional,Australia,199,27322.21,Active,Missing Feature
+2025-01-29,CUST-1396,Professional,United States,1200,28644.04,Active,Missing Feature
+2025-01-30,CUST-1243,Professional,Canada,199,28333.14,Cancelled,Competitor
+2025-02-01,CUST-1319,Professional,United Kingdom,2500,3523.92,Active,Price
+2025-02-01,CUST-1263,Basic,India,499,5698.72,Cancelled,Budget Cut
+2025-02-02,CUST-1377,Custom,United Kingdom,2500,12136.95,Active,Missing Feature
+2025-02-03,CUST-1122,Basic,Canada,1200,18204.82,Active,Competitor
+2025-02-05,CUST-1097,Professional,Australia,499,33214.68,Active,Budget Cut
+2025-02-07,CUST-1237,Professional,Germany,1200,6829.11,Active,Support
+2025-02-08,CUST-1085,Basic,Canada,49,15757.7,Active,Missing Feature
+2025-02-08,CUST-1252,Custom,Germany,2500,14227.0,Paused,Missing Feature
+2025-02-09,CUST-1180,Enterprise,United Kingdom,1200,17909.36,Active,Competitor
+2025-02-09,CUST-1200,Basic,United Kingdom,2500,21310.13,Cancelled,Price
+2025-02-10,CUST-1190,Enterprise,Germany,499,15902.25,Active,Budget Cut
+2025-02-10,CUST-1158,Enterprise,India,499,28198.37,Cancelled,Price
+2025-02-12,CUST-1323,Basic,Germany,2500,11540.94,Active,None
+2025-02-12,CUST-1345,Enterprise,India,199,27979.54,Active,Budget Cut
+2025-02-13,CUST-1094,Professional,Australia,1200,3149.86,Cancelled,None
+2025-02-15,CUST-1194,Basic,Australia,49,22747.71,Active,Competitor
+2025-02-15,CUST-1021,Basic,Australia,1200,8093.06,Active,Support
+2025-02-16,CUST-1383,Enterprise,India,49,29245.55,Active,None
+2025-02-16,CUST-1002,Basic,Germany,2500,8486.06,Active,Support
+2025-02-16,CUST-1250,Basic,Germany,49,22352.71,Active,None
+2025-02-17,CUST-1273,Basic,United States,1200,20551.24,Active,Support
+2025-02-17,CUST-1052,Custom,India,199,9966.27,Active,None
+2025-02-18,CUST-1309,Professional,India,2500,23486.24,Active,Competitor
+2025-02-19,CUST-1042,Enterprise,United States,1200,23202.9,Paused,Competitor
+2025-02-19,CUST-1379,Enterprise,United States,1200,18775.13,Cancelled,Price
+2025-02-20,CUST-1283,Enterprise,Germany,499,31643.34,Cancelled,Price
+2025-02-22,CUST-1366,Professional,India,199,23026.76,Cancelled,Budget Cut
+2025-02-23,CUST-1222,Basic,Australia,1200,13544.48,Active,Competitor
+2025-02-23,CUST-1013,Custom,Australia,199,19053.51,Active,Budget Cut
+2025-02-24,CUST-1107,Basic,India,499,30099.45,Cancelled,Price
+2025-02-26,CUST-1001,Basic,Canada,1200,22864.14,Cancelled,Budget Cut
+2025-02-26,CUST-1372,Basic,Canada,2500,3075.03,Paused,None
+2025-02-27,CUST-1150,Professional,Germany,199,25819.74,Paused,Missing Feature
+2025-02-28,CUST-1069,Custom,United Kingdom,2500,16176.91,Cancelled,Budget Cut
+2025-02-28,CUST-1260,Custom,Germany,1200,4898.26,Cancelled,Price
+2025-02-28,CUST-1376,Enterprise,Australia,49,27080.43,Active,Missing Feature
+2025-03-02,CUST-1018,Professional,India,199,1505.85,Active,Budget Cut
+2025-03-03,CUST-1023,Basic,United States,2500,24998.96,Paused,Price
+2025-03-04,CUST-1308,Enterprise,Canada,199,13749.47,Active,Support
+2025-03-06,CUST-1315,Professional,India,49,3295.83,Paused,Support
+2025-03-09,CUST-1049,Basic,United Kingdom,49,15465.08,Active,Price
+2025-03-09,CUST-1165,Basic,India,1200,4334.23,Active,Price
+2025-03-10,CUST-1374,Basic,India,499,34881.52,Active,Competitor
+2025-03-10,CUST-1213,Enterprise,Canada,1200,3717.86,Active,Competitor
+2025-03-11,CUST-1301,Basic,Australia,199,3677.41,Cancelled,Price
+2025-03-11,CUST-1046,Professional,Australia,1200,4212.69,Cancelled,None
+2025-03-14,CUST-1299,Basic,United Kingdom,2500,19625.31,Paused,Competitor
+2025-03-15,CUST-1096,Professional,Canada,2500,29140.21,Active,Missing Feature
+2025-03-17,CUST-1172,Custom,India,1200,2062.67,Active,Missing Feature
+2025-03-17,CUST-1310,Custom,United States,1200,34614.83,Active,None
+2025-03-19,CUST-1026,Enterprise,Australia,499,33919.27,Cancelled,Price
+2025-03-19,CUST-1324,Basic,Australia,2500,16937.91,Active,Missing Feature
+2025-03-20,CUST-1389,Professional,United States,499,11099.74,Paused,Missing Feature
+2025-03-21,CUST-1344,Basic,India,1200,17475.88,Active,None
+2025-03-22,CUST-1086,Enterprise,Canada,49,28003.78,Active,Competitor
+2025-03-22,CUST-1285,Enterprise,Canada,2500,4894.25,Active,Missing Feature
+2025-03-22,CUST-1296,Custom,Germany,199,31246.4,Paused,Competitor
+2025-03-23,CUST-1146,Basic,India,49,7696.3,Active,Missing Feature
+2025-03-24,CUST-1358,Enterprise,Canada,199,2800.94,Active,Price
+2025-03-25,CUST-1088,Professional,United States,499,24319.0,Active,Missing Feature
+2025-03-25,CUST-1009,Professional,Germany,499,33698.02,Active,Support
+2025-03-25,CUST-1185,Enterprise,India,499,17994.34,Cancelled,None
+2025-03-25,CUST-1387,Professional,Germany,199,32607.17,Cancelled,None
+2025-03-26,CUST-1229,Professional,United States,1200,23002.12,Active,None
+2025-03-27,CUST-1093,Custom,Australia,1200,12079.0,Paused,Budget Cut
+2025-03-27,CUST-1024,Custom,Australia,49,3802.65,Active,Budget Cut
+2025-03-29,CUST-1089,Enterprise,United States,2500,12248.8,Paused,Support
+2025-03-29,CUST-1286,Custom,Australia,49,4856.35,Active,Competitor
+2025-03-30,CUST-1125,Enterprise,Australia,199,14662.1,Active,Budget Cut
+2025-03-30,CUST-1346,Professional,United Kingdom,49,8522.68,Active,Price
+2025-03-30,CUST-1060,Professional,Germany,1200,11689.93,Cancelled,Price
+2025-03-31,CUST-1056,Enterprise,Australia,2500,19799.49,Paused,Support
+2025-04-01,CUST-1136,Enterprise,United States,49,10151.24,Paused,Support
+2025-04-01,CUST-1145,Custom,Canada,2500,7960.64,Active,Support
+2025-04-01,CUST-1108,Custom,Canada,199,25724.93,Paused,Budget Cut
+2025-04-03,CUST-1033,Professional,Germany,2500,11422.24,Cancelled,Missing Feature
+2025-04-03,CUST-1092,Enterprise,United Kingdom,199,6007.06,Active,None
+2025-04-03,CUST-1126,Professional,United States,199,6135.11,Active,Price
+2025-04-04,CUST-1083,Basic,Canada,2500,5002.29,Active,None
+2025-04-04,CUST-1131,Basic,Australia,49,3602.11,Active,Competitor
+2025-04-05,CUST-1348,Basic,United Kingdom,2500,19511.26,Active,Price
+2025-04-06,CUST-1290,Basic,United Kingdom,2500,17714.5,Active,None
+2025-04-07,CUST-1370,Professional,United Kingdom,2500,5181.25,Cancelled,Budget Cut
+2025-04-09,CUST-1133,Basic,India,49,2244.29,Active,Competitor
+2025-04-09,CUST-1171,Professional,India,49,4142.91,Active,Budget Cut
+2025-04-10,CUST-1318,Professional,Australia,499,14463.01,Active,Competitor
+2025-04-11,CUST-1110,Basic,Canada,499,27465.73,Active,Support
+2025-04-11,CUST-1098,Basic,Germany,1200,11008.78,Paused,None
+2025-04-12,CUST-1278,Professional,Germany,1200,11740.91,Active,None
+2025-04-13,CUST-1193,Enterprise,India,49,17774.53,Active,None
+2025-04-13,CUST-1228,Basic,India,2500,23309.35,Active,Budget Cut
+2025-04-14,CUST-1288,Enterprise,Germany,49,32386.77,Active,Budget Cut
+2025-04-15,CUST-1159,Enterprise,United Kingdom,2500,9004.94,Cancelled,Missing Feature
+2025-04-17,CUST-1073,Enterprise,Germany,1200,16357.95,Paused,Missing Feature
+2025-04-18,CUST-1036,Professional,Australia,2500,11361.49,Active,Competitor
+2025-04-18,CUST-1067,Basic,Germany,199,13687.7,Active,Missing Feature
+2025-04-19,CUST-1174,Basic,United Kingdom,49,18962.76,Paused,None
+2025-04-19,CUST-1188,Professional,India,499,26996.19,Cancelled,Budget Cut
+2025-04-19,CUST-1312,Custom,Canada,499,13951.54,Active,Budget Cut
+2025-04-21,CUST-1274,Custom,Canada,199,9250.43,Active,Competitor
+2025-04-22,CUST-1247,Custom,Germany,1200,23713.23,Active,Price
+2025-04-22,CUST-1192,Enterprise,Germany,499,23455.1,Active,Budget Cut
+2025-04-23,CUST-1134,Custom,United Kingdom,49,22112.77,Active,Budget Cut
+2025-04-23,CUST-1363,Basic,United Kingdom,2500,9876.63,Active,Price
+2025-04-24,CUST-1148,Basic,United Kingdom,49,31922.69,Active,None
+2025-04-24,CUST-1356,Enterprise,India,49,34153.82,Paused,Missing Feature
+2025-04-26,CUST-1187,Professional,India,49,34488.52,Active,None
+2025-04-26,CUST-1210,Basic,Canada,499,18151.53,Active,Budget Cut
+2025-04-26,CUST-1153,Basic,Canada,2500,4832.01,Paused,Missing Feature
+2025-04-26,CUST-1142,Professional,Germany,199,17211.5,Active,Budget Cut
+2025-04-27,CUST-1130,Enterprise,United Kingdom,2500,3521.9,Cancelled,Price
+2025-04-28,CUST-1375,Professional,Canada,2500,24664.9,Cancelled,Missing Feature
+2025-05-02,CUST-1019,Custom,United States,1200,31800.09,Active,Price
+2025-05-03,CUST-1276,Basic,United Kingdom,199,3317.52,Active,Missing Feature
+2025-05-04,CUST-1362,Custom,Australia,499,18550.85,Active,Price
+2025-05-05,CUST-1070,Custom,United States,199,27416.53,Cancelled,Budget Cut
+2025-05-06,CUST-1294,Custom,United States,2500,10444.68,Paused,Missing Feature
+2025-05-06,CUST-1365,Basic,United States,49,21151.53,Active,Support
+2025-05-08,CUST-1321,Custom,India,199,31250.48,Active,Missing Feature
+2025-05-08,CUST-1393,Enterprise,Australia,49,11470.4,Active,None
+2025-05-09,CUST-1123,Professional,Canada,2500,7208.44,Cancelled,Competitor
+2025-05-12,CUST-1182,Professional,Germany,2500,6332.63,Cancelled,Missing Feature
+2025-05-13,CUST-1181,Custom,Canada,49,4546.17,Active,None
+2025-05-17,CUST-1095,Custom,India,49,8607.3,Paused,Competitor
+2025-05-18,CUST-1226,Basic,India,1200,33035.64,Paused,None
+2025-05-19,CUST-1168,Basic,Australia,2500,27772.96,Paused,Support
+2025-05-19,CUST-1268,Professional,Germany,49,34807.33,Paused,Competitor
+2025-05-19,CUST-1058,Professional,India,199,25093.19,Active,Competitor
+2025-05-20,CUST-1369,Professional,India,49,19294.64,Active,None
+2025-05-21,CUST-1300,Basic,Canada,49,5613.5,Active,None
+2025-05-21,CUST-1386,Custom,Germany,2500,22170.12,Paused,Price
+2025-05-21,CUST-1114,Basic,Germany,2500,13061.89,Active,None
+2025-05-21,CUST-1079,Custom,Germany,199,14984.78,Paused,Budget Cut
+2025-05-27,CUST-1342,Enterprise,United States,2500,26978.71,Active,Budget Cut
+2025-05-27,CUST-1191,Custom,India,499,21847.64,Paused,Budget Cut
+2025-05-28,CUST-1347,Basic,Canada,199,8298.15,Active,Competitor
+2025-05-29,CUST-1170,Custom,United Kingdom,49,19322.58,Active,Price
+2025-05-29,CUST-1257,Enterprise,Germany,199,13015.0,Active,Missing Feature
+2025-05-31,CUST-1349,Enterprise,United States,199,18562.94,Active,Competitor
+2025-06-02,CUST-1275,Basic,Germany,199,26593.53,Paused,Missing Feature
+2025-06-03,CUST-1179,Basic,United Kingdom,49,15836.22,Active,None
+2025-06-03,CUST-1151,Professional,Australia,199,12456.28,Active,None
+2025-06-03,CUST-1065,Enterprise,India,49,15699.79,Cancelled,Support
+2025-06-04,CUST-1121,Professional,United States,1200,5052.8,Paused,Price
+2025-06-04,CUST-1111,Professional,Canada,1200,11322.87,Cancelled,Competitor
+2025-06-05,CUST-1099,Basic,United Kingdom,2500,9625.8,Active,None
+2025-06-05,CUST-1045,Enterprise,Germany,499,8681.48,Active,None
+2025-06-08,CUST-1003,Custom,Australia,1200,24006.68,Active,Budget Cut
+2025-06-09,CUST-1124,Professional,United Kingdom,2500,3715.27,Active,Missing Feature
+2025-06-10,CUST-1037,Professional,United States,199,1985.31,Active,None
+2025-06-10,CUST-1014,Professional,United Kingdom,199,10094.43,Active,Budget Cut
+2025-06-11,CUST-1264,Enterprise,Germany,2500,29880.0,Paused,Missing Feature
+2025-06-11,CUST-1328,Enterprise,Germany,2500,20934.4,Paused,None
+2025-06-12,CUST-1132,Enterprise,Australia,1200,7167.1,Active,Price
+2025-06-13,CUST-1202,Custom,Australia,499,9248.65,Cancelled,Missing Feature
+2025-06-16,CUST-1293,Custom,Germany,1200,22749.15,Paused,Support
+2025-06-16,CUST-1384,Custom,Germany,199,10954.1,Active,Price
+2025-06-17,CUST-1227,Professional,United Kingdom,199,11671.78,Active,Missing Feature
+2025-06-17,CUST-1334,Professional,Germany,499,20256.18,Active,Price
+2025-06-18,CUST-1047,Custom,Australia,1200,27000.42,Active,Price
+2025-06-18,CUST-1218,Custom,Australia,199,33065.53,Cancelled,Missing Feature
+2025-06-18,CUST-1239,Enterprise,India,499,14692.42,Active,Budget Cut
+2025-06-18,CUST-1298,Enterprise,India,49,11634.07,Paused,Support
+2025-06-19,CUST-1103,Basic,Germany,2500,32478.61,Active,None
+2025-06-20,CUST-1101,Basic,Germany,1200,10081.31,Paused,Competitor
+2025-06-22,CUST-1115,Professional,Germany,2500,20034.42,Cancelled,Budget Cut
+2025-06-22,CUST-1141,Enterprise,Australia,499,25599.76,Active,Budget Cut
+2025-06-23,CUST-1004,Professional,United States,49,32936.32,Cancelled,Support
+2025-06-24,CUST-1311,Enterprise,United Kingdom,499,8287.61,Active,None
+2025-06-28,CUST-1359,Basic,United Kingdom,199,2159.18,Active,Support
+2025-06-28,CUST-1233,Professional,Australia,1200,4709.26,Active,Missing Feature
+2025-06-30,CUST-1216,Basic,Canada,499,5736.25,Paused,Price
+2025-06-30,CUST-1144,Custom,United States,2500,19570.3,Paused,Support
+2025-06-30,CUST-1208,Professional,Canada,49,27805.49,Active,Price
+2025-07-01,CUST-1388,Basic,Australia,1200,23825.62,Active,Budget Cut
+2025-07-02,CUST-1313,Basic,India,199,17061.63,Active,None
+2025-07-03,CUST-1053,Enterprise,Canada,2500,31604.61,Active,Price
+2025-07-04,CUST-1249,Professional,United Kingdom,499,17494.67,Cancelled,Support
+2025-07-06,CUST-1087,Enterprise,Canada,2500,25486.02,Active,None
+2025-07-06,CUST-1055,Enterprise,United States,49,31010.25,Cancelled,None
+2025-07-07,CUST-1221,Basic,Australia,1200,546.45,Active,Price
+2025-07-07,CUST-1000,Professional,India,1200,24420.06,Active,Missing Feature
+2025-07-07,CUST-1175,Professional,Canada,1200,3329.82,Cancelled,Budget Cut
+2025-07-08,CUST-1201,Enterprise,India,2500,18564.22,Active,Missing Feature
+2025-07-08,CUST-1329,Basic,United States,49,24465.56,Active,Price
+2025-07-09,CUST-1244,Professional,Canada,49,29549.54,Cancelled,Price
+2025-07-10,CUST-1281,Professional,Australia,49,1965.21,Active,Support
+2025-07-11,CUST-1314,Custom,United States,199,5261.53,Active,Competitor
+2025-07-12,CUST-1160,Custom,Canada,2500,34173.13,Active,Budget Cut
+2025-07-12,CUST-1336,Professional,Canada,1200,28241.3,Active,Missing Feature
+2025-07-13,CUST-1287,Enterprise,Australia,1200,28563.49,Active,Budget Cut
+2025-07-14,CUST-1197,Enterprise,Australia,2500,10123.36,Cancelled,Missing Feature
+2025-07-16,CUST-1382,Professional,India,49,34143.71,Cancelled,None
+2025-07-16,CUST-1166,Basic,Germany,199,22859.62,Active,Missing Feature
+2025-07-17,CUST-1291,Basic,United Kingdom,2500,11480.04,Active,Price
+2025-07-18,CUST-1176,Enterprise,Germany,499,1705.4,Active,Budget Cut
+2025-07-21,CUST-1027,Enterprise,United Kingdom,2500,9550.83,Active,Budget Cut
+2025-07-21,CUST-1262,Enterprise,Germany,499,30273.81,Active,Competitor
+2025-07-22,CUST-1157,Basic,India,2500,12144.87,Active,Budget Cut
+2025-07-23,CUST-1343,Professional,Australia,2500,11109.78,Active,Budget Cut
+2025-07-25,CUST-1355,Custom,India,49,29218.39,Paused,None
+2025-07-25,CUST-1248,Enterprise,Australia,1200,25486.78,Active,Support
+2025-07-25,CUST-1138,Basic,Australia,199,23366.47,Active,Competitor
+2025-07-28,CUST-1038,Professional,United States,1200,27443.25,Cancelled,Support
+2025-07-29,CUST-1360,Basic,India,2500,10700.44,Active,Missing Feature
+2025-07-29,CUST-1025,Enterprise,Australia,1200,11460.47,Active,Missing Feature
+2025-07-31,CUST-1231,Enterprise,Germany,49,22939.67,Active,None
+2025-08-01,CUST-1255,Enterprise,Australia,499,6223.59,Active,Price
+2025-08-02,CUST-1381,Professional,Canada,199,32381.72,Paused,Support
+2025-08-02,CUST-1270,Basic,India,1200,11122.08,Active,Missing Feature
+2025-08-03,CUST-1392,Professional,Canada,1200,27755.51,Active,Missing Feature
+2025-08-03,CUST-1390,Custom,Germany,199,13265.85,Active,None
+2025-08-04,CUST-1102,Basic,Germany,499,1739.59,Cancelled,Support
+2025-08-04,CUST-1331,Enterprise,India,199,25978.45,Cancelled,None
+2025-08-05,CUST-1282,Enterprise,United Kingdom,199,24119.6,Paused,None
+2025-08-09,CUST-1164,Enterprise,Germany,49,4712.85,Paused,Budget Cut
+2025-08-09,CUST-1189,Enterprise,United States,199,15485.47,Active,Support
+2025-08-10,CUST-1030,Basic,Australia,1200,2232.4,Paused,Missing Feature
+2025-08-11,CUST-1029,Professional,Australia,199,29359.2,Cancelled,Support
+2025-08-12,CUST-1017,Professional,Australia,199,19693.32,Active,Competitor
+2025-08-14,CUST-1015,Basic,United Kingdom,499,7984.99,Active,None
+2025-08-16,CUST-1117,Custom,Germany,49,2635.06,Active,Price
+2025-08-16,CUST-1251,Basic,Australia,1200,28290.64,Cancelled,None
+2025-08-23,CUST-1035,Custom,United States,1200,3652.41,Cancelled,Missing Feature
+2025-08-25,CUST-1163,Custom,Australia,1200,11260.96,Paused,Price
+2025-08-27,CUST-1238,Custom,United States,499,20997.89,Active,Support
+2025-08-28,CUST-1340,Enterprise,India,2500,27422.0,Paused,Price
+2025-08-28,CUST-1039,Professional,India,199,14238.86,Active,Budget Cut
+2025-08-29,CUST-1279,Custom,Australia,1200,4908.23,Paused,Missing Feature
+2025-08-29,CUST-1007,Professional,United States,2500,15617.1,Active,Support
+2025-08-29,CUST-1128,Enterprise,United States,1200,11455.63,Active,Support
+2025-08-29,CUST-1258,Professional,Canada,49,19361.02,Active,None
+2025-08-30,CUST-1005,Professional,United States,49,2114.11,Paused,Budget Cut
+2025-08-30,CUST-1090,Custom,Australia,49,28271.25,Cancelled,Competitor
+2025-08-30,CUST-1186,Professional,United States,1200,22507.61,Active,Price
+2025-09-02,CUST-1305,Custom,Australia,1200,31508.18,Active,Competitor
+2025-09-02,CUST-1075,Enterprise,India,499,11004.99,Active,Price
+2025-09-04,CUST-1330,Enterprise,United States,499,13081.14,Active,None
+2025-09-04,CUST-1077,Professional,United States,49,2766.38,Active,Missing Feature
+2025-09-04,CUST-1120,Custom,United States,199,26425.13,Active,Support
+2025-09-05,CUST-1012,Basic,United States,1200,18842.31,Cancelled,Support
+2025-09-05,CUST-1395,Enterprise,United States,2500,12424.06,Paused,Price
+2025-09-05,CUST-1209,Basic,India,2500,21285.21,Cancelled,Price
+2025-09-05,CUST-1119,Professional,India,2500,20029.47,Active,None
+2025-09-06,CUST-1220,Professional,India,499,686.47,Active,Missing Feature
+2025-09-08,CUST-1297,Professional,Germany,1200,970.37,Active,None
+2025-09-09,CUST-1051,Custom,United States,49,19387.77,Active,Competitor
+2025-09-09,CUST-1104,Custom,India,199,7872.59,Active,Competitor
+2025-09-11,CUST-1215,Enterprise,United States,49,5160.27,Paused,Budget Cut
+2025-09-11,CUST-1266,Professional,Canada,199,25575.94,Paused,Missing Feature
+2025-09-12,CUST-1100,Custom,Australia,499,10156.3,Cancelled,Competitor
+2025-09-12,CUST-1265,Enterprise,India,499,34705.15,Cancelled,Price
+2025-09-13,CUST-1167,Professional,United States,1200,30691.57,Cancelled,None
+2025-09-14,CUST-1149,Basic,United States,2500,19385.81,Cancelled,None
+2025-09-17,CUST-1066,Professional,Australia,1200,5067.96,Active,Competitor
+2025-09-19,CUST-1302,Enterprise,Germany,2500,28627.03,Paused,None
+2025-09-22,CUST-1118,Custom,United Kingdom,49,18970.19,Cancelled,Competitor
+2025-09-23,CUST-1155,Enterprise,Australia,2500,29043.8,Active,Competitor
+2025-09-27,CUST-1327,Professional,United States,2500,30154.7,Paused,None
+2025-09-28,CUST-1196,Professional,India,2500,15321.99,Active,Missing Feature
+2025-09-28,CUST-1317,Basic,Germany,49,34199.41,Active,Budget Cut
+2025-09-28,CUST-1289,Custom,Germany,1200,16393.11,Cancelled,Missing Feature
+2025-09-29,CUST-1259,Custom,Germany,199,29473.8,Paused,Budget Cut
+2025-09-29,CUST-1048,Enterprise,Germany,49,17766.47,Cancelled,Support
+2025-09-29,CUST-1357,Custom,Germany,49,16858.67,Paused,Support
+2025-09-30,CUST-1271,Professional,India,49,29394.81,Active,Missing Feature
+2025-09-30,CUST-1072,Basic,Germany,49,7094.06,Active,Missing Feature
+2025-10-01,CUST-1140,Basic,Canada,2500,26688.5,Active,None
+2025-10-01,CUST-1061,Professional,Canada,49,8569.44,Paused,None
+2025-10-04,CUST-1020,Basic,United Kingdom,2500,5891.79,Active,Missing Feature
+2025-10-05,CUST-1109,Enterprise,Germany,499,33163.08,Active,None
+2025-10-05,CUST-1161,Custom,United Kingdom,49,12396.21,Paused,None
+2025-10-06,CUST-1183,Professional,United Kingdom,49,12637.27,Active,Price
+2025-10-06,CUST-1211,Basic,United Kingdom,199,2604.75,Active,Budget Cut
+2025-10-07,CUST-1397,Enterprise,Australia,499,16602.12,Active,Budget Cut
+2025-10-07,CUST-1198,Professional,Canada,2500,4956.52,Active,Price
+2025-10-09,CUST-1173,Enterprise,Canada,49,23145.31,Active,Missing Feature
+2025-10-09,CUST-1006,Basic,India,199,11528.0,Paused,Missing Feature
+2025-10-10,CUST-1368,Professional,Canada,49,34207.59,Paused,Missing Feature
+2025-10-10,CUST-1337,Enterprise,United States,1200,15194.85,Active,Competitor
+2025-10-10,CUST-1199,Professional,Australia,199,3934.35,Active,Competitor
+2025-10-12,CUST-1068,Basic,Germany,499,21867.35,Cancelled,Price
+2025-10-14,CUST-1261,Custom,Australia,199,28107.12,Cancelled,Budget Cut
+2025-10-16,CUST-1326,Basic,Australia,2500,17371.73,Cancelled,Price
+2025-10-16,CUST-1385,Enterprise,Australia,199,33845.89,Paused,Support
+2025-10-17,CUST-1207,Professional,Australia,499,27441.72,Cancelled,None
+2025-10-19,CUST-1284,Basic,United States,199,29385.57,Active,Support
+2025-10-21,CUST-1022,Enterprise,Australia,499,18380.53,Active,Support
+2025-10-26,CUST-1074,Custom,Australia,1200,15368.94,Paused,Support
+2025-10-29,CUST-1028,Professional,United States,1200,11300.23,Active,Missing Feature
+2025-10-30,CUST-1177,Professional,United States,499,34646.6,Active,Price
+2025-10-30,CUST-1235,Custom,United Kingdom,499,4413.71,Cancelled,Price
+2025-11-02,CUST-1242,Custom,Germany,199,21984.26,Cancelled,Competitor
+2025-11-04,CUST-1010,Professional,United Kingdom,199,15821.98,Active,Missing Feature
+2025-11-04,CUST-1304,Custom,Germany,499,28914.42,Cancelled,Price
+2025-11-06,CUST-1256,Basic,United States,199,1351.6,Active,Budget Cut
+2025-11-06,CUST-1394,Enterprise,United Kingdom,49,20500.73,Active,Budget Cut
+2025-11-07,CUST-1063,Professional,India,2500,30073.11,Active,Missing Feature
+2025-11-08,CUST-1169,Enterprise,Germany,1200,5368.21,Paused,None
+2025-11-09,CUST-1295,Enterprise,Canada,199,10808.01,Active,Competitor
+2025-11-09,CUST-1225,Enterprise,Canada,499,16510.3,Cancelled,None
+2025-11-09,CUST-1219,Basic,India,2500,26921.1,Active,Price
+2025-11-09,CUST-1352,Basic,Canada,1200,10085.66,Active,Support
+2025-11-10,CUST-1241,Enterprise,India,49,1460.61,Active,Competitor
+2025-11-10,CUST-1325,Basic,Canada,499,11481.49,Active,Missing Feature
+2025-11-11,CUST-1332,Professional,United Kingdom,49,23498.29,Active,Competitor
+2025-11-11,CUST-1156,Basic,Australia,199,20676.93,Active,None
+2025-11-13,CUST-1230,Enterprise,India,199,9162.26,Active,Competitor
+2025-11-14,CUST-1217,Custom,United States,1200,31190.39,Active,Budget Cut
+2025-11-14,CUST-1378,Professional,India,499,32984.4,Active,Budget Cut
+2025-11-15,CUST-1399,Professional,India,1200,6228.81,Paused,Competitor
+2025-11-16,CUST-1054,Custom,United States,199,7924.55,Cancelled,Competitor
+2025-11-16,CUST-1341,Custom,United Kingdom,499,23742.71,Active,Support
+2025-11-17,CUST-1280,Basic,Australia,49,15761.65,Active,Price
+2025-11-17,CUST-1084,Professional,United States,2500,20006.99,Paused,Competitor
+2025-11-18,CUST-1106,Basic,Germany,49,834.2,Active,Budget Cut
+2025-11-19,CUST-1206,Enterprise,United Kingdom,499,22997.21,Cancelled,None
+2025-11-19,CUST-1129,Custom,United Kingdom,1200,9448.9,Cancelled,Budget Cut
+2025-11-20,CUST-1272,Professional,United Kingdom,2500,21699.76,Active,Missing Feature
+2025-11-20,CUST-1147,Enterprise,Australia,1200,10725.52,Active,Missing Feature
+2025-11-20,CUST-1195,Custom,United States,199,1311.87,Paused,Budget Cut
+2025-11-22,CUST-1223,Professional,Germany,199,5447.14,Paused,Support
+2025-11-23,CUST-1127,Professional,Canada,49,8151.48,Paused,Missing Feature
+2025-11-23,CUST-1178,Professional,United Kingdom,199,1535.74,Active,None
+2025-11-24,CUST-1353,Custom,India,49,27117.17,Active,Competitor
+2025-11-24,CUST-1361,Enterprise,Australia,49,32672.79,Active,Competitor
+2025-11-27,CUST-1367,Custom,United Kingdom,2500,5810.22,Cancelled,Support
+2025-11-27,CUST-1040,Enterprise,United States,199,15814.68,Active,Competitor
+2025-11-28,CUST-1057,Professional,United States,49,29082.84,Active,None
+2025-11-28,CUST-1236,Custom,United Kingdom,199,34893.37,Active,Price
+2025-11-29,CUST-1041,Enterprise,Germany,499,31329.01,Active,None
+2025-11-30,CUST-1373,Professional,Germany,2500,31816.87,Active,None
+2025-12-02,CUST-1338,Basic,Canada,1200,34816.6,Active,Missing Feature
+2025-12-02,CUST-1076,Custom,India,1200,7334.3,Active,None
+2025-12-03,CUST-1316,Professional,Germany,1200,29125.44,Paused,None
+2025-12-03,CUST-1307,Basic,United Kingdom,499,28522.91,Active,Price
+2025-12-04,CUST-1398,Enterprise,India,499,3146.94,Paused,Support
+2025-12-05,CUST-1322,Basic,United Kingdom,2500,16501.59,Active,Price
+2025-12-05,CUST-1333,Basic,India,1200,4624.89,Paused,Competitor
+2025-12-05,CUST-1335,Basic,United States,499,9357.65,Cancelled,Support
+2025-12-06,CUST-1303,Professional,Australia,49,31356.95,Paused,Price
+2025-12-08,CUST-1234,Professional,India,1200,24697.72,Paused,Price
+2025-12-08,CUST-1091,Basic,United Kingdom,1200,2307.5,Active,Competitor
+2025-12-09,CUST-1154,Custom,United Kingdom,199,6409.68,Paused,Support
+2025-12-09,CUST-1240,Basic,Australia,1200,4860.33,Active,Missing Feature
+2025-12-12,CUST-1137,Custom,Germany,199,11953.94,Paused,None
+2025-12-15,CUST-1143,Enterprise,Canada,499,24436.29,Active,Price
+2025-12-15,CUST-1112,Custom,Germany,49,9051.63,Active,Competitor
+2025-12-17,CUST-1214,Basic,Canada,499,33751.9,Paused,Price
+2025-12-17,CUST-1044,Basic,Australia,199,33039.53,Paused,Competitor
+2025-12-18,CUST-1082,Professional,India,49,27282.02,Paused,Price
+2025-12-18,CUST-1320,Enterprise,Germany,2500,2770.51,Paused,Missing Feature
+2025-12-20,CUST-1162,Enterprise,Australia,499,12137.23,Active,Support
+2025-12-20,CUST-1071,Professional,Australia,2500,34917.99,Active,Competitor
+2025-12-21,CUST-1050,Professional,Canada,199,9107.86,Active,Support
+2025-12-23,CUST-1224,Custom,Australia,49,1134.32,Active,None
+2025-12-23,CUST-1059,Basic,United States,499,24535.98,Active,Price
+2025-12-23,CUST-1277,Basic,Germany,1200,32387.9,Active,None
+2025-12-23,CUST-1245,Enterprise,Germany,1200,17153.61,Cancelled,Support
+2025-12-24,CUST-1064,Enterprise,United States,49,28804.73,Active,Support
+2025-12-25,CUST-1135,Enterprise,Canada,2500,10412.77,Paused,Competitor
+2025-12-26,CUST-1105,Enterprise,India,2500,14990.14,Active,Price
+2025-12-27,CUST-1011,Professional,United Kingdom,199,26375.98,Paused,None
+2025-12-28,CUST-1184,Custom,United Kingdom,49,26777.82,Active,Budget Cut
+2025-12-28,CUST-1080,Basic,United Kingdom,1200,17642.9,Cancelled,None
+2025-12-30,CUST-1113,Basic,United Kingdom,499,24571.21,Active,Competitor
+2025-12-31,CUST-1152,Custom,United Kingdom,49,14566.19,Cancelled,Competitor
+2025-12-31,CUST-1212,Professional,Australia,499,10430.18,Active,Support

@@ -1,0 +1,501 @@
+Order Date,Product,Region,Channel,Units Sold,Revenue,Profit
+2025-01-01,Enterprise Cloud,Latin America,Organic Web,6,6453.72,797.02
+2025-01-02,Developer License,Latin America,Paid Search,4,10024.09,4350.11
+2025-01-02,Enterprise Cloud,Latin America,Partner Referral,11,12629.07,3759.27
+2025-01-02,Starter Kit,Latin America,Partner Referral,5,5852.71,2495.58
+2025-01-04,Starter Kit,Asia Pacific,Direct Sales,18,10104.16,1596.43
+2025-01-04,Developer License,Europe,Organic Web,13,1165.03,5337.52
+2025-01-05,Starter Kit,Latin America,Paid Search,1,2569.06,1947.26
+2025-01-05,Enterprise Cloud,Europe,Partner Referral,2,1230.69,2401.03
+2025-01-06,Enterprise Cloud,Latin America,Partner Referral,3,11679.06,4944.08
+2025-01-09,Pro Suite,North America,Paid Search,11,12728.41,5248.51
+2025-01-09,Starter Kit,Europe,Direct Sales,18,4050.34,1708.62
+2025-01-10,Starter Kit,North America,Paid Search,14,11959.76,2225.8
+2025-01-13,API Credits,Europe,Partner Referral,14,5645.52,1346.46
+2025-01-13,Pro Suite,Latin America,Partner Referral,4,10846.43,4292.62
+2025-01-14,Developer License,Latin America,Direct Sales,14,9988.29,568.2
+2025-01-15,Developer License,Europe,Direct Sales,5,1667.84,2278.59
+2025-01-15,Starter Kit,Asia Pacific,Organic Web,11,13326.49,3582.28
+2025-01-16,Enterprise Cloud,Latin America,Partner Referral,13,12473.44,2103.89
+2025-01-17,API Credits,Asia Pacific,Organic Web,12,7567.63,3767.46
+2025-01-18,Developer License,Asia Pacific,Paid Search,10,4298.19,4256.51
+2025-01-20,Pro Suite,Europe,Paid Search,9,12901.02,4230.12
+2025-01-21,Starter Kit,North America,Paid Search,4,14356.22,4825.38
+2025-01-21,Starter Kit,Latin America,Partner Referral,10,1651.62,5360.51
+2025-01-22,Starter Kit,Europe,Partner Referral,6,6996.75,483.77
+2025-01-22,Enterprise Cloud,Latin America,Paid Search,5,13546.08,2203.03
+2025-01-23,Pro Suite,Europe,Paid Search,3,1368.74,5778.47
+2025-01-26,Enterprise Cloud,North America,Partner Referral,6,386.59,4237.95
+2025-01-27,Developer License,Asia Pacific,Direct Sales,4,3232.24,1962.9
+2025-01-28,Enterprise Cloud,Europe,Partner Referral,7,10495.15,1002.15
+2025-01-28,API Credits,Asia Pacific,Organic Web,6,14073.34,310.25
+2025-01-29,Starter Kit,North America,Direct Sales,2,3196.71,3654.39
+2025-02-02,API Credits,North America,Organic Web,1,12303.22,3931.14
+2025-02-02,Pro Suite,Latin America,Paid Search,19,7785.04,4257.16
+2025-02-04,Enterprise Cloud,Europe,Organic Web,17,7066.18,3043.35
+2025-02-04,Pro Suite,Asia Pacific,Direct Sales,8,1416.14,5957.26
+2025-02-04,API Credits,Asia Pacific,Direct Sales,17,8562.33,4800.36
+2025-02-05,Enterprise Cloud,Europe,Paid Search,6,14379.49,2219.33
+2025-02-05,Pro Suite,Latin America,Partner Referral,13,11026.15,4578.17
+2025-02-06,Pro Suite,Asia Pacific,Organic Web,6,7945.28,3145.01
+2025-02-06,Pro Suite,Asia Pacific,Paid Search,7,973.42,2184.36
+2025-02-07,Enterprise Cloud,Asia Pacific,Direct Sales,13,3180.18,1432.69
+2025-02-08,Starter Kit,North America,Partner Referral,1,13252.53,2988.19
+2025-02-08,Enterprise Cloud,Asia Pacific,Partner Referral,12,11439.09,700.12
+2025-02-08,Pro Suite,North America,Organic Web,7,13562.85,394.17
+2025-02-10,API Credits,Asia Pacific,Direct Sales,10,1998.22,4088.09
+2025-02-10,Pro Suite,Europe,Organic Web,8,14773.11,3484.34
+2025-02-11,Starter Kit,Latin America,Organic Web,2,12041.05,2611.65
+2025-02-13,Pro Suite,North America,Organic Web,1,9369.92,4549.47
+2025-02-13,Pro Suite,Europe,Partner Referral,12,820.88,4936.13
+2025-02-14,Enterprise Cloud,Asia Pacific,Paid Search,19,13315.7,2336.03
+2025-02-15,Starter Kit,Asia Pacific,Paid Search,18,5830.22,4298.02
+2025-02-16,API Credits,Latin America,Direct Sales,4,4658.73,440.88
+2025-02-16,Enterprise Cloud,North America,Organic Web,10,9714.65,395.65
+2025-02-17,API Credits,Asia Pacific,Partner Referral,19,4524.83,154.44
+2025-02-17,Enterprise Cloud,North America,Direct Sales,11,3359.97,5081.35
+2025-02-18,Starter Kit,Europe,Paid Search,5,8172.79,3535.9
+2025-02-18,Starter Kit,Asia Pacific,Direct Sales,9,13447.74,1697.05
+2025-02-19,Enterprise Cloud,Asia Pacific,Direct Sales,1,11584.5,2397.73
+2025-02-20,Enterprise Cloud,North America,Paid Search,8,5087.18,5578.91
+2025-02-20,Starter Kit,Latin America,Organic Web,15,5161.08,1292.85
+2025-02-20,Pro Suite,Latin America,Direct Sales,17,7780.88,1281.61
+2025-02-21,Pro Suite,North America,Organic Web,12,11087.81,2116.3
+2025-02-21,Enterprise Cloud,Europe,Organic Web,16,5459.69,3892.64
+2025-02-22,Developer License,Asia Pacific,Paid Search,9,10207.43,4444.65
+2025-02-22,Enterprise Cloud,Europe,Paid Search,1,6594.74,472.5
+2025-02-22,Pro Suite,North America,Organic Web,15,12509.12,5785.97
+2025-02-22,Enterprise Cloud,North America,Partner Referral,12,9972.48,3069.1
+2025-02-23,Starter Kit,Latin America,Paid Search,17,3189.83,72.73
+2025-02-23,Enterprise Cloud,Latin America,Organic Web,16,14690.75,1807.04
+2025-02-23,Pro Suite,North America,Paid Search,16,8898.99,1247.81
+2025-02-23,Starter Kit,Asia Pacific,Paid Search,15,3244.17,5450.29
+2025-02-23,Pro Suite,Latin America,Partner Referral,17,14585.68,135.18
+2025-02-24,Starter Kit,Asia Pacific,Paid Search,3,816.76,82.76
+2025-02-27,Pro Suite,Latin America,Paid Search,16,2926.53,1518.6
+2025-02-27,Pro Suite,North America,Partner Referral,8,10126.84,109.05
+2025-02-27,API Credits,Latin America,Organic Web,14,14656.64,3151.71
+2025-02-27,Pro Suite,Europe,Partner Referral,18,6865.19,1311.36
+2025-02-28,Developer License,Latin America,Direct Sales,15,9622.71,5830.62
+2025-03-01,Enterprise Cloud,Asia Pacific,Organic Web,5,522.99,4141.95
+2025-03-01,Pro Suite,North America,Paid Search,15,5011.54,1927.98
+2025-03-03,API Credits,Europe,Partner Referral,10,7686.62,4170.33
+2025-03-03,Pro Suite,North America,Paid Search,13,8977.06,282.03
+2025-03-04,Starter Kit,Asia Pacific,Direct Sales,12,12424.48,361.51
+2025-03-04,Enterprise Cloud,North America,Paid Search,13,7015.98,445.34
+2025-03-04,Enterprise Cloud,North America,Paid Search,6,8415.26,5346.08
+2025-03-06,Enterprise Cloud,North America,Direct Sales,18,4431.42,3834.77
+2025-03-07,Developer License,North America,Direct Sales,13,6839.44,3057.46
+2025-03-09,Starter Kit,North America,Paid Search,10,12779.64,480.28
+2025-03-10,API Credits,Europe,Direct Sales,15,10954.73,58.05
+2025-03-10,Pro Suite,Latin America,Organic Web,1,7137.77,1852.35
+2025-03-13,Pro Suite,Europe,Partner Referral,6,6924.78,4654.58
+2025-03-16,Pro Suite,Asia Pacific,Direct Sales,1,2438.45,899.96
+2025-03-17,Pro Suite,North America,Partner Referral,3,13116.76,5090.01
+2025-03-22,Pro Suite,Asia Pacific,Direct Sales,12,4572.58,1684.65
+2025-03-22,Starter Kit,Europe,Organic Web,14,11827.64,2440.58
+2025-03-22,Enterprise Cloud,North America,Direct Sales,18,10981.66,895.72
+2025-03-27,Pro Suite,Europe,Partner Referral,2,14945.75,2939.26
+2025-03-27,Developer License,Asia Pacific,Direct Sales,19,8202.34,4710.03
+2025-03-29,API Credits,Asia Pacific,Organic Web,13,7245.07,4230.67
+2025-03-30,Pro Suite,Latin America,Organic Web,2,13679.4,1795.19
+2025-03-30,Developer License,Asia Pacific,Paid Search,10,5375.61,5593.93
+2025-04-02,API Credits,Europe,Paid Search,1,4122.69,2986.6
+2025-04-02,Pro Suite,Europe,Organic Web,3,7173.28,336.71
+2025-04-02,Enterprise Cloud,Latin America,Organic Web,2,13626.49,3591.03
+2025-04-04,Pro Suite,North America,Organic Web,4,9055.69,1408.0
+2025-04-05,Pro Suite,Europe,Direct Sales,17,12009.13,1741.43
+2025-04-06,Pro Suite,North America,Paid Search,19,13787.53,4852.58
+2025-04-06,API Credits,North America,Paid Search,13,11800.12,3839.57
+2025-04-06,Starter Kit,North America,Organic Web,5,5057.25,393.0
+2025-04-06,Pro Suite,Asia Pacific,Direct Sales,5,1901.01,3833.93
+2025-04-07,Enterprise Cloud,Europe,Paid Search,13,10996.72,2283.21
+2025-04-07,API Credits,Asia Pacific,Partner Referral,1,3734.18,5874.94
+2025-04-08,Starter Kit,Asia Pacific,Organic Web,4,1392.9,5886.87
+2025-04-09,Pro Suite,Asia Pacific,Organic Web,11,12930.07,577.2
+2025-04-09,Pro Suite,Latin America,Direct Sales,4,14723.2,5746.82
+2025-04-09,Starter Kit,North America,Paid Search,15,13615.27,2717.5
+2025-04-09,Enterprise Cloud,Latin America,Paid Search,3,6060.36,846.28
+2025-04-09,Pro Suite,North America,Partner Referral,17,8225.11,1688.52
+2025-04-09,Pro Suite,Latin America,Direct Sales,12,14474.25,4833.55
+2025-04-10,API Credits,Asia Pacific,Partner Referral,18,5763.15,1462.73
+2025-04-10,Enterprise Cloud,Europe,Partner Referral,4,12813.51,5748.85
+2025-04-10,Enterprise Cloud,Latin America,Paid Search,5,14932.48,887.78
+2025-04-11,Pro Suite,Latin America,Organic Web,7,9585.3,862.78
+2025-04-11,Enterprise Cloud,Europe,Organic Web,16,6434.47,3776.09
+2025-04-11,Starter Kit,Europe,Paid Search,8,13125.18,5152.5
+2025-04-13,Developer License,North America,Partner Referral,2,2788.25,4293.58
+2025-04-13,Starter Kit,North America,Direct Sales,2,14401.73,3128.81
+2025-04-13,Pro Suite,Asia Pacific,Direct Sales,19,7425.97,2688.11
+2025-04-14,Starter Kit,Asia Pacific,Paid Search,6,14764.83,2295.04
+2025-04-14,Enterprise Cloud,North America,Paid Search,16,3914.31,4625.09
+2025-04-16,Starter Kit,Latin America,Direct Sales,5,1996.52,4298.49
+2025-04-16,Pro Suite,Europe,Partner Referral,16,9866.81,2057.21
+2025-04-17,API Credits,North America,Organic Web,4,8309.8,2635.85
+2025-04-18,Pro Suite,Latin America,Paid Search,15,247.63,188.94
+2025-04-18,Developer License,Europe,Paid Search,3,10357.64,3886.75
+2025-04-22,Enterprise Cloud,North America,Partner Referral,7,1898.58,3700.94
+2025-04-22,Enterprise Cloud,North America,Partner Referral,17,13517.53,2887.22
+2025-04-23,Enterprise Cloud,Europe,Partner Referral,6,9615.42,2958.94
+2025-04-23,Enterprise Cloud,Asia Pacific,Paid Search,17,3534.69,4532.9
+2025-04-23,Pro Suite,Europe,Direct Sales,5,3465.06,5800.18
+2025-04-23,Starter Kit,Europe,Partner Referral,12,6266.59,5287.87
+2025-04-23,Pro Suite,Latin America,Organic Web,11,9709.96,2692.06
+2025-04-24,Developer License,Asia Pacific,Direct Sales,13,9306.41,1658.84
+2025-04-26,API Credits,Latin America,Paid Search,11,9131.62,1766.01
+2025-04-26,Pro Suite,Asia Pacific,Partner Referral,8,8088.83,373.28
+2025-04-26,Pro Suite,Latin America,Organic Web,2,1888.62,4455.83
+2025-04-27,Enterprise Cloud,Asia Pacific,Partner Referral,15,6816.42,3138.24
+2025-04-28,API Credits,North America,Partner Referral,5,12903.46,1630.22
+2025-04-30,Pro Suite,Europe,Direct Sales,9,11869.02,2982.54
+2025-04-30,Pro Suite,Asia Pacific,Paid Search,3,9206.2,4440.32
+2025-05-01,API Credits,Europe,Partner Referral,6,8497.77,5904.88
+2025-05-02,Pro Suite,Europe,Paid Search,19,2420.72,3662.18
+2025-05-02,Starter Kit,Latin America,Direct Sales,18,1838.66,5857.28
+2025-05-03,Enterprise Cloud,Asia Pacific,Partner Referral,15,2954.3,1690.82
+2025-05-04,Enterprise Cloud,Latin America,Direct Sales,11,2551.84,1259.18
+2025-05-04,Enterprise Cloud,Latin America,Partner Referral,14,4698.41,2305.61
+2025-05-05,Enterprise Cloud,Europe,Paid Search,17,3750.14,2528.2
+2025-05-06,Starter Kit,North America,Partner Referral,19,4344.55,765.23
+2025-05-06,API Credits,Asia Pacific,Direct Sales,11,587.71,3281.0
+2025-05-07,API Credits,Asia Pacific,Partner Referral,8,7677.06,5356.64
+2025-05-07,Pro Suite,North America,Paid Search,12,8290.39,4655.25
+2025-05-08,Pro Suite,Europe,Paid Search,16,13610.92,1693.21
+2025-05-08,Pro Suite,Europe,Direct Sales,14,1121.64,4777.37
+2025-05-08,Enterprise Cloud,North America,Direct Sales,1,4224.86,1242.82
+2025-05-08,Pro Suite,Europe,Partner Referral,19,8905.39,741.03
+2025-05-09,Pro Suite,Europe,Organic Web,15,1167.42,5089.46
+2025-05-09,Enterprise Cloud,Europe,Organic Web,12,3933.17,767.32
+2025-05-09,Starter Kit,North America,Direct Sales,13,5829.93,4648.88
+2025-05-10,Enterprise Cloud,Europe,Partner Referral,13,5880.73,3437.8
+2025-05-10,Pro Suite,Europe,Organic Web,19,558.04,1405.11
+2025-05-11,Enterprise Cloud,Europe,Direct Sales,1,11818.24,2337.84
+2025-05-11,Starter Kit,Europe,Organic Web,5,8566.89,4979.39
+2025-05-11,Starter Kit,Europe,Organic Web,14,9617.11,5503.98
+2025-05-11,Developer License,Latin America,Organic Web,1,1266.85,268.49
+2025-05-14,Developer License,Asia Pacific,Paid Search,11,5994.58,234.19
+2025-05-15,Starter Kit,Asia Pacific,Partner Referral,12,379.21,2066.22
+2025-05-15,Pro Suite,Europe,Partner Referral,11,9834.41,507.33
+2025-05-15,Pro Suite,Asia Pacific,Organic Web,5,838.97,781.87
+2025-05-16,Pro Suite,Europe,Partner Referral,6,11374.62,5419.6
+2025-05-17,Enterprise Cloud,North America,Paid Search,10,7574.18,3271.38
+2025-05-19,Pro Suite,Asia Pacific,Organic Web,16,12661.58,3227.11
+2025-05-20,Enterprise Cloud,Asia Pacific,Paid Search,4,14064.97,1831.4
+2025-05-22,Pro Suite,Europe,Organic Web,1,10711.59,4701.85
+2025-05-23,Pro Suite,North America,Organic Web,11,722.61,1901.74
+2025-05-23,Starter Kit,Europe,Direct Sales,11,4852.38,3882.69
+2025-05-24,Starter Kit,North America,Partner Referral,14,3347.14,5021.11
+2025-05-24,Pro Suite,North America,Organic Web,14,10614.55,5396.44
+2025-05-24,Enterprise Cloud,Europe,Paid Search,17,6665.39,3552.95
+2025-05-24,Developer License,North America,Paid Search,8,6284.21,5561.98
+2025-05-25,Pro Suite,Europe,Paid Search,3,11537.76,2511.17
+2025-05-27,API Credits,Asia Pacific,Paid Search,7,9064.88,4876.19
+2025-05-27,API Credits,Latin America,Organic Web,3,13093.83,789.99
+2025-05-27,Starter Kit,Latin America,Direct Sales,10,3996.64,102.74
+2025-05-27,Enterprise Cloud,Latin America,Organic Web,10,4376.37,2475.13
+2025-05-27,Developer License,North America,Partner Referral,4,602.08,781.38
+2025-05-28,Enterprise Cloud,Asia Pacific,Direct Sales,10,4073.24,4973.74
+2025-05-28,Pro Suite,Latin America,Organic Web,13,14357.9,3484.81
+2025-05-30,Starter Kit,Latin America,Paid Search,10,2301.19,4941.97
+2025-05-30,Enterprise Cloud,Latin America,Organic Web,3,13402.85,2951.62
+2025-05-31,Starter Kit,Asia Pacific,Direct Sales,5,12093.33,4744.15
+2025-05-31,Starter Kit,North America,Direct Sales,9,697.48,421.62
+2025-06-01,Starter Kit,Europe,Paid Search,2,7855.58,1848.88
+2025-06-01,Developer License,Europe,Partner Referral,15,7066.2,1802.99
+2025-06-01,Enterprise Cloud,Europe,Paid Search,15,6999.81,670.14
+2025-06-02,Enterprise Cloud,North America,Paid Search,10,10897.65,2951.39
+2025-06-02,Enterprise Cloud,Latin America,Organic Web,5,2771.67,2243.81
+2025-06-03,Enterprise Cloud,Europe,Organic Web,9,1866.19,190.39
+2025-06-04,Enterprise Cloud,Latin America,Direct Sales,12,14513.47,2631.21
+2025-06-06,API Credits,North America,Direct Sales,18,3122.56,2203.42
+2025-06-07,Enterprise Cloud,Latin America,Direct Sales,7,11836.92,1806.98
+2025-06-07,Enterprise Cloud,North America,Direct Sales,8,12367.13,1489.49
+2025-06-07,Enterprise Cloud,Europe,Paid Search,14,14086.91,165.0
+2025-06-09,Pro Suite,Asia Pacific,Partner Referral,10,6398.14,4836.4
+2025-06-09,Developer License,Asia Pacific,Organic Web,4,5038.59,5928.81
+2025-06-09,Enterprise Cloud,North America,Paid Search,12,2382.3,1208.01
+2025-06-09,Starter Kit,Latin America,Direct Sales,19,4621.14,3223.65
+2025-06-10,Enterprise Cloud,Europe,Paid Search,5,11940.27,50.8
+2025-06-10,Enterprise Cloud,North America,Organic Web,12,5372.69,5013.16
+2025-06-10,Pro Suite,Asia Pacific,Partner Referral,3,14196.33,5688.74
+2025-06-10,Developer License,Latin America,Organic Web,14,12644.9,472.05
+2025-06-11,Pro Suite,Latin America,Organic Web,15,14533.63,59.31
+2025-06-12,Enterprise Cloud,Latin America,Organic Web,10,11691.42,119.65
+2025-06-12,Pro Suite,Latin America,Partner Referral,3,6982.85,2125.48
+2025-06-14,Enterprise Cloud,North America,Direct Sales,14,1066.55,3344.58
+2025-06-16,API Credits,North America,Organic Web,15,5428.12,3100.37
+2025-06-18,Pro Suite,Latin America,Direct Sales,18,2653.46,4859.0
+2025-06-19,Enterprise Cloud,Europe,Partner Referral,9,10886.65,5785.9
+2025-06-19,Enterprise Cloud,Europe,Partner Referral,16,6526.85,2356.51
+2025-06-19,Enterprise Cloud,Europe,Organic Web,14,9286.22,2021.51
+2025-06-19,Pro Suite,North America,Partner Referral,14,5415.15,1333.66
+2025-06-20,Developer License,Asia Pacific,Partner Referral,4,11236.86,4078.87
+2025-06-21,Starter Kit,Latin America,Organic Web,16,11871.5,2670.63
+2025-06-21,API Credits,Europe,Paid Search,8,8937.15,1872.57
+2025-06-21,Pro Suite,North America,Direct Sales,8,1761.01,477.07
+2025-06-21,Starter Kit,North America,Organic Web,4,4241.45,5461.25
+2025-06-22,Developer License,Europe,Organic Web,2,2973.7,5707.1
+2025-06-23,Pro Suite,Asia Pacific,Direct Sales,3,2451.14,656.26
+2025-06-24,API Credits,Europe,Partner Referral,6,11114.02,1720.07
+2025-06-25,Enterprise Cloud,Latin America,Organic Web,7,2656.13,4137.76
+2025-06-25,API Credits,North America,Organic Web,4,12134.77,348.84
+2025-06-28,Enterprise Cloud,Latin America,Partner Referral,18,3219.73,898.44
+2025-06-29,Enterprise Cloud,Europe,Paid Search,10,9389.74,5286.93
+2025-06-29,Enterprise Cloud,North America,Partner Referral,6,7917.4,4698.87
+2025-06-29,Starter Kit,Asia Pacific,Organic Web,16,1511.29,1657.97
+2025-06-30,Enterprise Cloud,Asia Pacific,Direct Sales,6,9591.82,3005.34
+2025-07-03,Pro Suite,Asia Pacific,Organic Web,14,12660.62,4775.55
+2025-07-04,Enterprise Cloud,Latin America,Direct Sales,7,1628.71,4693.24
+2025-07-05,API Credits,Asia Pacific,Paid Search,10,10737.81,2250.39
+2025-07-06,Starter Kit,Latin America,Partner Referral,18,1951.38,5963.4
+2025-07-06,Starter Kit,Latin America,Paid Search,19,4722.94,4145.23
+2025-07-06,Starter Kit,North America,Direct Sales,7,9231.33,4582.7
+2025-07-07,Pro Suite,Asia Pacific,Direct Sales,2,13743.33,3795.87
+2025-07-07,Enterprise Cloud,Europe,Direct Sales,7,1186.45,2918.14
+2025-07-07,Developer License,North America,Paid Search,12,3762.25,4028.01
+2025-07-08,Developer License,Latin America,Paid Search,11,466.5,2121.17
+2025-07-08,Pro Suite,Latin America,Partner Referral,7,12696.48,3631.44
+2025-07-09,Enterprise Cloud,Europe,Direct Sales,5,9915.88,2333.84
+2025-07-09,Developer License,Europe,Paid Search,7,2422.5,3684.14
+2025-07-09,Pro Suite,Asia Pacific,Partner Referral,15,1689.43,4617.03
+2025-07-09,Enterprise Cloud,North America,Partner Referral,17,1159.83,5336.0
+2025-07-10,Enterprise Cloud,Europe,Paid Search,12,2537.73,4504.44
+2025-07-10,Pro Suite,Latin America,Direct Sales,17,9729.78,4951.55
+2025-07-11,Enterprise Cloud,Asia Pacific,Partner Referral,2,13656.46,2723.63
+2025-07-11,Enterprise Cloud,Asia Pacific,Paid Search,18,14449.59,2261.85
+2025-07-11,Developer License,Asia Pacific,Direct Sales,12,6676.53,3062.28
+2025-07-13,Starter Kit,Europe,Direct Sales,13,8244.37,2472.28
+2025-07-14,Starter Kit,Latin America,Paid Search,7,8272.39,3028.71
+2025-07-15,Enterprise Cloud,Asia Pacific,Partner Referral,3,12864.91,1235.33
+2025-07-17,Developer License,Europe,Partner Referral,14,12410.73,2075.3
+2025-07-17,Developer License,Asia Pacific,Organic Web,2,14122.05,5226.32
+2025-07-17,Enterprise Cloud,Asia Pacific,Direct Sales,18,10973.5,2926.27
+2025-07-18,Enterprise Cloud,Europe,Organic Web,4,13612.57,3462.5
+2025-07-20,Enterprise Cloud,North America,Paid Search,4,11529.59,1750.41
+2025-07-20,Enterprise Cloud,Asia Pacific,Partner Referral,15,2639.26,3373.92
+2025-07-21,Developer License,Latin America,Paid Search,15,12020.97,3836.59
+2025-07-22,API Credits,North America,Partner Referral,16,13116.41,792.68
+2025-07-23,Starter Kit,Europe,Direct Sales,8,4638.8,2930.26
+2025-07-25,Starter Kit,North America,Paid Search,11,14524.33,832.36
+2025-07-26,API Credits,Asia Pacific,Direct Sales,16,14878.79,4146.01
+2025-07-27,Developer License,Asia Pacific,Organic Web,6,13935.64,770.1
+2025-07-27,Enterprise Cloud,Europe,Organic Web,18,3131.84,4077.09
+2025-07-27,Enterprise Cloud,Asia Pacific,Organic Web,7,7373.51,710.44
+2025-08-01,Enterprise Cloud,Europe,Paid Search,3,5206.36,2245.87
+2025-08-02,Pro Suite,Latin America,Partner Referral,8,4603.72,2706.2
+2025-08-03,API Credits,North America,Organic Web,12,5005.2,3806.28
+2025-08-03,Starter Kit,Latin America,Direct Sales,2,11271.48,4135.21
+2025-08-03,Pro Suite,North America,Partner Referral,3,7514.34,2624.74
+2025-08-04,Enterprise Cloud,Latin America,Organic Web,18,12642.4,2608.09
+2025-08-05,Pro Suite,Europe,Organic Web,19,9271.51,2160.89
+2025-08-06,Pro Suite,North America,Partner Referral,17,11199.26,4497.29
+2025-08-06,Enterprise Cloud,Latin America,Organic Web,17,8048.47,5732.61
+2025-08-06,Pro Suite,Asia Pacific,Direct Sales,13,7867.57,4346.75
+2025-08-06,Pro Suite,North America,Direct Sales,1,7031.05,3514.08
+2025-08-08,Pro Suite,Asia Pacific,Organic Web,16,383.58,2418.13
+2025-08-08,Pro Suite,Asia Pacific,Direct Sales,6,9920.35,4111.57
+2025-08-08,Enterprise Cloud,Asia Pacific,Direct Sales,11,8663.71,3742.93
+2025-08-10,Pro Suite,Europe,Paid Search,18,13406.08,5948.4
+2025-08-10,API Credits,Latin America,Partner Referral,9,8402.55,2076.59
+2025-08-11,Starter Kit,Asia Pacific,Partner Referral,12,2282.53,5044.06
+2025-08-11,Pro Suite,North America,Direct Sales,15,1141.89,3490.88
+2025-08-12,Pro Suite,North America,Organic Web,15,5561.08,284.78
+2025-08-13,Pro Suite,Latin America,Direct Sales,4,5150.77,2879.5
+2025-08-13,API Credits,Asia Pacific,Paid Search,9,5146.73,3273.14
+2025-08-13,Developer License,North America,Direct Sales,3,8783.76,3637.51
+2025-08-14,Enterprise Cloud,Latin America,Direct Sales,3,13191.89,2884.8
+2025-08-15,Pro Suite,Europe,Paid Search,3,7946.19,5083.23
+2025-08-15,Pro Suite,Latin America,Direct Sales,12,10395.5,4943.41
+2025-08-17,Starter Kit,Europe,Organic Web,4,1842.64,5782.82
+2025-08-18,Enterprise Cloud,Asia Pacific,Partner Referral,14,4027.59,1721.98
+2025-08-19,Enterprise Cloud,North America,Partner Referral,17,9706.42,1918.1
+2025-08-19,Starter Kit,Asia Pacific,Direct Sales,1,8266.4,2941.7
+2025-08-19,Pro Suite,Asia Pacific,Paid Search,1,9316.58,969.04
+2025-08-19,Starter Kit,Europe,Organic Web,13,277.4,476.69
+2025-08-21,Pro Suite,Europe,Paid Search,3,3215.74,3337.38
+2025-08-21,Pro Suite,Asia Pacific,Organic Web,3,10211.73,5768.76
+2025-08-21,Pro Suite,North America,Direct Sales,19,11016.15,1303.69
+2025-08-21,Pro Suite,North America,Direct Sales,2,6623.49,2087.57
+2025-08-22,Enterprise Cloud,Asia Pacific,Organic Web,8,10673.68,5010.22
+2025-08-24,Starter Kit,Asia Pacific,Organic Web,6,9630.58,321.61
+2025-08-25,Starter Kit,Asia Pacific,Paid Search,5,3524.31,2542.74
+2025-08-25,Pro Suite,North America,Partner Referral,9,11462.66,2487.29
+2025-08-25,Enterprise Cloud,Europe,Partner Referral,10,11358.64,4650.19
+2025-08-26,Pro Suite,Asia Pacific,Paid Search,7,4599.12,1517.29
+2025-08-26,Enterprise Cloud,North America,Partner Referral,10,968.96,2447.1
+2025-08-27,Pro Suite,Asia Pacific,Paid Search,11,821.97,150.84
+2025-08-28,Enterprise Cloud,Latin America,Partner Referral,2,7547.63,5188.11
+2025-08-29,Pro Suite,North America,Direct Sales,9,2982.77,201.41
+2025-08-30,Pro Suite,Asia Pacific,Paid Search,16,2940.89,3721.55
+2025-08-31,Starter Kit,Europe,Organic Web,6,13174.43,886.29
+2025-09-01,Pro Suite,Asia Pacific,Direct Sales,5,1454.92,95.6
+2025-09-03,Enterprise Cloud,Europe,Partner Referral,7,713.12,1391.02
+2025-09-03,Developer License,North America,Partner Referral,8,9593.13,581.27
+2025-09-04,Enterprise Cloud,North America,Organic Web,12,2601.05,3814.64
+2025-09-04,API Credits,Latin America,Paid Search,14,4037.59,827.38
+2025-09-04,Pro Suite,Europe,Paid Search,9,4366.51,5846.46
+2025-09-07,Pro Suite,North America,Paid Search,7,3744.75,499.85
+2025-09-07,Enterprise Cloud,Europe,Organic Web,10,12504.33,924.43
+2025-09-09,Enterprise Cloud,North America,Direct Sales,9,12214.19,731.2
+2025-09-09,Starter Kit,Asia Pacific,Paid Search,7,1220.58,5200.18
+2025-09-09,Pro Suite,Asia Pacific,Organic Web,14,14157.52,5653.27
+2025-09-09,Enterprise Cloud,North America,Direct Sales,10,8079.83,3778.23
+2025-09-10,Pro Suite,Asia Pacific,Organic Web,4,10499.31,1939.64
+2025-09-10,Starter Kit,North America,Organic Web,5,7029.87,2861.34
+2025-09-11,Enterprise Cloud,North America,Organic Web,19,8490.49,849.89
+2025-09-11,Pro Suite,Asia Pacific,Paid Search,7,8979.68,4721.88
+2025-09-11,Enterprise Cloud,North America,Paid Search,15,8506.1,4608.39
+2025-09-12,Pro Suite,Latin America,Paid Search,3,12079.12,5268.69
+2025-09-12,API Credits,Europe,Partner Referral,19,338.11,2258.48
+2025-09-13,Enterprise Cloud,Asia Pacific,Partner Referral,13,4888.07,3091.22
+2025-09-14,Pro Suite,North America,Paid Search,1,1589.09,2359.59
+2025-09-14,Pro Suite,Latin America,Partner Referral,4,11464.6,2614.36
+2025-09-15,Starter Kit,Europe,Direct Sales,4,11846.17,5705.66
+2025-09-16,Developer License,Asia Pacific,Direct Sales,7,9922.94,2979.34
+2025-09-16,Starter Kit,North America,Partner Referral,8,12113.84,2367.42
+2025-09-17,Starter Kit,Europe,Paid Search,12,9302.19,3667.04
+2025-09-18,Starter Kit,Europe,Partner Referral,18,2825.95,1805.49
+2025-09-19,Pro Suite,Asia Pacific,Partner Referral,18,3562.26,5346.78
+2025-09-20,Starter Kit,Latin America,Direct Sales,10,2260.83,3087.07
+2025-09-21,API Credits,North America,Paid Search,5,509.99,4228.44
+2025-09-21,Enterprise Cloud,North America,Organic Web,5,11399.92,2460.36
+2025-09-21,Starter Kit,Latin America,Organic Web,14,2068.72,3927.26
+2025-09-21,Pro Suite,Asia Pacific,Paid Search,9,8203.75,676.92
+2025-09-22,Enterprise Cloud,Asia Pacific,Partner Referral,10,2776.82,727.34
+2025-09-24,Pro Suite,Europe,Partner Referral,13,7416.05,5363.89
+2025-09-25,Enterprise Cloud,Latin America,Paid Search,2,10944.5,4388.58
+2025-09-25,Pro Suite,Europe,Organic Web,4,14975.54,3503.78
+2025-09-26,Pro Suite,Europe,Organic Web,1,691.2,137.43
+2025-09-27,Pro Suite,Europe,Paid Search,6,4533.77,354.26
+2025-09-28,Starter Kit,Latin America,Organic Web,14,8819.86,3642.58
+2025-09-28,Starter Kit,North America,Organic Web,3,7175.05,3666.13
+2025-09-28,Starter Kit,Asia Pacific,Partner Referral,2,7872.44,1216.78
+2025-09-28,Pro Suite,North America,Partner Referral,2,1824.1,1935.83
+2025-09-29,API Credits,Asia Pacific,Direct Sales,2,12112.62,3131.87
+2025-09-30,Enterprise Cloud,Asia Pacific,Direct Sales,1,6382.86,5464.16
+2025-10-01,Pro Suite,North America,Partner Referral,11,4588.73,1796.26
+2025-10-02,API Credits,North America,Direct Sales,13,4052.25,3209.08
+2025-10-04,Pro Suite,Europe,Paid Search,9,13217.81,1394.87
+2025-10-04,Enterprise Cloud,Asia Pacific,Partner Referral,14,3969.13,3822.92
+2025-10-04,Enterprise Cloud,Asia Pacific,Paid Search,9,7041.97,3159.33
+2025-10-05,Developer License,Latin America,Organic Web,9,4710.32,1833.81
+2025-10-06,API Credits,Asia Pacific,Direct Sales,13,12995.54,1905.59
+2025-10-07,API Credits,Asia Pacific,Direct Sales,17,6703.19,527.07
+2025-10-07,Pro Suite,Europe,Organic Web,16,7347.94,935.34
+2025-10-07,Developer License,Europe,Paid Search,18,13208.89,5509.04
+2025-10-07,Enterprise Cloud,Asia Pacific,Partner Referral,2,4449.64,900.11
+2025-10-07,API Credits,North America,Partner Referral,16,6716.79,2193.39
+2025-10-08,Enterprise Cloud,Latin America,Direct Sales,16,14756.12,423.0
+2025-10-10,Enterprise Cloud,Europe,Paid Search,1,7886.91,5441.36
+2025-10-10,Developer License,Europe,Partner Referral,12,8509.97,4968.91
+2025-10-10,Enterprise Cloud,Latin America,Direct Sales,14,10951.63,4248.24
+2025-10-11,Enterprise Cloud,North America,Partner Referral,6,6878.34,3640.78
+2025-10-11,API Credits,Europe,Paid Search,1,6306.8,2358.52
+2025-10-11,API Credits,North America,Direct Sales,18,5650.98,213.84
+2025-10-12,Pro Suite,Latin America,Partner Referral,16,3780.03,2775.07
+2025-10-13,Developer License,Latin America,Direct Sales,7,11954.12,1771.01
+2025-10-13,Pro Suite,Latin America,Direct Sales,8,13084.56,3860.83
+2025-10-15,Pro Suite,North America,Direct Sales,6,5495.41,3027.39
+2025-10-15,API Credits,Latin America,Direct Sales,19,1435.27,5064.14
+2025-10-16,Pro Suite,North America,Paid Search,7,10101.53,5732.94
+2025-10-16,Enterprise Cloud,Asia Pacific,Direct Sales,8,9911.2,2561.1
+2025-10-16,Enterprise Cloud,Europe,Direct Sales,6,10083.51,5659.21
+2025-10-17,Starter Kit,Europe,Organic Web,2,11150.58,4632.44
+2025-10-17,API Credits,Europe,Paid Search,2,12864.3,3753.36
+2025-10-20,Developer License,Europe,Organic Web,18,11045.46,4054.15
+2025-10-21,Pro Suite,Europe,Partner Referral,10,10384.39,4474.38
+2025-10-21,API Credits,Asia Pacific,Partner Referral,8,6981.17,5667.05
+2025-10-22,Developer License,North America,Paid Search,15,14010.08,878.22
+2025-10-23,Starter Kit,North America,Partner Referral,1,2095.82,2764.61
+2025-10-25,Enterprise Cloud,North America,Organic Web,9,1127.27,5306.62
+2025-10-26,Pro Suite,Latin America,Partner Referral,18,10085.22,5786.27
+2025-10-28,Pro Suite,Latin America,Direct Sales,2,9758.0,110.28
+2025-10-29,Starter Kit,Europe,Paid Search,2,8748.38,1664.89
+2025-10-31,Enterprise Cloud,Asia Pacific,Paid Search,1,9881.78,5987.03
+2025-10-31,Starter Kit,Europe,Paid Search,18,14458.24,4170.57
+2025-10-31,Enterprise Cloud,Latin America,Paid Search,18,9107.85,404.17
+2025-10-31,Enterprise Cloud,North America,Direct Sales,17,6294.13,1832.42
+2025-10-31,API Credits,Europe,Partner Referral,7,11625.78,3904.51
+2025-11-01,Starter Kit,North America,Partner Referral,3,9836.98,2860.08
+2025-11-02,Starter Kit,North America,Partner Referral,14,8005.51,1043.37
+2025-11-03,Pro Suite,Europe,Organic Web,8,1254.6,692.75
+2025-11-03,Starter Kit,Europe,Paid Search,3,11816.48,4583.32
+2025-11-04,Enterprise Cloud,Asia Pacific,Organic Web,7,3893.28,5738.48
+2025-11-04,Starter Kit,Asia Pacific,Partner Referral,4,4718.6,1642.18
+2025-11-05,Enterprise Cloud,North America,Direct Sales,8,14338.95,3930.73
+2025-11-06,Enterprise Cloud,Asia Pacific,Partner Referral,5,11664.58,1890.77
+2025-11-06,Starter Kit,Latin America,Partner Referral,2,1409.54,442.76
+2025-11-07,Starter Kit,North America,Paid Search,1,7787.29,3119.38
+2025-11-09,Developer License,Europe,Partner Referral,18,1375.22,5797.98
+2025-11-10,Enterprise Cloud,North America,Direct Sales,2,768.71,1563.63
+2025-11-10,Starter Kit,North America,Paid Search,6,5349.53,5109.57
+2025-11-11,Pro Suite,Latin America,Direct Sales,6,6714.95,1593.04
+2025-11-12,Pro Suite,North America,Organic Web,1,13375.82,4014.99
+2025-11-12,Pro Suite,Asia Pacific,Organic Web,3,11664.87,2412.24
+2025-11-13,Pro Suite,Asia Pacific,Paid Search,9,14777.85,2178.99
+2025-11-14,Pro Suite,Asia Pacific,Organic Web,2,1340.46,967.16
+2025-11-14,Developer License,North America,Partner Referral,15,9053.73,3368.37
+2025-11-14,Developer License,North America,Paid Search,4,7013.3,4081.38
+2025-11-15,Pro Suite,North America,Direct Sales,6,10041.78,2455.52
+2025-11-16,API Credits,Latin America,Direct Sales,5,10801.59,1353.46
+2025-11-17,Pro Suite,Asia Pacific,Direct Sales,2,12322.14,1823.41
+2025-11-18,Developer License,Asia Pacific,Partner Referral,18,6997.12,5742.96
+2025-11-19,API Credits,North America,Partner Referral,15,12886.25,328.77
+2025-11-19,Pro Suite,North America,Partner Referral,12,13431.05,4458.38
+2025-11-20,Enterprise Cloud,Latin America,Paid Search,4,6558.92,4753.53
+2025-11-21,Pro Suite,Europe,Organic Web,10,2175.5,2802.92
+2025-11-21,Enterprise Cloud,North America,Partner Referral,13,13662.48,4061.08
+2025-11-21,Starter Kit,Asia Pacific,Paid Search,5,8825.54,1215.21
+2025-11-22,Enterprise Cloud,Europe,Organic Web,12,2203.24,2349.92
+2025-11-22,Enterprise Cloud,Latin America,Organic Web,6,12653.42,4082.99
+2025-11-23,Pro Suite,Latin America,Partner Referral,15,12948.28,3694.81
+2025-11-23,API Credits,Europe,Paid Search,6,2403.54,2751.31
+2025-11-24,Developer License,Latin America,Partner Referral,15,2149.59,2091.85
+2025-11-25,Enterprise Cloud,Latin America,Paid Search,13,11115.12,3453.69
+2025-11-27,Pro Suite,Europe,Paid Search,3,11112.88,3570.6
+2025-11-27,Developer License,North America,Paid Search,15,1576.26,5405.49
+2025-12-02,Enterprise Cloud,North America,Paid Search,5,8662.23,1778.5
+2025-12-04,Enterprise Cloud,Latin America,Paid Search,5,5708.07,4519.51
+2025-12-04,Pro Suite,Latin America,Organic Web,14,10675.96,2474.88
+2025-12-04,Pro Suite,Europe,Paid Search,13,6856.15,5131.07
+2025-12-06,API Credits,Europe,Paid Search,12,5461.3,2778.21
+2025-12-06,Pro Suite,Latin America,Direct Sales,9,11512.72,5251.62
+2025-12-06,Pro Suite,North America,Direct Sales,5,12789.12,3968.32
+2025-12-07,Enterprise Cloud,Asia Pacific,Direct Sales,5,912.51,2869.17
+2025-12-08,Developer License,North America,Paid Search,13,11282.63,3961.25
+2025-12-08,API Credits,Europe,Direct Sales,11,12458.09,2773.31
+2025-12-08,Enterprise Cloud,Europe,Direct Sales,8,13259.76,1914.42
+2025-12-09,Pro Suite,Asia Pacific,Direct Sales,15,2930.25,2401.07
+2025-12-10,Enterprise Cloud,Europe,Paid Search,16,4868.02,3623.87
+2025-12-10,API Credits,Latin America,Organic Web,18,13800.11,4357.64
+2025-12-11,Starter Kit,Asia Pacific,Direct Sales,7,12276.01,5484.06
+2025-12-11,Developer License,Asia Pacific,Paid Search,13,9958.44,883.14
+2025-12-12,API Credits,North America,Paid Search,16,5340.68,163.74
+2025-12-12,Pro Suite,Asia Pacific,Paid Search,9,6142.12,1042.82
+2025-12-12,API Credits,Asia Pacific,Partner Referral,10,1656.26,2104.08
+2025-12-12,Enterprise Cloud,Asia Pacific,Partner Referral,17,1044.41,5885.4
+2025-12-12,Pro Suite,North America,Organic Web,2,8494.52,2811.37
+2025-12-14,Pro Suite,Europe,Direct Sales,1,7318.4,5737.72
+2025-12-15,Enterprise Cloud,North America,Organic Web,12,11934.25,4663.31
+2025-12-15,Enterprise Cloud,North America,Organic Web,15,7420.24,2611.04
+2025-12-15,Pro Suite,Latin America,Paid Search,10,11320.35,3092.09
+2025-12-15,Developer License,Asia Pacific,Partner Referral,9,1201.49,512.01
+2025-12-15,Pro Suite,Asia Pacific,Organic Web,19,12475.04,3896.43
+2025-12-16,Enterprise Cloud,North America,Organic Web,18,4333.29,2238.33
+2025-12-17,Enterprise Cloud,Asia Pacific,Partner Referral,12,14703.56,1582.76
+2025-12-18,Enterprise Cloud,North America,Direct Sales,4,3855.29,4598.94
+2025-12-18,Pro Suite,Europe,Paid Search,9,11049.46,2107.97
+2025-12-20,Enterprise Cloud,Asia Pacific,Organic Web,4,12360.23,2192.3
+2025-12-21,Developer License,Europe,Partner Referral,2,8484.38,75.96
+2025-12-21,Starter Kit,Europe,Direct Sales,2,10473.43,713.5
+2025-12-23,API Credits,North America,Direct Sales,5,2942.89,3289.67
+2025-12-25,API Credits,Europe,Partner Referral,14,4193.35,2343.8
+2025-12-25,Enterprise Cloud,Europe,Organic Web,16,3850.85,3626.39
+2025-12-26,Pro Suite,Europe,Paid Search,8,9883.53,1931.81
+2025-12-26,Enterprise Cloud,North America,Partner Referral,15,7723.74,4744.46
+2025-12-26,Enterprise Cloud,Europe,Direct Sales,8,6038.25,3098.56
+2025-12-26,Pro Suite,North America,Direct Sales,11,9445.02,2559.88
+2025-12-26,Enterprise Cloud,North America,Partner Referral,10,11695.32,2662.94
+2025-12-30,Pro Suite,North America,Organic Web,2,10267.37,3123.61
+2025-12-31,Enterprise Cloud,Europe,Paid Search,4,2637.65,4830.72
+2025-12-31,Starter Kit,Latin America,Organic Web,14,12588.21,1760.09

@@ -1,0 +1,451 @@
+Admission Date,Patient ID,Department,Insurance Provider,Length Of Stay Days,Billing Amount,Readmitted Within 30d
+2025-01-02,PAT-2429,Oncology,UnitedHealth,3,20871.7,No
+2025-01-02,PAT-2290,Pediatrics,Cigna,11,5648.65,Yes
+2025-01-06,PAT-2084,Cardiology,Cigna,6,33521.14,No
+2025-01-06,PAT-2294,Neurology,Aetna,7,42223.03,No
+2025-01-08,PAT-2115,Cardiology,Aetna,4,36412.75,No
+2025-01-08,PAT-2314,Oncology,Aetna,3,15041.23,No
+2025-01-10,PAT-2275,Neurology,Cigna,3,11960.18,No
+2025-01-11,PAT-2208,Cardiology,Self-Pay,11,35908.65,No
+2025-01-12,PAT-2340,Neurology,Self-Pay,9,3295.16,No
+2025-01-12,PAT-2210,Orthopedics,Aetna,6,32199.0,Yes
+2025-01-15,PAT-2228,Orthopedics,Cigna,7,18891.57,No
+2025-01-16,PAT-2237,Orthopedics,UnitedHealth,1,17161.04,No
+2025-01-16,PAT-2064,General Surgery,Medicare,12,43508.84,No
+2025-01-18,PAT-2274,Oncology,BlueCross,1,21394.58,Yes
+2025-01-19,PAT-2242,Orthopedics,Self-Pay,2,2642.59,No
+2025-01-19,PAT-2067,Oncology,Medicare,2,9993.89,No
+2025-01-20,PAT-2063,Pediatrics,BlueCross,1,28354.7,No
+2025-01-22,PAT-2367,Oncology,Cigna,13,7300.46,No
+2025-01-23,PAT-2133,Cardiology,Self-Pay,3,42516.75,Yes
+2025-01-23,PAT-2359,General Surgery,Self-Pay,13,13260.16,No
+2025-01-23,PAT-2021,Pediatrics,UnitedHealth,1,35622.37,No
+2025-01-23,PAT-2215,Pediatrics,Aetna,1,12769.24,No
+2025-01-24,PAT-2197,Cardiology,Cigna,11,44004.05,No
+2025-01-25,PAT-2199,Orthopedics,Medicare,11,32334.77,No
+2025-01-26,PAT-2249,Orthopedics,Aetna,10,2341.5,No
+2025-01-29,PAT-2235,Orthopedics,Cigna,13,16841.28,No
+2025-01-31,PAT-2226,General Surgery,Medicare,10,30435.99,No
+2025-01-31,PAT-2029,Neurology,Aetna,1,39606.03,No
+2025-02-02,PAT-2015,Cardiology,Self-Pay,2,30711.55,No
+2025-02-03,PAT-2129,Cardiology,BlueCross,6,41961.28,No
+2025-02-03,PAT-2231,Cardiology,Medicare,7,24782.0,No
+2025-02-04,PAT-2211,Pediatrics,Self-Pay,11,8607.65,No
+2025-02-05,PAT-2385,Oncology,Medicare,8,45210.58,No
+2025-02-06,PAT-2045,Orthopedics,BlueCross,1,26217.15,No
+2025-02-07,PAT-2069,General Surgery,Medicare,11,16945.88,No
+2025-02-08,PAT-2119,Orthopedics,Cigna,4,23523.22,No
+2025-02-08,PAT-2390,General Surgery,Self-Pay,1,9101.41,No
+2025-02-09,PAT-2171,Cardiology,Medicare,12,2764.36,No
+2025-02-12,PAT-2432,Oncology,Self-Pay,2,31013.83,No
+2025-02-12,PAT-2358,Neurology,Aetna,13,24153.27,Yes
+2025-02-13,PAT-2142,General Surgery,UnitedHealth,4,25998.18,No
+2025-02-14,PAT-2150,Oncology,Self-Pay,10,40410.98,No
+2025-02-15,PAT-2324,Cardiology,Medicare,11,30555.69,No
+2025-02-15,PAT-2134,Oncology,BlueCross,11,25901.61,No
+2025-02-15,PAT-2112,Cardiology,UnitedHealth,7,8100.8,No
+2025-02-15,PAT-2307,Cardiology,Medicare,6,40145.2,No
+2025-02-16,PAT-2039,Orthopedics,Medicare,5,44098.9,No
+2025-02-17,PAT-2338,Neurology,BlueCross,5,19313.94,No
+2025-02-18,PAT-2192,Pediatrics,BlueCross,13,7804.7,No
+2025-02-19,PAT-2424,Oncology,BlueCross,10,23123.99,No
+2025-02-20,PAT-2374,Pediatrics,BlueCross,7,3507.22,No
+2025-02-21,PAT-2281,Oncology,Aetna,1,17787.04,No
+2025-02-21,PAT-2393,General Surgery,BlueCross,6,29126.64,No
+2025-02-21,PAT-2048,Oncology,Self-Pay,3,35395.78,No
+2025-02-23,PAT-2128,Oncology,Self-Pay,9,33623.1,No
+2025-02-25,PAT-2303,Pediatrics,Self-Pay,10,4346.86,Yes
+2025-02-25,PAT-2414,General Surgery,Aetna,10,3873.81,No
+2025-02-26,PAT-2346,General Surgery,Self-Pay,10,39699.92,No
+2025-02-26,PAT-2423,Cardiology,Aetna,9,7236.21,No
+2025-03-02,PAT-2248,Pediatrics,Aetna,12,44453.42,No
+2025-03-02,PAT-2265,Pediatrics,Medicare,8,6596.09,No
+2025-03-02,PAT-2443,Neurology,UnitedHealth,1,33412.11,Yes
+2025-03-03,PAT-2042,Cardiology,Medicare,9,19655.17,No
+2025-03-05,PAT-2059,Pediatrics,UnitedHealth,12,47879.39,No
+2025-03-06,PAT-2438,Neurology,Cigna,5,36649.55,No
+2025-03-07,PAT-2318,Orthopedics,Cigna,6,12027.12,No
+2025-03-08,PAT-2041,Neurology,Self-Pay,6,32639.27,No
+2025-03-11,PAT-2105,Orthopedics,Aetna,11,8908.79,No
+2025-03-12,PAT-2425,Pediatrics,Cigna,3,29200.72,No
+2025-03-12,PAT-2250,Pediatrics,Aetna,8,28410.69,No
+2025-03-14,PAT-2078,Neurology,Aetna,11,36038.82,No
+2025-03-16,PAT-2230,Neurology,Aetna,1,34850.27,No
+2025-03-18,PAT-2330,Oncology,UnitedHealth,12,1595.53,No
+2025-03-18,PAT-2238,Oncology,Aetna,5,38794.65,No
+2025-03-18,PAT-2244,Orthopedics,BlueCross,4,1808.88,No
+2025-03-20,PAT-2319,Oncology,Self-Pay,3,7582.17,No
+2025-03-20,PAT-2077,Cardiology,BlueCross,1,16201.09,No
+2025-03-20,PAT-2372,Pediatrics,Self-Pay,13,20524.24,No
+2025-03-21,PAT-2219,Neurology,Self-Pay,6,42937.19,No
+2025-03-22,PAT-2240,Oncology,Self-Pay,5,25452.62,No
+2025-03-23,PAT-2426,General Surgery,Medicare,8,2649.42,Yes
+2025-03-23,PAT-2448,Cardiology,Self-Pay,10,22412.65,Yes
+2025-03-23,PAT-2174,General Surgery,BlueCross,10,22132.37,No
+2025-03-24,PAT-2216,Oncology,Aetna,12,36223.96,No
+2025-03-24,PAT-2177,General Surgery,BlueCross,1,11648.35,Yes
+2025-03-25,PAT-2431,Pediatrics,Self-Pay,1,47188.13,No
+2025-03-26,PAT-2027,General Surgery,BlueCross,11,44249.96,No
+2025-03-27,PAT-2288,Cardiology,BlueCross,1,16922.28,No
+2025-03-27,PAT-2320,Oncology,Aetna,1,10405.02,No
+2025-03-27,PAT-2047,Cardiology,UnitedHealth,10,20736.58,No
+2025-03-27,PAT-2100,Pediatrics,Cigna,13,2317.78,No
+2025-03-29,PAT-2445,Cardiology,Self-Pay,7,21729.84,No
+2025-03-29,PAT-2428,Cardiology,BlueCross,13,2735.03,No
+2025-03-29,PAT-2369,Cardiology,Aetna,7,19675.48,Yes
+2025-03-30,PAT-2298,Neurology,BlueCross,4,33579.23,Yes
+2025-03-31,PAT-2074,Neurology,UnitedHealth,2,19788.35,No
+2025-04-01,PAT-2049,General Surgery,Self-Pay,1,25623.16,No
+2025-04-01,PAT-2326,Cardiology,Cigna,1,46743.17,No
+2025-04-02,PAT-2276,Orthopedics,UnitedHealth,3,25346.27,Yes
+2025-04-02,PAT-2266,Orthopedics,Cigna,7,6207.19,No
+2025-04-02,PAT-2104,Pediatrics,BlueCross,9,13494.05,No
+2025-04-02,PAT-2420,Pediatrics,Self-Pay,12,3006.09,No
+2025-04-03,PAT-2203,General Surgery,Self-Pay,12,35642.63,No
+2025-04-03,PAT-2285,Neurology,Self-Pay,10,22336.7,No
+2025-04-03,PAT-2009,Pediatrics,Self-Pay,10,40027.33,No
+2025-04-04,PAT-2435,Cardiology,UnitedHealth,13,25360.4,No
+2025-04-04,PAT-2204,Orthopedics,BlueCross,5,15297.62,No
+2025-04-04,PAT-2337,Cardiology,BlueCross,13,31796.81,No
+2025-04-06,PAT-2097,Cardiology,UnitedHealth,11,16485.91,No
+2025-04-06,PAT-2080,Neurology,UnitedHealth,4,21699.98,No
+2025-04-09,PAT-2038,Oncology,Medicare,12,34633.34,No
+2025-04-10,PAT-2073,Oncology,Medicare,1,43409.67,No
+2025-04-12,PAT-2243,Oncology,BlueCross,11,42346.76,No
+2025-04-13,PAT-2251,Pediatrics,Self-Pay,5,26890.04,No
+2025-04-13,PAT-2082,Pediatrics,BlueCross,8,27682.39,No
+2025-04-14,PAT-2124,Cardiology,UnitedHealth,1,24616.77,No
+2025-04-15,PAT-2427,Cardiology,BlueCross,2,14065.12,No
+2025-04-15,PAT-2072,Cardiology,Cigna,4,9569.76,No
+2025-04-16,PAT-2381,General Surgery,Cigna,5,31518.77,No
+2025-04-18,PAT-2151,General Surgery,BlueCross,8,4586.32,No
+2025-04-19,PAT-2418,Oncology,UnitedHealth,9,40117.66,No
+2025-04-19,PAT-2043,Pediatrics,Cigna,1,1260.11,No
+2025-04-19,PAT-2028,Pediatrics,UnitedHealth,12,3781.33,No
+2025-04-23,PAT-2262,Neurology,UnitedHealth,3,6958.84,No
+2025-04-23,PAT-2131,Cardiology,Cigna,5,37225.34,No
+2025-04-23,PAT-2325,Cardiology,BlueCross,12,16006.37,No
+2025-04-23,PAT-2141,Neurology,UnitedHealth,9,45077.36,No
+2025-04-24,PAT-2062,General Surgery,UnitedHealth,1,9468.73,No
+2025-04-24,PAT-2010,Oncology,BlueCross,4,34144.24,Yes
+2025-04-25,PAT-2272,Oncology,Medicare,11,3844.93,No
+2025-04-25,PAT-2335,General Surgery,UnitedHealth,1,26262.43,Yes
+2025-04-26,PAT-2087,Oncology,Cigna,8,42837.37,No
+2025-04-26,PAT-2419,Oncology,Medicare,3,8234.54,No
+2025-04-26,PAT-2196,Neurology,BlueCross,2,30864.17,No
+2025-04-28,PAT-2297,Cardiology,UnitedHealth,7,29546.72,No
+2025-04-28,PAT-2137,General Surgery,UnitedHealth,3,36267.96,No
+2025-04-29,PAT-2046,Orthopedics,Self-Pay,10,32796.08,Yes
+2025-04-30,PAT-2311,Cardiology,UnitedHealth,13,15390.67,No
+2025-05-01,PAT-2351,Orthopedics,BlueCross,2,8243.19,No
+2025-05-01,PAT-2102,Pediatrics,Cigna,11,16769.9,No
+2025-05-02,PAT-2085,Orthopedics,UnitedHealth,2,25228.73,No
+2025-05-03,PAT-2060,Neurology,BlueCross,4,14354.26,No
+2025-05-03,PAT-2127,Orthopedics,Aetna,3,31283.14,No
+2025-05-04,PAT-2241,Orthopedics,BlueCross,4,22517.48,No
+2025-05-04,PAT-2321,Orthopedics,Cigna,6,3789.56,No
+2025-05-05,PAT-2371,Oncology,Medicare,6,42414.45,No
+2025-05-07,PAT-2270,Orthopedics,Self-Pay,5,2178.57,No
+2025-05-07,PAT-2200,Pediatrics,Self-Pay,1,4883.09,No
+2025-05-08,PAT-2143,Oncology,BlueCross,3,29977.46,No
+2025-05-08,PAT-2402,Orthopedics,Cigna,1,31199.08,Yes
+2025-05-08,PAT-2224,Cardiology,Medicare,4,34583.46,No
+2025-05-09,PAT-2191,Cardiology,Cigna,2,25884.96,Yes
+2025-05-09,PAT-2449,Neurology,Medicare,5,38274.49,No
+2025-05-10,PAT-2007,General Surgery,Self-Pay,10,37682.08,No
+2025-05-11,PAT-2139,Cardiology,Medicare,5,4642.76,No
+2025-05-13,PAT-2106,Pediatrics,Cigna,13,33451.91,No
+2025-05-13,PAT-2437,General Surgery,BlueCross,7,44336.81,Yes
+2025-05-14,PAT-2365,General Surgery,Medicare,8,3266.01,No
+2025-05-15,PAT-2136,Cardiology,BlueCross,1,28244.65,Yes
+2025-05-16,PAT-2057,Cardiology,BlueCross,8,11000.23,No
+2025-05-17,PAT-2108,Orthopedics,Self-Pay,5,10567.22,No
+2025-05-18,PAT-2188,General Surgery,Aetna,6,21070.0,No
+2025-05-18,PAT-2421,Orthopedics,Self-Pay,3,42331.64,No
+2025-05-19,PAT-2391,General Surgery,Cigna,9,39660.31,No
+2025-05-19,PAT-2277,General Surgery,BlueCross,5,13063.51,No
+2025-05-20,PAT-2018,Neurology,BlueCross,12,24969.6,No
+2025-05-21,PAT-2214,Orthopedics,BlueCross,2,21106.68,No
+2025-05-21,PAT-2327,Orthopedics,Cigna,13,10265.96,No
+2025-05-21,PAT-2396,Pediatrics,BlueCross,10,6904.42,No
+2025-05-21,PAT-2034,Orthopedics,Self-Pay,8,36127.49,No
+2025-05-21,PAT-2008,Pediatrics,Self-Pay,5,13021.03,No
+2025-05-23,PAT-2012,Orthopedics,Self-Pay,7,20337.79,No
+2025-05-24,PAT-2308,General Surgery,UnitedHealth,8,24319.75,No
+2025-05-24,PAT-2095,Orthopedics,Medicare,13,32432.03,No
+2025-05-25,PAT-2287,Neurology,Cigna,4,45383.64,No
+2025-05-25,PAT-2065,Cardiology,UnitedHealth,12,16184.48,No
+2025-05-25,PAT-2006,Neurology,Cigna,4,3384.85,No
+2025-05-25,PAT-2166,Pediatrics,Cigna,11,2653.46,No
+2025-05-26,PAT-2397,Cardiology,Self-Pay,1,25056.63,No
+2025-05-28,PAT-2442,Oncology,BlueCross,11,11075.11,No
+2025-05-29,PAT-2306,Orthopedics,Medicare,3,29960.52,No
+2025-05-29,PAT-2295,Orthopedics,Cigna,5,8607.8,No
+2025-05-29,PAT-2444,Pediatrics,UnitedHealth,5,11483.02,No
+2025-05-30,PAT-2323,Pediatrics,Aetna,9,1630.6,Yes
+2025-06-01,PAT-2005,Pediatrics,Aetna,2,9007.63,Yes
+2025-06-01,PAT-2332,Neurology,Cigna,3,2697.34,No
+2025-06-01,PAT-2400,Cardiology,BlueCross,6,23446.8,Yes
+2025-06-02,PAT-2025,Oncology,Cigna,10,24614.28,No
+2025-06-02,PAT-2370,Oncology,BlueCross,8,24235.72,No
+2025-06-02,PAT-2268,Orthopedics,BlueCross,1,41193.81,No
+2025-06-02,PAT-2289,Oncology,Medicare,2,27440.5,No
+2025-06-03,PAT-2433,Neurology,UnitedHealth,8,8764.64,No
+2025-06-03,PAT-2299,Orthopedics,UnitedHealth,5,19127.65,Yes
+2025-06-04,PAT-2360,Neurology,Self-Pay,1,42614.57,No
+2025-06-04,PAT-2055,Cardiology,UnitedHealth,2,6701.68,No
+2025-06-05,PAT-2035,Oncology,BlueCross,1,1591.0,No
+2025-06-05,PAT-2341,Pediatrics,Aetna,1,3729.43,No
+2025-06-06,PAT-2254,Oncology,Aetna,12,31725.96,No
+2025-06-07,PAT-2145,Orthopedics,Self-Pay,1,5583.17,No
+2025-06-08,PAT-2223,Pediatrics,UnitedHealth,11,19523.94,Yes
+2025-06-09,PAT-2158,General Surgery,Medicare,2,33470.2,No
+2025-06-10,PAT-2125,Pediatrics,BlueCross,13,17931.62,No
+2025-06-10,PAT-2301,Cardiology,UnitedHealth,11,27797.34,No
+2025-06-11,PAT-2122,General Surgery,Medicare,6,30284.53,No
+2025-06-12,PAT-2088,Pediatrics,BlueCross,8,21812.34,No
+2025-06-13,PAT-2293,Cardiology,Aetna,3,10850.29,No
+2025-06-13,PAT-2193,Cardiology,Cigna,7,1236.95,Yes
+2025-06-14,PAT-2264,General Surgery,BlueCross,10,15952.14,No
+2025-06-15,PAT-2068,Orthopedics,UnitedHealth,3,30440.42,No
+2025-06-16,PAT-2300,Orthopedics,Medicare,5,41873.84,No
+2025-06-16,PAT-2044,Orthopedics,Medicare,9,6823.45,Yes
+2025-06-19,PAT-2389,Pediatrics,Aetna,5,37354.06,No
+2025-06-19,PAT-2017,Neurology,Self-Pay,5,10027.99,No
+2025-06-20,PAT-2184,Orthopedics,Medicare,7,36217.58,No
+2025-06-21,PAT-2342,Cardiology,UnitedHealth,13,22598.38,No
+2025-06-24,PAT-2163,Oncology,Aetna,13,31372.89,Yes
+2025-06-25,PAT-2079,Pediatrics,Aetna,7,46653.09,No
+2025-06-25,PAT-2376,General Surgery,UnitedHealth,2,12656.63,No
+2025-06-26,PAT-2186,Orthopedics,UnitedHealth,3,7738.92,No
+2025-06-26,PAT-2344,Pediatrics,BlueCross,10,42749.87,No
+2025-06-26,PAT-2155,General Surgery,Aetna,4,45004.53,No
+2025-06-27,PAT-2121,Cardiology,Cigna,6,2995.32,No
+2025-06-28,PAT-2117,Orthopedics,Cigna,9,34724.03,No
+2025-06-29,PAT-2183,Cardiology,UnitedHealth,3,1450.33,No
+2025-06-30,PAT-2070,Orthopedics,Cigna,9,11084.55,No
+2025-06-30,PAT-2175,General Surgery,BlueCross,13,4587.22,No
+2025-07-01,PAT-2091,Orthopedics,BlueCross,12,24066.71,No
+2025-07-03,PAT-2101,General Surgery,BlueCross,10,22261.13,No
+2025-07-03,PAT-2399,General Surgery,UnitedHealth,7,18017.06,No
+2025-07-04,PAT-2350,Oncology,Cigna,11,19927.27,No
+2025-07-05,PAT-2260,Neurology,Medicare,1,13530.56,No
+2025-07-05,PAT-2361,Neurology,BlueCross,2,28204.55,No
+2025-07-06,PAT-2110,Orthopedics,Medicare,5,28896.61,No
+2025-07-07,PAT-2407,Orthopedics,Cigna,13,30447.37,No
+2025-07-08,PAT-2138,Pediatrics,Medicare,4,46347.51,No
+2025-07-09,PAT-2162,Neurology,UnitedHealth,5,36336.98,No
+2025-07-09,PAT-2225,General Surgery,Cigna,3,32061.01,No
+2025-07-10,PAT-2339,Orthopedics,BlueCross,6,31490.0,No
+2025-07-10,PAT-2157,General Surgery,Self-Pay,5,20595.32,No
+2025-07-11,PAT-2114,Neurology,Self-Pay,11,39216.45,Yes
+2025-07-12,PAT-2382,General Surgery,UnitedHealth,1,34524.97,No
+2025-07-12,PAT-2271,Orthopedics,Self-Pay,10,11640.61,Yes
+2025-07-13,PAT-2236,Neurology,Self-Pay,12,2404.74,No
+2025-07-13,PAT-2257,Neurology,Medicare,3,45044.74,No
+2025-07-14,PAT-2282,General Surgery,Self-Pay,4,19037.67,Yes
+2025-07-15,PAT-2233,General Surgery,Medicare,4,12850.56,Yes
+2025-07-17,PAT-2412,Pediatrics,Aetna,2,4160.69,No
+2025-07-19,PAT-2181,General Surgery,Aetna,4,27129.93,No
+2025-07-20,PAT-2020,Neurology,Cigna,1,39136.26,Yes
+2025-07-20,PAT-2401,Pediatrics,Medicare,10,18212.48,No
+2025-07-21,PAT-2353,Orthopedics,UnitedHealth,2,38716.87,No
+2025-07-21,PAT-2322,General Surgery,Cigna,1,10472.52,No
+2025-07-22,PAT-2247,Cardiology,UnitedHealth,1,17202.53,No
+2025-07-22,PAT-2349,Cardiology,UnitedHealth,3,16016.99,No
+2025-07-22,PAT-2416,Orthopedics,Cigna,1,25995.06,No
+2025-07-23,PAT-2386,Oncology,UnitedHealth,4,13399.19,No
+2025-07-23,PAT-2169,Orthopedics,Medicare,2,26349.35,No
+2025-07-23,PAT-2053,Orthopedics,BlueCross,13,35125.92,Yes
+2025-07-24,PAT-2296,Oncology,Medicare,9,22524.93,No
+2025-07-25,PAT-2283,Orthopedics,UnitedHealth,13,20474.69,Yes
+2025-07-27,PAT-2066,Cardiology,BlueCross,4,32567.89,No
+2025-07-28,PAT-2202,Neurology,Aetna,13,8872.0,No
+2025-07-29,PAT-2094,General Surgery,BlueCross,12,47232.35,Yes
+2025-07-31,PAT-2140,Cardiology,BlueCross,10,3700.74,No
+2025-08-01,PAT-2441,General Surgery,Medicare,6,10575.9,No
+2025-08-01,PAT-2170,Orthopedics,Aetna,10,40548.74,No
+2025-08-04,PAT-2357,Pediatrics,Aetna,7,34243.52,No
+2025-08-04,PAT-2375,Neurology,Cigna,12,1309.86,No
+2025-08-06,PAT-2329,Neurology,Medicare,1,17946.97,No
+2025-08-07,PAT-2152,General Surgery,Aetna,12,42435.72,No
+2025-08-08,PAT-2213,Neurology,Aetna,9,7199.2,No
+2025-08-08,PAT-2313,Pediatrics,UnitedHealth,12,38184.16,No
+2025-08-09,PAT-2111,Neurology,Cigna,10,4580.33,No
+2025-08-11,PAT-2013,Oncology,Cigna,10,32180.19,Yes
+2025-08-12,PAT-2083,Pediatrics,Medicare,13,8558.63,No
+2025-08-12,PAT-2022,Pediatrics,Medicare,1,32265.45,No
+2025-08-13,PAT-2269,Orthopedics,UnitedHealth,3,13225.37,No
+2025-08-13,PAT-2206,Pediatrics,Cigna,3,29253.35,No
+2025-08-14,PAT-2089,Pediatrics,Self-Pay,9,43375.11,No
+2025-08-14,PAT-2352,Orthopedics,Medicare,4,24767.08,No
+2025-08-15,PAT-2380,Neurology,BlueCross,1,20432.96,Yes
+2025-08-16,PAT-2212,Pediatrics,Cigna,1,33403.91,No
+2025-08-16,PAT-2156,Pediatrics,Cigna,11,32936.13,Yes
+2025-08-16,PAT-2304,Cardiology,Cigna,9,22947.47,No
+2025-08-17,PAT-2245,Orthopedics,Self-Pay,3,45414.3,Yes
+2025-08-17,PAT-2030,Neurology,Self-Pay,5,2964.24,No
+2025-08-17,PAT-2217,Oncology,Medicare,7,13463.24,No
+2025-08-18,PAT-2408,Neurology,BlueCross,7,35311.14,No
+2025-08-18,PAT-2090,Cardiology,Cigna,6,36331.31,No
+2025-08-20,PAT-2014,Oncology,Aetna,10,22955.2,No
+2025-08-20,PAT-2167,Orthopedics,Cigna,13,27135.68,No
+2025-08-21,PAT-2000,Oncology,Self-Pay,6,19624.31,No
+2025-08-22,PAT-2201,Oncology,Medicare,7,29455.74,No
+2025-08-24,PAT-2086,Oncology,UnitedHealth,1,31648.39,No
+2025-08-25,PAT-2363,Oncology,UnitedHealth,8,13794.8,No
+2025-08-25,PAT-2187,Oncology,Self-Pay,13,5698.69,No
+2025-08-26,PAT-2309,Pediatrics,Cigna,11,6744.01,Yes
+2025-08-26,PAT-2054,Oncology,Aetna,2,43074.86,No
+2025-08-27,PAT-2334,Oncology,BlueCross,7,42949.08,No
+2025-08-28,PAT-2031,General Surgery,Cigna,9,18383.54,No
+2025-08-28,PAT-2182,Oncology,Cigna,13,44762.98,No
+2025-08-28,PAT-2056,Cardiology,Aetna,9,47542.41,Yes
+2025-08-30,PAT-2130,General Surgery,UnitedHealth,6,17221.24,No
+2025-09-01,PAT-2099,General Surgery,Self-Pay,10,3836.4,Yes
+2025-09-03,PAT-2379,Oncology,BlueCross,7,6524.06,No
+2025-09-06,PAT-2362,General Surgery,BlueCross,1,11549.71,Yes
+2025-09-06,PAT-2092,Oncology,Aetna,1,29430.8,No
+2025-09-10,PAT-2378,Pediatrics,Medicare,5,6875.2,No
+2025-09-10,PAT-2405,Pediatrics,UnitedHealth,4,19049.93,No
+2025-09-11,PAT-2061,General Surgery,UnitedHealth,13,32463.31,No
+2025-09-14,PAT-2440,General Surgery,Medicare,9,34389.66,No
+2025-09-16,PAT-2410,Cardiology,Self-Pay,10,14251.21,No
+2025-09-17,PAT-2292,Oncology,Self-Pay,6,20550.2,No
+2025-09-19,PAT-2273,Cardiology,Medicare,12,6038.88,No
+2025-09-19,PAT-2179,Cardiology,Medicare,8,21131.8,No
+2025-09-23,PAT-2406,General Surgery,Cigna,5,7792.65,No
+2025-09-24,PAT-2159,Oncology,UnitedHealth,1,17298.25,No
+2025-09-24,PAT-2387,General Surgery,Cigna,4,41136.62,No
+2025-09-25,PAT-2388,Neurology,Medicare,2,41611.4,No
+2025-09-27,PAT-2302,General Surgery,Self-Pay,5,21768.96,No
+2025-09-27,PAT-2023,Cardiology,Self-Pay,6,6506.52,No
+2025-09-28,PAT-2417,Orthopedics,Aetna,10,32525.5,Yes
+2025-09-28,PAT-2409,Neurology,UnitedHealth,8,44813.52,No
+2025-09-29,PAT-2180,Orthopedics,Cigna,3,47322.53,No
+2025-09-29,PAT-2310,Neurology,UnitedHealth,9,1838.34,No
+2025-09-30,PAT-2146,Cardiology,Aetna,13,37146.58,Yes
+2025-10-02,PAT-2258,Oncology,BlueCross,5,8899.79,No
+2025-10-02,PAT-2316,Neurology,Aetna,4,20908.36,No
+2025-10-02,PAT-2172,Pediatrics,BlueCross,8,18364.0,No
+2025-10-03,PAT-2116,Pediatrics,Self-Pay,7,36455.05,No
+2025-10-03,PAT-2016,Cardiology,Self-Pay,1,22241.23,No
+2025-10-04,PAT-2194,General Surgery,Cigna,2,39114.56,No
+2025-10-05,PAT-2447,Neurology,Self-Pay,8,37888.98,No
+2025-10-05,PAT-2113,General Surgery,Cigna,4,4627.89,No
+2025-10-06,PAT-2107,Neurology,Cigna,3,25281.93,Yes
+2025-10-07,PAT-2207,Neurology,Medicare,1,9215.6,No
+2025-10-11,PAT-2011,Orthopedics,Medicare,2,45457.52,No
+2025-10-13,PAT-2267,Cardiology,Aetna,2,34870.73,No
+2025-10-14,PAT-2403,Oncology,Aetna,1,43378.93,No
+2025-10-14,PAT-2126,Cardiology,Self-Pay,11,14183.57,No
+2025-10-14,PAT-2284,Cardiology,UnitedHealth,13,35250.71,No
+2025-10-14,PAT-2394,Neurology,Aetna,2,16981.06,No
+2025-10-16,PAT-2328,General Surgery,Medicare,6,17384.78,No
+2025-10-16,PAT-2050,Neurology,Self-Pay,3,4671.45,No
+2025-10-16,PAT-2395,Pediatrics,Cigna,10,13485.4,No
+2025-10-17,PAT-2221,Cardiology,UnitedHealth,11,29927.99,No
+2025-10-17,PAT-2439,Pediatrics,Aetna,3,35443.81,No
+2025-10-17,PAT-2164,Orthopedics,UnitedHealth,9,17827.56,No
+2025-10-19,PAT-2003,Oncology,UnitedHealth,5,28854.87,No
+2025-10-19,PAT-2392,General Surgery,Medicare,5,37200.93,No
+2025-10-20,PAT-2239,Oncology,Aetna,3,43193.57,No
+2025-10-20,PAT-2195,Pediatrics,BlueCross,2,5298.49,No
+2025-10-20,PAT-2120,Pediatrics,BlueCross,4,31258.62,No
+2025-10-20,PAT-2364,Cardiology,Self-Pay,5,38786.63,No
+2025-10-22,PAT-2185,Pediatrics,UnitedHealth,9,43462.77,No
+2025-10-23,PAT-2343,Neurology,UnitedHealth,4,26922.32,No
+2025-10-24,PAT-2246,General Surgery,Aetna,13,24095.32,No
+2025-10-25,PAT-2052,Oncology,Aetna,11,40511.92,No
+2025-10-25,PAT-2436,Neurology,Self-Pay,2,8395.47,No
+2025-10-26,PAT-2036,General Surgery,Aetna,8,9090.44,No
+2025-10-26,PAT-2411,Pediatrics,Self-Pay,7,45669.88,No
+2025-10-27,PAT-2075,Oncology,BlueCross,5,12679.07,No
+2025-10-29,PAT-2384,General Surgery,Self-Pay,13,4924.73,No
+2025-10-30,PAT-2422,Cardiology,UnitedHealth,10,15938.88,No
+2025-10-30,PAT-2178,Orthopedics,Cigna,7,44364.0,No
+2025-11-05,PAT-2286,Pediatrics,Self-Pay,10,41294.96,No
+2025-11-06,PAT-2033,Neurology,BlueCross,1,8131.12,No
+2025-11-07,PAT-2198,Cardiology,Aetna,1,10964.91,No
+2025-11-07,PAT-2404,Orthopedics,BlueCross,8,8871.47,No
+2025-11-07,PAT-2190,Pediatrics,UnitedHealth,6,26583.69,Yes
+2025-11-08,PAT-2135,Orthopedics,BlueCross,5,25425.08,No
+2025-11-09,PAT-2229,Cardiology,BlueCross,9,6017.88,No
+2025-11-09,PAT-2263,General Surgery,UnitedHealth,10,47361.18,Yes
+2025-11-10,PAT-2109,Cardiology,BlueCross,13,16156.79,No
+2025-11-10,PAT-2398,General Surgery,Aetna,4,28590.21,No
+2025-11-11,PAT-2154,Orthopedics,BlueCross,12,28951.69,No
+2025-11-11,PAT-2147,Oncology,BlueCross,10,36170.11,No
+2025-11-12,PAT-2383,Neurology,BlueCross,12,9551.49,No
+2025-11-14,PAT-2132,Neurology,BlueCross,11,27471.45,No
+2025-11-14,PAT-2153,Pediatrics,Aetna,1,13211.77,No
+2025-11-14,PAT-2093,General Surgery,UnitedHealth,9,16437.2,No
+2025-11-15,PAT-2336,Pediatrics,Aetna,1,26640.27,No
+2025-11-15,PAT-2415,Pediatrics,Self-Pay,12,43028.63,No
+2025-11-16,PAT-2176,Pediatrics,Aetna,9,45853.36,No
+2025-11-17,PAT-2366,Cardiology,UnitedHealth,3,47629.91,No
+2025-11-19,PAT-2333,Oncology,Aetna,6,45200.42,No
+2025-11-19,PAT-2173,Cardiology,Cigna,11,12294.89,No
+2025-11-19,PAT-2413,Orthopedics,BlueCross,4,29421.05,No
+2025-11-20,PAT-2446,Oncology,BlueCross,4,37797.69,No
+2025-11-20,PAT-2259,Neurology,BlueCross,4,12131.56,No
+2025-11-22,PAT-2252,General Surgery,Self-Pay,4,11464.19,No
+2025-11-22,PAT-2161,General Surgery,Aetna,6,47844.78,No
+2025-11-22,PAT-2261,Pediatrics,Aetna,12,2969.98,No
+2025-11-23,PAT-2434,Orthopedics,Aetna,9,43593.75,Yes
+2025-11-23,PAT-2189,Cardiology,BlueCross,8,44896.17,Yes
+2025-11-23,PAT-2040,Orthopedics,BlueCross,8,34217.24,No
+2025-11-23,PAT-2205,Neurology,Self-Pay,11,22886.7,No
+2025-11-25,PAT-2209,Cardiology,Cigna,10,15363.57,No
+2025-11-26,PAT-2354,Orthopedics,Self-Pay,1,21863.79,No
+2025-11-27,PAT-2234,Orthopedics,Medicare,7,16383.71,No
+2025-11-27,PAT-2123,Neurology,BlueCross,7,37604.68,No
+2025-11-27,PAT-2222,Orthopedics,Aetna,4,5305.19,No
+2025-11-28,PAT-2076,Pediatrics,Aetna,10,22185.49,Yes
+2025-11-28,PAT-2103,Cardiology,UnitedHealth,12,21712.37,No
+2025-11-29,PAT-2278,Pediatrics,Cigna,3,45217.15,No
+2025-11-29,PAT-2026,Orthopedics,Self-Pay,13,43043.86,No
+2025-11-29,PAT-2002,Cardiology,Self-Pay,6,4064.94,No
+2025-11-30,PAT-2118,Cardiology,Medicare,11,32527.24,No
+2025-11-30,PAT-2331,Orthopedics,Medicare,7,40474.93,No
+2025-12-03,PAT-2305,Orthopedics,Aetna,10,39610.44,No
+2025-12-03,PAT-2051,Cardiology,Cigna,12,10186.36,No
+2025-12-06,PAT-2149,Orthopedics,Self-Pay,7,15532.0,No
+2025-12-06,PAT-2348,Orthopedics,Medicare,13,19643.11,No
+2025-12-06,PAT-2280,Oncology,Self-Pay,9,27726.53,No
+2025-12-06,PAT-2312,Pediatrics,Medicare,7,33865.95,No
+2025-12-07,PAT-2345,Orthopedics,Aetna,8,6098.12,No
+2025-12-08,PAT-2291,Neurology,Aetna,1,10581.95,No
+2025-12-09,PAT-2347,Oncology,BlueCross,9,11030.22,No
+2025-12-10,PAT-2315,Orthopedics,UnitedHealth,1,24396.6,Yes
+2025-12-10,PAT-2218,Cardiology,Cigna,6,42464.37,Yes
+2025-12-11,PAT-2081,Oncology,Medicare,6,41496.36,No
+2025-12-11,PAT-2096,Neurology,Medicare,3,3252.03,No
+2025-12-11,PAT-2037,Orthopedics,BlueCross,1,28381.29,No
+2025-12-11,PAT-2004,General Surgery,Cigna,11,47495.34,No
+2025-12-12,PAT-2098,Orthopedics,Cigna,6,30371.12,No
+2025-12-12,PAT-2373,General Surgery,Self-Pay,13,26354.71,No
+2025-12-13,PAT-2024,Orthopedics,BlueCross,9,34924.84,No
+2025-12-15,PAT-2071,Neurology,Self-Pay,2,15856.92,No
+2025-12-19,PAT-2317,Cardiology,Medicare,13,20412.47,No
+2025-12-19,PAT-2220,General Surgery,Medicare,5,10393.45,No
+2025-12-20,PAT-2001,Oncology,BlueCross,8,10179.67,No
+2025-12-21,PAT-2148,Pediatrics,Aetna,6,15787.72,No
+2025-12-22,PAT-2356,Cardiology,UnitedHealth,3,40922.32,No
+2025-12-23,PAT-2279,Pediatrics,Medicare,13,43598.18,No
+2025-12-23,PAT-2019,Neurology,Self-Pay,13,25937.74,No
+2025-12-23,PAT-2165,Pediatrics,BlueCross,13,3500.73,No
+2025-12-24,PAT-2377,Neurology,UnitedHealth,8,33051.29,No
+2025-12-24,PAT-2160,Oncology,Aetna,8,14175.69,No
+2025-12-25,PAT-2227,Oncology,Cigna,8,14422.91,No
+2025-12-25,PAT-2232,Oncology,Cigna,10,34370.23,No
+2025-12-25,PAT-2256,Orthopedics,BlueCross,4,1233.55,No
+2025-12-26,PAT-2168,Orthopedics,Self-Pay,11,36863.13,No
+2025-12-26,PAT-2430,Oncology,Aetna,2,43090.68,No
+2025-12-27,PAT-2368,Neurology,Aetna,12,38456.01,No
+2025-12-28,PAT-2058,General Surgery,BlueCross,1,1751.3,Yes
+2025-12-29,PAT-2355,Oncology,Aetna,12,24160.72,No
+2025-12-29,PAT-2255,Pediatrics,UnitedHealth,5,35229.74,No
+2025-12-29,PAT-2032,Orthopedics,BlueCross,9,26579.64,No
+2025-12-29,PAT-2253,Orthopedics,Self-Pay,10,21271.93,Yes
+2025-12-30,PAT-2144,Pediatrics,Self-Pay,10,23777.42,No

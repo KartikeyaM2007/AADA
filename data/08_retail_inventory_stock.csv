@@ -1,0 +1,451 @@
+Snapshot Date,Store Location,Category,Item Stock On Hand,Reorder Threshold,Unit Wholesale Price,Stockout Flag
+2025-01-01,Store #105 Berlin,Home & Kitchen,488,100,210.51,Low Stock
+2025-01-01,Store #102 LA,Home & Kitchen,8,100,228.63,In Stock
+2025-01-03,Store #104 Tokyo,Apparel,355,100,70.88,In Stock
+2025-01-04,Store #104 Tokyo,Home & Kitchen,140,100,247.96,Low Stock
+2025-01-04,Store #102 LA,Sports Goods,25,100,245.41,In Stock
+2025-01-04,Store #105 Berlin,Home & Kitchen,372,150,300.01,In Stock
+2025-01-06,Store #105 Berlin,Home & Kitchen,187,100,335.31,Low Stock
+2025-01-07,Store #103 London,Beauty,59,100,407.75,In Stock
+2025-01-10,Store #103 London,Apparel,126,20,323.45,Low Stock
+2025-01-11,Store #104 Tokyo,Beauty,173,150,350.56,Low Stock
+2025-01-11,Store #104 Tokyo,Apparel,427,50,445.48,Low Stock
+2025-01-12,Store #102 LA,Beauty,240,100,78.95,In Stock
+2025-01-12,Store #101 NYC,Apparel,107,150,359.78,In Stock
+2025-01-13,Store #102 LA,Beauty,221,50,351.95,In Stock
+2025-01-14,Store #102 LA,Apparel,132,50,183.0,In Stock
+2025-01-14,Store #101 NYC,Apparel,433,50,57.91,Out of Stock
+2025-01-14,Store #103 London,Electronics,465,100,61.82,In Stock
+2025-01-16,Store #103 London,Home & Kitchen,346,50,278.16,In Stock
+2025-01-16,Store #104 Tokyo,Home & Kitchen,310,50,278.21,Low Stock
+2025-01-16,Store #101 NYC,Apparel,400,50,232.44,In Stock
+2025-01-17,Store #104 Tokyo,Sports Goods,286,150,116.56,In Stock
+2025-01-18,Store #103 London,Electronics,399,150,305.58,Out of Stock
+2025-01-21,Store #103 London,Home & Kitchen,463,100,18.24,Low Stock
+2025-01-23,Store #104 Tokyo,Home & Kitchen,447,150,21.59,In Stock
+2025-01-23,Store #101 NYC,Electronics,405,100,385.16,Out of Stock
+2025-01-24,Store #104 Tokyo,Beauty,53,100,408.26,In Stock
+2025-01-24,Store #104 Tokyo,Sports Goods,370,20,273.93,In Stock
+2025-01-25,Store #104 Tokyo,Sports Goods,474,100,86.59,In Stock
+2025-01-26,Store #103 London,Beauty,374,50,44.54,In Stock
+2025-01-28,Store #101 NYC,Home & Kitchen,296,50,214.48,In Stock
+2025-01-29,Store #103 London,Home & Kitchen,229,150,437.84,In Stock
+2025-01-29,Store #102 LA,Apparel,250,100,420.99,Low Stock
+2025-01-30,Store #101 NYC,Home & Kitchen,401,50,333.73,In Stock
+2025-01-31,Store #104 Tokyo,Home & Kitchen,256,50,227.4,In Stock
+2025-01-31,Store #101 NYC,Apparel,251,20,183.1,In Stock
+2025-02-01,Store #104 Tokyo,Apparel,191,150,248.09,In Stock
+2025-02-01,Store #105 Berlin,Sports Goods,74,50,161.78,In Stock
+2025-02-01,Store #104 Tokyo,Beauty,485,150,331.66,In Stock
+2025-02-02,Store #101 NYC,Beauty,75,100,260.08,In Stock
+2025-02-02,Store #104 Tokyo,Electronics,186,150,56.11,In Stock
+2025-02-02,Store #104 Tokyo,Apparel,80,150,349.64,In Stock
+2025-02-05,Store #103 London,Electronics,432,150,153.74,In Stock
+2025-02-06,Store #101 NYC,Sports Goods,430,50,219.43,In Stock
+2025-02-06,Store #103 London,Home & Kitchen,240,20,186.36,In Stock
+2025-02-07,Store #105 Berlin,Beauty,382,150,219.01,In Stock
+2025-02-07,Store #103 London,Electronics,339,100,254.48,In Stock
+2025-02-09,Store #105 Berlin,Home & Kitchen,23,20,315.11,In Stock
+2025-02-10,Store #101 NYC,Apparel,9,20,447.73,In Stock
+2025-02-11,Store #103 London,Beauty,294,150,71.61,In Stock
+2025-02-11,Store #105 Berlin,Sports Goods,185,150,326.71,Out of Stock
+2025-02-11,Store #105 Berlin,Sports Goods,113,50,270.12,In Stock
+2025-02-14,Store #104 Tokyo,Sports Goods,132,50,45.9,In Stock
+2025-02-15,Store #103 London,Electronics,190,150,253.54,Low Stock
+2025-02-15,Store #102 LA,Sports Goods,57,100,405.48,Low Stock
+2025-02-16,Store #102 LA,Electronics,28,50,183.46,In Stock
+2025-02-16,Store #105 Berlin,Apparel,357,50,436.41,In Stock
+2025-02-17,Store #103 London,Beauty,81,150,207.16,In Stock
+2025-02-18,Store #102 LA,Sports Goods,419,150,179.46,In Stock
+2025-02-18,Store #105 Berlin,Apparel,410,20,81.54,In Stock
+2025-02-19,Store #104 Tokyo,Sports Goods,497,50,371.97,In Stock
+2025-02-19,Store #101 NYC,Electronics,353,50,184.57,In Stock
+2025-02-20,Store #103 London,Sports Goods,235,100,71.83,In Stock
+2025-02-22,Store #102 LA,Apparel,358,100,177.02,In Stock
+2025-02-22,Store #105 Berlin,Beauty,36,100,320.48,In Stock
+2025-02-23,Store #101 NYC,Sports Goods,436,100,79.89,In Stock
+2025-02-23,Store #102 LA,Home & Kitchen,336,20,143.59,Low Stock
+2025-02-23,Store #101 NYC,Electronics,128,100,171.53,Low Stock
+2025-02-23,Store #104 Tokyo,Beauty,195,100,413.95,In Stock
+2025-02-24,Store #105 Berlin,Home & Kitchen,123,150,57.22,In Stock
+2025-02-24,Store #102 LA,Sports Goods,124,100,245.99,Low Stock
+2025-02-26,Store #104 Tokyo,Beauty,306,150,73.47,In Stock
+2025-02-27,Store #101 NYC,Electronics,452,20,81.86,Low Stock
+2025-02-27,Store #104 Tokyo,Electronics,440,50,172.32,In Stock
+2025-03-02,Store #104 Tokyo,Electronics,414,50,417.96,In Stock
+2025-03-02,Store #102 LA,Home & Kitchen,107,150,378.93,In Stock
+2025-03-02,Store #101 NYC,Beauty,100,150,445.57,In Stock
+2025-03-02,Store #102 LA,Apparel,488,100,162.94,In Stock
+2025-03-03,Store #105 Berlin,Beauty,306,20,360.5,In Stock
+2025-03-03,Store #104 Tokyo,Apparel,101,100,258.81,Low Stock
+2025-03-04,Store #103 London,Home & Kitchen,143,50,203.09,Low Stock
+2025-03-06,Store #105 Berlin,Electronics,476,20,182.14,In Stock
+2025-03-06,Store #101 NYC,Home & Kitchen,231,20,414.76,In Stock
+2025-03-06,Store #101 NYC,Home & Kitchen,123,150,291.42,Low Stock
+2025-03-07,Store #101 NYC,Apparel,203,150,39.55,Low Stock
+2025-03-07,Store #101 NYC,Apparel,311,150,415.37,Low Stock
+2025-03-07,Store #105 Berlin,Beauty,223,100,387.07,In Stock
+2025-03-08,Store #101 NYC,Electronics,160,50,297.02,In Stock
+2025-03-08,Store #102 LA,Sports Goods,63,50,242.11,Low Stock
+2025-03-09,Store #104 Tokyo,Home & Kitchen,477,150,241.5,In Stock
+2025-03-10,Store #101 NYC,Apparel,189,50,196.23,In Stock
+2025-03-10,Store #104 Tokyo,Sports Goods,154,150,310.28,In Stock
+2025-03-11,Store #102 LA,Apparel,38,150,221.28,Low Stock
+2025-03-11,Store #101 NYC,Electronics,488,150,219.06,In Stock
+2025-03-14,Store #105 Berlin,Apparel,81,50,38.94,In Stock
+2025-03-18,Store #101 NYC,Sports Goods,499,100,356.54,Low Stock
+2025-03-18,Store #105 Berlin,Apparel,423,100,91.48,In Stock
+2025-03-19,Store #104 Tokyo,Beauty,107,100,23.1,In Stock
+2025-03-21,Store #101 NYC,Electronics,191,150,47.57,Out of Stock
+2025-03-23,Store #102 LA,Apparel,135,50,38.56,In Stock
+2025-03-24,Store #105 Berlin,Sports Goods,128,20,281.51,Out of Stock
+2025-03-24,Store #102 LA,Home & Kitchen,351,20,445.42,In Stock
+2025-03-26,Store #101 NYC,Home & Kitchen,454,20,398.92,In Stock
+2025-03-27,Store #101 NYC,Apparel,497,20,254.13,In Stock
+2025-03-28,Store #104 Tokyo,Sports Goods,496,50,378.97,In Stock
+2025-03-29,Store #103 London,Sports Goods,309,150,291.0,In Stock
+2025-03-29,Store #105 Berlin,Electronics,54,150,351.7,Low Stock
+2025-03-30,Store #101 NYC,Beauty,38,100,48.92,In Stock
+2025-03-30,Store #103 London,Home & Kitchen,52,50,116.88,In Stock
+2025-03-30,Store #104 Tokyo,Home & Kitchen,338,50,258.11,In Stock
+2025-03-31,Store #103 London,Sports Goods,336,150,20.16,In Stock
+2025-04-03,Store #104 Tokyo,Beauty,477,150,177.67,In Stock
+2025-04-04,Store #102 LA,Home & Kitchen,338,50,126.94,In Stock
+2025-04-04,Store #101 NYC,Home & Kitchen,26,150,408.76,In Stock
+2025-04-05,Store #104 Tokyo,Apparel,42,20,441.4,Low Stock
+2025-04-06,Store #105 Berlin,Electronics,207,100,404.45,Low Stock
+2025-04-06,Store #105 Berlin,Electronics,142,20,196.2,In Stock
+2025-04-06,Store #104 Tokyo,Home & Kitchen,295,20,230.51,In Stock
+2025-04-06,Store #101 NYC,Electronics,344,50,279.28,In Stock
+2025-04-08,Store #104 Tokyo,Sports Goods,89,100,43.77,In Stock
+2025-04-08,Store #103 London,Electronics,91,100,80.87,In Stock
+2025-04-11,Store #105 Berlin,Electronics,377,150,133.53,In Stock
+2025-04-11,Store #102 LA,Electronics,81,50,191.13,In Stock
+2025-04-11,Store #101 NYC,Apparel,314,50,65.93,In Stock
+2025-04-13,Store #103 London,Beauty,362,50,363.86,In Stock
+2025-04-13,Store #104 Tokyo,Electronics,440,150,355.33,In Stock
+2025-04-13,Store #103 London,Home & Kitchen,35,50,352.92,Low Stock
+2025-04-14,Store #102 LA,Apparel,118,100,56.47,In Stock
+2025-04-15,Store #105 Berlin,Sports Goods,405,100,281.96,In Stock
+2025-04-15,Store #101 NYC,Home & Kitchen,426,20,180.79,In Stock
+2025-04-15,Store #103 London,Home & Kitchen,425,50,251.97,Low Stock
+2025-04-15,Store #105 Berlin,Apparel,362,100,445.57,In Stock
+2025-04-16,Store #101 NYC,Beauty,487,150,327.1,Low Stock
+2025-04-18,Store #102 LA,Apparel,275,100,86.01,In Stock
+2025-04-18,Store #105 Berlin,Sports Goods,112,150,203.5,In Stock
+2025-04-19,Store #102 LA,Electronics,450,20,328.94,In Stock
+2025-04-22,Store #105 Berlin,Beauty,155,100,110.9,In Stock
+2025-04-22,Store #101 NYC,Beauty,303,150,378.9,In Stock
+2025-04-23,Store #103 London,Sports Goods,314,100,248.23,In Stock
+2025-04-23,Store #102 LA,Beauty,155,150,122.95,In Stock
+2025-04-23,Store #104 Tokyo,Home & Kitchen,297,150,30.25,In Stock
+2025-04-24,Store #101 NYC,Home & Kitchen,211,150,288.95,In Stock
+2025-04-24,Store #103 London,Beauty,370,50,153.28,Low Stock
+2025-04-24,Store #103 London,Electronics,453,20,384.22,Out of Stock
+2025-04-26,Store #103 London,Home & Kitchen,490,20,304.69,In Stock
+2025-04-26,Store #105 Berlin,Electronics,91,100,168.04,In Stock
+2025-04-29,Store #102 LA,Home & Kitchen,203,50,286.45,In Stock
+2025-04-29,Store #103 London,Electronics,321,100,193.63,In Stock
+2025-05-01,Store #102 LA,Beauty,72,100,402.58,In Stock
+2025-05-03,Store #101 NYC,Home & Kitchen,326,100,368.68,In Stock
+2025-05-03,Store #105 Berlin,Beauty,86,50,442.3,In Stock
+2025-05-05,Store #101 NYC,Sports Goods,363,150,234.14,In Stock
+2025-05-05,Store #105 Berlin,Home & Kitchen,499,150,442.0,In Stock
+2025-05-06,Store #101 NYC,Apparel,485,20,277.74,Low Stock
+2025-05-06,Store #101 NYC,Home & Kitchen,62,50,110.24,In Stock
+2025-05-09,Store #104 Tokyo,Electronics,343,50,384.04,Low Stock
+2025-05-10,Store #101 NYC,Electronics,201,100,143.06,In Stock
+2025-05-11,Store #104 Tokyo,Beauty,164,20,257.31,In Stock
+2025-05-11,Store #102 LA,Sports Goods,142,50,359.73,Low Stock
+2025-05-13,Store #103 London,Apparel,73,150,260.91,In Stock
+2025-05-13,Store #102 LA,Home & Kitchen,396,150,189.53,Out of Stock
+2025-05-14,Store #102 LA,Beauty,281,50,151.25,Low Stock
+2025-05-14,Store #104 Tokyo,Home & Kitchen,79,100,448.19,Low Stock
+2025-05-16,Store #104 Tokyo,Electronics,235,100,435.34,In Stock
+2025-05-16,Store #102 LA,Apparel,495,20,105.68,In Stock
+2025-05-16,Store #103 London,Home & Kitchen,445,50,57.9,Low Stock
+2025-05-18,Store #105 Berlin,Beauty,172,50,54.35,Low Stock
+2025-05-18,Store #103 London,Beauty,383,20,186.64,Low Stock
+2025-05-19,Store #101 NYC,Home & Kitchen,53,50,445.77,In Stock
+2025-05-20,Store #103 London,Beauty,404,50,290.82,In Stock
+2025-05-22,Store #102 LA,Apparel,463,50,172.57,Low Stock
+2025-05-22,Store #102 LA,Home & Kitchen,216,100,390.76,In Stock
+2025-05-23,Store #102 LA,Beauty,165,20,24.48,Low Stock
+2025-05-24,Store #105 Berlin,Beauty,344,100,446.86,In Stock
+2025-05-24,Store #105 Berlin,Beauty,365,50,394.88,In Stock
+2025-05-25,Store #101 NYC,Apparel,137,150,420.35,In Stock
+2025-05-25,Store #101 NYC,Beauty,120,100,426.52,In Stock
+2025-05-26,Store #102 LA,Home & Kitchen,177,20,225.46,In Stock
+2025-05-27,Store #105 Berlin,Electronics,32,100,412.26,In Stock
+2025-05-28,Store #104 Tokyo,Apparel,52,50,223.03,In Stock
+2025-05-28,Store #104 Tokyo,Beauty,480,20,292.37,In Stock
+2025-05-30,Store #102 LA,Home & Kitchen,210,100,424.14,Low Stock
+2025-05-31,Store #105 Berlin,Apparel,472,150,166.04,In Stock
+2025-05-31,Store #103 London,Home & Kitchen,139,100,322.14,In Stock
+2025-06-02,Store #104 Tokyo,Apparel,102,100,71.44,In Stock
+2025-06-03,Store #105 Berlin,Apparel,252,100,134.06,In Stock
+2025-06-03,Store #105 Berlin,Sports Goods,492,100,309.96,Low Stock
+2025-06-04,Store #104 Tokyo,Apparel,374,100,408.65,In Stock
+2025-06-05,Store #102 LA,Home & Kitchen,164,50,173.32,In Stock
+2025-06-06,Store #103 London,Apparel,386,100,221.18,In Stock
+2025-06-06,Store #102 LA,Sports Goods,197,20,126.03,Low Stock
+2025-06-08,Store #103 London,Beauty,302,50,139.32,In Stock
+2025-06-08,Store #103 London,Apparel,5,100,78.98,Low Stock
+2025-06-09,Store #104 Tokyo,Beauty,471,20,62.32,In Stock
+2025-06-09,Store #101 NYC,Electronics,349,50,117.28,Low Stock
+2025-06-13,Store #102 LA,Sports Goods,336,50,88.62,Out of Stock
+2025-06-13,Store #104 Tokyo,Electronics,435,100,138.44,In Stock
+2025-06-14,Store #102 LA,Beauty,43,50,249.89,In Stock
+2025-06-15,Store #105 Berlin,Beauty,134,100,160.72,In Stock
+2025-06-16,Store #103 London,Beauty,49,100,35.03,Low Stock
+2025-06-16,Store #102 LA,Home & Kitchen,367,50,60.45,Low Stock
+2025-06-21,Store #101 NYC,Home & Kitchen,346,100,296.08,In Stock
+2025-06-22,Store #102 LA,Beauty,484,150,74.96,In Stock
+2025-06-22,Store #103 London,Electronics,341,150,151.32,In Stock
+2025-06-25,Store #101 NYC,Home & Kitchen,305,50,111.22,In Stock
+2025-06-26,Store #102 LA,Sports Goods,92,150,210.51,In Stock
+2025-06-26,Store #103 London,Home & Kitchen,259,20,272.28,In Stock
+2025-06-26,Store #102 LA,Apparel,147,100,190.39,In Stock
+2025-06-27,Store #104 Tokyo,Home & Kitchen,356,20,255.96,In Stock
+2025-06-28,Store #102 LA,Apparel,363,50,221.9,In Stock
+2025-06-28,Store #103 London,Apparel,159,150,125.93,In Stock
+2025-06-29,Store #104 Tokyo,Apparel,485,50,221.03,In Stock
+2025-06-30,Store #104 Tokyo,Beauty,390,150,74.13,In Stock
+2025-07-01,Store #102 LA,Electronics,473,20,19.61,Low Stock
+2025-07-01,Store #101 NYC,Home & Kitchen,354,100,414.33,In Stock
+2025-07-03,Store #103 London,Beauty,66,20,299.56,In Stock
+2025-07-03,Store #102 LA,Sports Goods,186,100,385.28,Low Stock
+2025-07-05,Store #105 Berlin,Sports Goods,398,100,11.56,Low Stock
+2025-07-05,Store #104 Tokyo,Beauty,125,100,330.98,In Stock
+2025-07-06,Store #102 LA,Home & Kitchen,264,20,427.6,Low Stock
+2025-07-06,Store #105 Berlin,Home & Kitchen,365,50,60.81,In Stock
+2025-07-06,Store #104 Tokyo,Beauty,278,100,232.71,In Stock
+2025-07-06,Store #101 NYC,Electronics,34,50,64.92,In Stock
+2025-07-07,Store #101 NYC,Electronics,57,150,319.75,In Stock
+2025-07-07,Store #105 Berlin,Apparel,193,20,82.83,In Stock
+2025-07-08,Store #102 LA,Electronics,84,100,274.9,Low Stock
+2025-07-10,Store #104 Tokyo,Apparel,78,50,327.78,In Stock
+2025-07-10,Store #102 LA,Beauty,274,20,332.93,In Stock
+2025-07-10,Store #101 NYC,Home & Kitchen,317,50,200.39,In Stock
+2025-07-10,Store #101 NYC,Home & Kitchen,435,150,285.66,In Stock
+2025-07-13,Store #105 Berlin,Beauty,494,20,209.79,In Stock
+2025-07-13,Store #104 Tokyo,Beauty,221,20,231.83,Out of Stock
+2025-07-14,Store #101 NYC,Apparel,353,150,62.7,In Stock
+2025-07-17,Store #101 NYC,Electronics,189,50,133.17,In Stock
+2025-07-17,Store #104 Tokyo,Apparel,467,150,315.46,Low Stock
+2025-07-17,Store #102 LA,Home & Kitchen,44,50,377.46,In Stock
+2025-07-19,Store #104 Tokyo,Electronics,357,100,431.65,In Stock
+2025-07-20,Store #104 Tokyo,Electronics,323,20,84.8,In Stock
+2025-07-21,Store #101 NYC,Electronics,14,20,313.92,In Stock
+2025-07-23,Store #101 NYC,Apparel,431,150,225.96,In Stock
+2025-07-23,Store #105 Berlin,Beauty,144,50,37.02,In Stock
+2025-07-24,Store #102 LA,Sports Goods,330,150,279.91,In Stock
+2025-07-24,Store #102 LA,Apparel,422,100,168.41,In Stock
+2025-07-25,Store #101 NYC,Home & Kitchen,205,20,250.31,Low Stock
+2025-07-25,Store #104 Tokyo,Apparel,147,150,364.36,In Stock
+2025-07-25,Store #102 LA,Sports Goods,345,150,332.24,Low Stock
+2025-07-26,Store #102 LA,Home & Kitchen,157,20,45.67,In Stock
+2025-07-27,Store #105 Berlin,Sports Goods,427,100,18.24,In Stock
+2025-07-27,Store #102 LA,Sports Goods,170,50,394.56,In Stock
+2025-07-28,Store #103 London,Electronics,457,50,309.95,In Stock
+2025-07-29,Store #103 London,Sports Goods,264,100,338.37,In Stock
+2025-07-29,Store #105 Berlin,Electronics,102,100,75.42,In Stock
+2025-07-30,Store #103 London,Beauty,26,100,113.47,In Stock
+2025-07-30,Store #105 Berlin,Beauty,166,150,128.68,In Stock
+2025-07-31,Store #104 Tokyo,Electronics,206,50,277.9,In Stock
+2025-08-02,Store #105 Berlin,Sports Goods,232,150,415.12,In Stock
+2025-08-03,Store #104 Tokyo,Beauty,89,50,276.07,In Stock
+2025-08-05,Store #104 Tokyo,Home & Kitchen,245,150,126.74,Out of Stock
+2025-08-06,Store #102 LA,Apparel,116,100,13.5,In Stock
+2025-08-07,Store #101 NYC,Electronics,244,100,235.54,Low Stock
+2025-08-07,Store #101 NYC,Electronics,78,50,107.24,In Stock
+2025-08-08,Store #104 Tokyo,Electronics,112,150,136.67,In Stock
+2025-08-08,Store #105 Berlin,Sports Goods,251,100,419.05,In Stock
+2025-08-08,Store #103 London,Sports Goods,35,100,195.54,In Stock
+2025-08-08,Store #105 Berlin,Beauty,375,50,419.91,Low Stock
+2025-08-09,Store #101 NYC,Sports Goods,391,50,152.81,In Stock
+2025-08-09,Store #101 NYC,Beauty,200,150,350.26,In Stock
+2025-08-11,Store #104 Tokyo,Beauty,424,150,140.04,Out of Stock
+2025-08-11,Store #104 Tokyo,Beauty,241,20,280.35,In Stock
+2025-08-12,Store #102 LA,Apparel,432,50,419.51,In Stock
+2025-08-12,Store #104 Tokyo,Sports Goods,439,100,298.57,In Stock
+2025-08-13,Store #102 LA,Electronics,340,100,292.02,In Stock
+2025-08-13,Store #104 Tokyo,Electronics,462,50,192.85,Low Stock
+2025-08-14,Store #103 London,Beauty,481,100,304.15,In Stock
+2025-08-14,Store #103 London,Sports Goods,205,50,39.67,Low Stock
+2025-08-15,Store #102 LA,Beauty,344,100,273.55,In Stock
+2025-08-16,Store #104 Tokyo,Beauty,266,150,153.99,In Stock
+2025-08-16,Store #101 NYC,Electronics,390,20,447.13,In Stock
+2025-08-17,Store #103 London,Beauty,7,150,238.2,In Stock
+2025-08-17,Store #101 NYC,Apparel,239,100,354.82,In Stock
+2025-08-18,Store #105 Berlin,Home & Kitchen,245,150,22.2,In Stock
+2025-08-18,Store #103 London,Home & Kitchen,495,100,180.92,In Stock
+2025-08-19,Store #105 Berlin,Beauty,334,20,205.53,In Stock
+2025-08-20,Store #103 London,Beauty,231,20,308.96,In Stock
+2025-08-21,Store #103 London,Electronics,381,20,329.14,In Stock
+2025-08-21,Store #102 LA,Electronics,120,50,156.78,In Stock
+2025-08-22,Store #101 NYC,Sports Goods,65,100,390.59,Low Stock
+2025-08-22,Store #103 London,Apparel,268,50,386.06,In Stock
+2025-08-23,Store #104 Tokyo,Home & Kitchen,82,50,166.3,In Stock
+2025-08-23,Store #102 LA,Home & Kitchen,149,100,405.02,In Stock
+2025-08-23,Store #103 London,Apparel,316,100,129.34,In Stock
+2025-08-25,Store #105 Berlin,Electronics,211,20,415.63,In Stock
+2025-08-26,Store #101 NYC,Beauty,51,20,164.09,In Stock
+2025-08-27,Store #102 LA,Electronics,246,50,321.47,In Stock
+2025-08-27,Store #104 Tokyo,Electronics,152,100,396.59,Out of Stock
+2025-08-28,Store #102 LA,Sports Goods,254,50,115.84,Low Stock
+2025-08-28,Store #104 Tokyo,Beauty,15,150,336.38,Low Stock
+2025-08-28,Store #102 LA,Electronics,194,150,164.58,In Stock
+2025-08-28,Store #103 London,Beauty,147,20,90.36,Low Stock
+2025-08-29,Store #104 Tokyo,Electronics,356,50,239.96,In Stock
+2025-08-31,Store #105 Berlin,Apparel,415,20,211.42,In Stock
+2025-09-02,Store #102 LA,Electronics,31,100,401.38,In Stock
+2025-09-02,Store #105 Berlin,Electronics,227,50,92.15,In Stock
+2025-09-03,Store #102 LA,Apparel,178,50,319.12,In Stock
+2025-09-03,Store #101 NYC,Home & Kitchen,210,100,301.05,In Stock
+2025-09-04,Store #101 NYC,Beauty,48,100,169.46,In Stock
+2025-09-04,Store #104 Tokyo,Electronics,423,50,381.85,In Stock
+2025-09-06,Store #101 NYC,Home & Kitchen,473,20,168.95,In Stock
+2025-09-07,Store #102 LA,Apparel,22,50,332.53,In Stock
+2025-09-08,Store #104 Tokyo,Home & Kitchen,416,150,127.92,Out of Stock
+2025-09-08,Store #102 LA,Apparel,247,20,229.39,In Stock
+2025-09-10,Store #104 Tokyo,Sports Goods,54,150,217.5,In Stock
+2025-09-10,Store #102 LA,Electronics,237,20,236.59,In Stock
+2025-09-12,Store #102 LA,Apparel,312,100,324.68,In Stock
+2025-09-13,Store #101 NYC,Electronics,32,50,341.49,Out of Stock
+2025-09-13,Store #103 London,Beauty,139,150,89.37,In Stock
+2025-09-14,Store #105 Berlin,Electronics,160,100,354.94,In Stock
+2025-09-14,Store #104 Tokyo,Beauty,137,20,190.8,In Stock
+2025-09-15,Store #104 Tokyo,Apparel,179,150,438.26,In Stock
+2025-09-15,Store #103 London,Beauty,187,50,220.96,In Stock
+2025-09-16,Store #102 LA,Beauty,18,100,318.01,In Stock
+2025-09-16,Store #105 Berlin,Apparel,64,50,292.99,In Stock
+2025-09-18,Store #105 Berlin,Apparel,454,100,353.66,Out of Stock
+2025-09-19,Store #105 Berlin,Electronics,240,150,233.85,Low Stock
+2025-09-19,Store #104 Tokyo,Electronics,351,150,19.93,In Stock
+2025-09-19,Store #104 Tokyo,Electronics,344,150,78.24,In Stock
+2025-09-23,Store #101 NYC,Sports Goods,174,100,74.62,In Stock
+2025-09-26,Store #102 LA,Apparel,448,50,444.18,Low Stock
+2025-09-26,Store #102 LA,Home & Kitchen,331,20,327.35,In Stock
+2025-09-27,Store #101 NYC,Sports Goods,478,150,434.9,In Stock
+2025-10-01,Store #105 Berlin,Home & Kitchen,376,100,42.93,Low Stock
+2025-10-03,Store #103 London,Electronics,97,20,208.52,Low Stock
+2025-10-04,Store #103 London,Beauty,483,20,195.62,In Stock
+2025-10-05,Store #105 Berlin,Home & Kitchen,84,20,77.74,Low Stock
+2025-10-06,Store #103 London,Apparel,36,20,403.98,In Stock
+2025-10-07,Store #105 Berlin,Apparel,21,150,341.59,Low Stock
+2025-10-09,Store #101 NYC,Sports Goods,204,20,350.88,In Stock
+2025-10-09,Store #103 London,Sports Goods,417,150,296.46,Low Stock
+2025-10-10,Store #102 LA,Home & Kitchen,51,150,109.42,In Stock
+2025-10-10,Store #102 LA,Electronics,420,20,274.26,In Stock
+2025-10-12,Store #102 LA,Beauty,250,100,233.08,In Stock
+2025-10-12,Store #103 London,Home & Kitchen,100,150,283.89,In Stock
+2025-10-13,Store #104 Tokyo,Beauty,486,50,350.81,In Stock
+2025-10-14,Store #103 London,Apparel,68,20,128.64,In Stock
+2025-10-14,Store #102 LA,Apparel,126,150,94.71,In Stock
+2025-10-15,Store #102 LA,Electronics,77,50,352.57,In Stock
+2025-10-15,Store #104 Tokyo,Home & Kitchen,238,50,397.19,In Stock
+2025-10-16,Store #105 Berlin,Electronics,131,20,243.38,In Stock
+2025-10-17,Store #101 NYC,Sports Goods,441,100,29.95,In Stock
+2025-10-17,Store #101 NYC,Beauty,59,20,233.1,In Stock
+2025-10-17,Store #103 London,Sports Goods,440,100,354.27,Low Stock
+2025-10-18,Store #105 Berlin,Beauty,91,50,111.08,In Stock
+2025-10-19,Store #102 LA,Apparel,130,150,333.18,In Stock
+2025-10-19,Store #104 Tokyo,Beauty,432,150,137.18,In Stock
+2025-10-19,Store #103 London,Beauty,258,100,215.96,Low Stock
+2025-10-20,Store #105 Berlin,Home & Kitchen,392,20,256.93,In Stock
+2025-10-20,Store #102 LA,Electronics,86,20,24.61,In Stock
+2025-10-20,Store #101 NYC,Beauty,220,20,278.51,In Stock
+2025-10-21,Store #102 LA,Apparel,84,50,292.25,In Stock
+2025-10-21,Store #105 Berlin,Apparel,328,50,367.9,In Stock
+2025-10-21,Store #104 Tokyo,Electronics,332,100,236.36,In Stock
+2025-10-21,Store #104 Tokyo,Apparel,34,150,220.51,In Stock
+2025-10-22,Store #104 Tokyo,Apparel,315,100,61.15,In Stock
+2025-10-23,Store #103 London,Apparel,432,50,142.68,Low Stock
+2025-10-24,Store #102 LA,Electronics,62,50,13.22,In Stock
+2025-10-25,Store #101 NYC,Electronics,225,100,322.94,Out of Stock
+2025-10-25,Store #104 Tokyo,Electronics,220,50,443.63,In Stock
+2025-10-25,Store #101 NYC,Electronics,356,100,33.93,In Stock
+2025-10-25,Store #101 NYC,Sports Goods,59,20,97.94,In Stock
+2025-10-26,Store #104 Tokyo,Apparel,461,100,334.97,Low Stock
+2025-10-27,Store #101 NYC,Home & Kitchen,18,20,232.61,In Stock
+2025-10-27,Store #104 Tokyo,Sports Goods,356,20,59.33,Low Stock
+2025-10-27,Store #104 Tokyo,Apparel,60,50,98.28,In Stock
+2025-10-28,Store #102 LA,Apparel,102,50,212.02,In Stock
+2025-10-28,Store #102 LA,Electronics,53,50,99.68,Low Stock
+2025-10-30,Store #104 Tokyo,Beauty,143,150,120.74,In Stock
+2025-10-31,Store #103 London,Beauty,165,20,299.61,Low Stock
+2025-10-31,Store #103 London,Beauty,491,100,358.63,In Stock
+2025-11-01,Store #102 LA,Sports Goods,66,100,64.63,Low Stock
+2025-11-03,Store #105 Berlin,Sports Goods,294,50,169.11,Low Stock
+2025-11-05,Store #105 Berlin,Sports Goods,410,20,270.11,Low Stock
+2025-11-06,Store #103 London,Electronics,283,50,391.85,Low Stock
+2025-11-07,Store #103 London,Home & Kitchen,63,100,358.74,Low Stock
+2025-11-08,Store #102 LA,Home & Kitchen,491,50,332.19,In Stock
+2025-11-08,Store #104 Tokyo,Electronics,125,50,160.87,Out of Stock
+2025-11-10,Store #104 Tokyo,Apparel,278,20,58.59,In Stock
+2025-11-11,Store #102 LA,Beauty,31,20,242.83,Low Stock
+2025-11-11,Store #102 LA,Electronics,75,50,130.57,In Stock
+2025-11-12,Store #105 Berlin,Beauty,51,100,316.82,In Stock
+2025-11-12,Store #104 Tokyo,Sports Goods,474,50,17.17,In Stock
+2025-11-14,Store #105 Berlin,Beauty,63,50,406.18,In Stock
+2025-11-15,Store #105 Berlin,Home & Kitchen,457,150,230.44,In Stock
+2025-11-16,Store #103 London,Beauty,285,150,419.57,Low Stock
+2025-11-16,Store #103 London,Apparel,259,20,57.44,In Stock
+2025-11-17,Store #101 NYC,Sports Goods,478,20,416.36,In Stock
+2025-11-19,Store #105 Berlin,Sports Goods,369,150,324.13,In Stock
+2025-11-19,Store #102 LA,Beauty,439,50,427.28,In Stock
+2025-11-20,Store #105 Berlin,Electronics,162,100,355.91,In Stock
+2025-11-23,Store #104 Tokyo,Apparel,74,50,352.8,Low Stock
+2025-11-23,Store #101 NYC,Beauty,449,20,43.69,Low Stock
+2025-11-24,Store #101 NYC,Electronics,295,50,43.11,In Stock
+2025-11-26,Store #105 Berlin,Beauty,431,20,329.92,In Stock
+2025-11-26,Store #104 Tokyo,Sports Goods,65,150,262.87,Out of Stock
+2025-11-29,Store #103 London,Home & Kitchen,459,50,73.99,Low Stock
+2025-11-29,Store #101 NYC,Home & Kitchen,102,150,18.42,Low Stock
+2025-12-03,Store #102 LA,Beauty,139,150,265.76,In Stock
+2025-12-04,Store #104 Tokyo,Sports Goods,78,50,293.78,In Stock
+2025-12-05,Store #102 LA,Electronics,301,100,168.33,In Stock
+2025-12-05,Store #104 Tokyo,Electronics,395,50,277.5,Low Stock
+2025-12-06,Store #102 LA,Beauty,363,100,205.51,Low Stock
+2025-12-06,Store #103 London,Beauty,193,100,415.63,In Stock
+2025-12-06,Store #102 LA,Apparel,116,100,13.14,In Stock
+2025-12-06,Store #101 NYC,Electronics,487,50,111.2,In Stock
+2025-12-07,Store #103 London,Beauty,480,50,216.0,In Stock
+2025-12-11,Store #101 NYC,Home & Kitchen,404,50,289.0,In Stock
+2025-12-12,Store #105 Berlin,Beauty,7,100,150.14,In Stock
+2025-12-12,Store #104 Tokyo,Sports Goods,144,50,94.12,In Stock
+2025-12-13,Store #105 Berlin,Apparel,277,100,224.95,In Stock
+2025-12-13,Store #101 NYC,Sports Goods,243,100,421.13,In Stock
+2025-12-13,Store #103 London,Beauty,404,50,65.71,In Stock
+2025-12-14,Store #102 LA,Home & Kitchen,230,50,132.64,Out of Stock
+2025-12-15,Store #105 Berlin,Electronics,181,50,163.6,In Stock
+2025-12-15,Store #105 Berlin,Apparel,270,150,172.32,Out of Stock
+2025-12-15,Store #103 London,Apparel,256,20,342.25,In Stock
+2025-12-16,Store #104 Tokyo,Apparel,472,50,432.48,In Stock
+2025-12-17,Store #102 LA,Sports Goods,34,100,172.69,In Stock
+2025-12-18,Store #102 LA,Electronics,445,100,291.92,In Stock
+2025-12-18,Store #104 Tokyo,Home & Kitchen,278,50,353.6,In Stock
+2025-12-20,Store #102 LA,Apparel,462,150,259.87,In Stock
+2025-12-21,Store #105 Berlin,Sports Goods,51,20,115.04,In Stock
+2025-12-21,Store #105 Berlin,Home & Kitchen,308,50,155.33,In Stock
+2025-12-22,Store #102 LA,Sports Goods,400,20,182.3,In Stock
+2025-12-22,Store #104 Tokyo,Electronics,137,50,188.72,In Stock
+2025-12-22,Store #104 Tokyo,Home & Kitchen,356,100,132.7,In Stock
+2025-12-23,Store #103 London,Beauty,65,150,221.17,In Stock
+2025-12-23,Store #102 LA,Home & Kitchen,295,100,245.29,In Stock
+2025-12-24,Store #103 London,Sports Goods,156,150,439.35,In Stock
+2025-12-24,Store #105 Berlin,Home & Kitchen,404,50,276.72,In Stock
+2025-12-25,Store #105 Berlin,Sports Goods,7,20,428.3,In Stock
+2025-12-25,Store #101 NYC,Apparel,169,100,313.77,In Stock
+2025-12-25,Store #105 Berlin,Electronics,320,100,128.21,In Stock
+2025-12-26,Store #102 LA,Apparel,93,150,16.82,In Stock
+2025-12-26,Store #105 Berlin,Home & Kitchen,380,20,213.22,In Stock
+2025-12-27,Store #102 LA,Sports Goods,173,100,342.85,Low Stock
+2025-12-28,Store #104 Tokyo,Home & Kitchen,417,100,345.9,In Stock
+2025-12-28,Store #103 London,Apparel,286,150,53.5,In Stock
+2025-12-29,Store #101 NYC,Home & Kitchen,394,100,260.58,Low Stock
+2025-12-30,Store #103 London,Sports Goods,491,20,16.16,In Stock
+2025-12-31,Store #101 NYC,Electronics,116,150,315.24,In Stock
+2025-12-31,Store #103 London,Home & Kitchen,189,50,145.12,Low Stock
+2025-12-31,Store #102 LA,Home & Kitchen,268,20,37.73,In Stock

@@ -1,0 +1,351 @@
+Hire Date,Employee ID,Department,Job Role,Base Salary,Performance Rating,Attrition Risk
+2025-01-01,EMP-5042,Customer Success,Financial Analyst,106742,1,Low
+2025-01-02,EMP-5249,Sales,Software Engineer,112602,3,Low
+2025-01-03,EMP-5034,Engineering,Support Lead,155468,4,Low
+2025-01-06,EMP-5047,Customer Success,HR Generalist,158489,3,Low
+2025-01-06,EMP-5315,Sales,Marketing Specialist,157811,3,Low
+2025-01-07,EMP-5205,Sales,Sales Executive,115924,3,Low
+2025-01-09,EMP-5161,Engineering,HR Generalist,102997,4,Low
+2025-01-09,EMP-5334,Customer Success,Software Engineer,144051,5,Low
+2025-01-10,EMP-5217,Finance,Sales Executive,156489,3,Low
+2025-01-10,EMP-5049,Customer Success,Support Lead,58880,4,Low
+2025-01-11,EMP-5325,Engineering,Financial Analyst,65750,5,Low
+2025-01-11,EMP-5345,HR,Marketing Specialist,104434,4,Low
+2025-01-12,EMP-5303,Customer Success,Support Lead,132603,2,Medium
+2025-01-12,EMP-5287,Finance,Marketing Specialist,122847,2,High
+2025-01-13,EMP-5258,Customer Success,Support Lead,71532,3,High
+2025-01-13,EMP-5087,Sales,Software Engineer,144326,3,High
+2025-01-14,EMP-5149,Marketing,Financial Analyst,102663,2,Low
+2025-01-14,EMP-5044,Sales,Sales Executive,136132,5,Low
+2025-01-15,EMP-5072,HR,Sales Executive,157399,2,Low
+2025-01-15,EMP-5165,Sales,Software Engineer,132852,2,Low
+2025-01-15,EMP-5088,Finance,Sales Executive,81756,3,High
+2025-01-15,EMP-5335,Sales,Marketing Specialist,82867,5,Low
+2025-01-16,EMP-5292,Engineering,Marketing Specialist,134096,4,Low
+2025-01-17,EMP-5123,Customer Success,Sales Executive,135052,5,Low
+2025-01-17,EMP-5339,Customer Success,Software Engineer,181340,2,Medium
+2025-01-17,EMP-5187,Finance,Marketing Specialist,80022,4,Low
+2025-01-17,EMP-5147,Customer Success,Marketing Specialist,87991,3,Low
+2025-01-18,EMP-5140,Sales,Support Lead,131325,5,Low
+2025-01-18,EMP-5302,Sales,Software Engineer,79143,2,Low
+2025-01-19,EMP-5186,Sales,Financial Analyst,69016,1,High
+2025-01-19,EMP-5169,Marketing,Financial Analyst,56893,4,Low
+2025-01-19,EMP-5314,HR,Support Lead,158013,3,Medium
+2025-01-20,EMP-5282,Customer Success,HR Generalist,106134,4,Low
+2025-01-22,EMP-5301,Customer Success,Sales Executive,75981,4,Low
+2025-01-22,EMP-5092,HR,HR Generalist,64589,3,Low
+2025-01-23,EMP-5331,Marketing,HR Generalist,181898,1,Medium
+2025-01-23,EMP-5276,Customer Success,Financial Analyst,135703,3,Low
+2025-01-25,EMP-5216,Finance,HR Generalist,69345,2,Medium
+2025-01-25,EMP-5098,Customer Success,Support Lead,178711,4,Low
+2025-01-26,EMP-5000,Finance,Sales Executive,106638,4,Medium
+2025-01-26,EMP-5264,Sales,Sales Executive,167313,3,Low
+2025-01-26,EMP-5239,Customer Success,Sales Executive,168689,3,Low
+2025-01-26,EMP-5172,Sales,Software Engineer,119922,3,Low
+2025-01-28,EMP-5075,Customer Success,HR Generalist,111920,2,Low
+2025-01-30,EMP-5252,Finance,Financial Analyst,158262,2,High
+2025-01-31,EMP-5037,HR,Sales Executive,91713,4,Low
+2025-02-01,EMP-5071,HR,Support Lead,74073,3,Low
+2025-02-01,EMP-5036,Sales,Sales Executive,81505,3,Low
+2025-02-03,EMP-5028,Customer Success,Marketing Specialist,173647,5,Low
+2025-02-04,EMP-5023,Sales,HR Generalist,58407,3,Low
+2025-02-05,EMP-5084,Sales,Sales Executive,158712,3,Low
+2025-02-05,EMP-5003,HR,Support Lead,148627,3,Low
+2025-02-06,EMP-5333,Engineering,Support Lead,93826,3,Low
+2025-02-07,EMP-5017,Marketing,Financial Analyst,122084,3,High
+2025-02-09,EMP-5288,Sales,Marketing Specialist,94993,4,Low
+2025-02-10,EMP-5070,Sales,Marketing Specialist,105341,4,Medium
+2025-02-10,EMP-5104,Engineering,Financial Analyst,166915,2,Medium
+2025-02-11,EMP-5141,Sales,Software Engineer,90268,3,Low
+2025-02-11,EMP-5185,Customer Success,Support Lead,147282,4,Low
+2025-02-12,EMP-5233,Customer Success,HR Generalist,69292,1,Low
+2025-02-12,EMP-5039,Marketing,Sales Executive,98169,5,Medium
+2025-02-13,EMP-5295,HR,Support Lead,116192,4,Low
+2025-02-13,EMP-5256,Sales,HR Generalist,115726,5,Low
+2025-02-14,EMP-5145,Finance,HR Generalist,91404,3,Low
+2025-02-14,EMP-5241,HR,HR Generalist,70620,3,Low
+2025-02-15,EMP-5206,Customer Success,HR Generalist,156311,4,Low
+2025-02-15,EMP-5207,Marketing,Marketing Specialist,154273,4,High
+2025-02-15,EMP-5284,Marketing,Sales Executive,162967,3,Medium
+2025-02-16,EMP-5158,Customer Success,HR Generalist,139146,2,Low
+2025-02-17,EMP-5267,HR,HR Generalist,141373,5,Medium
+2025-02-17,EMP-5313,Marketing,HR Generalist,104999,4,Low
+2025-02-17,EMP-5278,Customer Success,Marketing Specialist,102636,3,Low
+2025-02-17,EMP-5321,HR,HR Generalist,131000,3,Low
+2025-02-18,EMP-5215,Sales,HR Generalist,103542,3,Low
+2025-02-18,EMP-5196,Finance,Software Engineer,111805,4,Low
+2025-02-18,EMP-5253,Sales,Support Lead,121060,3,Medium
+2025-02-19,EMP-5125,Marketing,HR Generalist,139627,4,Medium
+2025-02-20,EMP-5065,Sales,HR Generalist,95828,3,Medium
+2025-02-20,EMP-5309,Sales,Marketing Specialist,183406,4,Low
+2025-02-21,EMP-5201,Engineering,Marketing Specialist,67161,5,Low
+2025-02-22,EMP-5318,Engineering,Support Lead,67446,5,Low
+2025-02-23,EMP-5212,Customer Success,Financial Analyst,56211,3,Low
+2025-02-24,EMP-5005,Customer Success,Support Lead,139363,3,Low
+2025-02-24,EMP-5012,Sales,Financial Analyst,65024,4,Medium
+2025-02-24,EMP-5197,Marketing,Financial Analyst,129323,4,Low
+2025-02-25,EMP-5068,Engineering,HR Generalist,108997,3,Low
+2025-02-26,EMP-5114,HR,Marketing Specialist,168153,3,Low
+2025-02-27,EMP-5035,Sales,Marketing Specialist,184207,3,Low
+2025-03-02,EMP-5043,Engineering,Financial Analyst,95522,5,Low
+2025-03-02,EMP-5010,Engineering,Support Lead,66814,4,Low
+2025-03-03,EMP-5213,Marketing,Sales Executive,55229,3,Medium
+2025-03-03,EMP-5073,HR,Software Engineer,69549,3,Low
+2025-03-03,EMP-5118,Sales,Financial Analyst,156839,4,Medium
+2025-03-04,EMP-5193,Engineering,Support Lead,156248,4,Low
+2025-03-04,EMP-5243,HR,Support Lead,75750,5,Low
+2025-03-05,EMP-5077,Customer Success,HR Generalist,130515,3,Low
+2025-03-07,EMP-5270,Marketing,Support Lead,118370,5,Low
+2025-03-07,EMP-5289,Marketing,HR Generalist,99333,3,Low
+2025-03-08,EMP-5025,Finance,Support Lead,87940,1,High
+2025-03-09,EMP-5246,Finance,Support Lead,64472,3,Low
+2025-03-09,EMP-5121,Finance,Support Lead,140366,2,Low
+2025-03-10,EMP-5330,Marketing,Marketing Specialist,72948,1,Low
+2025-03-10,EMP-5009,Sales,Financial Analyst,116030,2,Medium
+2025-03-10,EMP-5324,Marketing,Software Engineer,58320,3,High
+2025-03-12,EMP-5230,Sales,Financial Analyst,178885,3,Low
+2025-03-12,EMP-5033,Customer Success,Financial Analyst,156190,3,Low
+2025-03-12,EMP-5050,Sales,Marketing Specialist,98454,3,Medium
+2025-03-12,EMP-5311,Marketing,Marketing Specialist,124351,3,Low
+2025-03-13,EMP-5347,HR,Sales Executive,75269,4,Medium
+2025-03-13,EMP-5342,HR,Sales Executive,162561,3,Low
+2025-03-14,EMP-5148,Sales,Software Engineer,159601,3,Low
+2025-03-15,EMP-5060,Sales,Software Engineer,105726,2,Low
+2025-03-15,EMP-5137,Customer Success,Sales Executive,179462,2,Low
+2025-03-15,EMP-5097,Engineering,Software Engineer,149686,4,Low
+2025-03-17,EMP-5190,Customer Success,Marketing Specialist,98678,3,High
+2025-03-19,EMP-5232,Customer Success,Support Lead,126356,5,Low
+2025-03-19,EMP-5020,Customer Success,Financial Analyst,143416,3,Low
+2025-03-19,EMP-5291,HR,Sales Executive,113865,5,Medium
+2025-03-19,EMP-5259,Finance,Sales Executive,177689,1,Low
+2025-03-19,EMP-5236,Engineering,Software Engineer,144317,4,Medium
+2025-03-20,EMP-5024,Sales,Support Lead,153943,4,High
+2025-03-20,EMP-5163,Engineering,Support Lead,68303,3,Low
+2025-03-20,EMP-5274,Customer Success,Sales Executive,67916,3,Medium
+2025-03-21,EMP-5015,Marketing,Sales Executive,112836,3,Low
+2025-03-21,EMP-5229,Finance,Sales Executive,83036,2,Low
+2025-03-22,EMP-5277,Sales,Sales Executive,96445,3,Low
+2025-03-22,EMP-5122,Sales,Financial Analyst,68403,4,Low
+2025-03-23,EMP-5179,Customer Success,Marketing Specialist,91929,4,Low
+2025-03-23,EMP-5154,Sales,Software Engineer,112692,5,High
+2025-03-23,EMP-5146,Engineering,Support Lead,110182,4,Medium
+2025-03-23,EMP-5038,Finance,Financial Analyst,109387,3,Low
+2025-03-24,EMP-5293,Sales,Marketing Specialist,104756,3,Low
+2025-03-25,EMP-5281,Sales,Support Lead,84685,4,Low
+2025-03-25,EMP-5316,HR,Marketing Specialist,159879,5,Low
+2025-03-26,EMP-5131,HR,Software Engineer,176324,1,Low
+2025-03-28,EMP-5016,HR,Financial Analyst,62435,1,High
+2025-03-28,EMP-5273,Sales,HR Generalist,109880,2,Low
+2025-03-28,EMP-5026,HR,Support Lead,60666,3,Low
+2025-03-29,EMP-5106,Sales,Software Engineer,145198,5,Low
+2025-03-30,EMP-5089,HR,Marketing Specialist,115390,1,Low
+2025-03-31,EMP-5051,Finance,Financial Analyst,110711,5,Low
+2025-03-31,EMP-5235,Finance,Support Lead,99377,4,Low
+2025-03-31,EMP-5170,Finance,Sales Executive,68753,3,Medium
+2025-04-02,EMP-5225,Marketing,Software Engineer,172743,5,Low
+2025-04-02,EMP-5177,Sales,HR Generalist,72509,3,Low
+2025-04-03,EMP-5337,Finance,Software Engineer,121262,4,Medium
+2025-04-04,EMP-5127,Finance,Financial Analyst,86932,1,Low
+2025-04-06,EMP-5116,Engineering,Financial Analyst,73316,3,Low
+2025-04-07,EMP-5059,HR,Software Engineer,115102,3,Low
+2025-04-07,EMP-5110,Marketing,Sales Executive,111677,3,Low
+2025-04-07,EMP-5014,Engineering,Software Engineer,164236,5,Low
+2025-04-07,EMP-5029,Sales,Financial Analyst,80092,5,Low
+2025-04-07,EMP-5001,Marketing,Support Lead,178714,4,Low
+2025-04-08,EMP-5262,Finance,HR Generalist,58749,4,Medium
+2025-04-09,EMP-5199,Customer Success,Sales Executive,131478,1,High
+2025-04-10,EMP-5208,Customer Success,Support Lead,129308,2,Low
+2025-04-10,EMP-5290,Marketing,HR Generalist,163574,3,Low
+2025-04-10,EMP-5202,Finance,HR Generalist,75689,4,Medium
+2025-04-10,EMP-5300,Sales,Support Lead,85492,4,Low
+2025-04-11,EMP-5320,HR,Financial Analyst,174156,3,Low
+2025-04-11,EMP-5099,Customer Success,Financial Analyst,131425,3,Low
+2025-04-11,EMP-5144,Engineering,Sales Executive,160185,3,Low
+2025-04-13,EMP-5048,Finance,Marketing Specialist,154397,3,Medium
+2025-04-15,EMP-5041,Engineering,Software Engineer,132511,3,Low
+2025-04-16,EMP-5348,Sales,HR Generalist,172569,2,Low
+2025-04-17,EMP-5195,Finance,Financial Analyst,160514,3,Medium
+2025-04-17,EMP-5159,Sales,Software Engineer,144126,4,Low
+2025-04-17,EMP-5319,HR,Software Engineer,85733,3,Low
+2025-04-18,EMP-5251,Sales,Sales Executive,85766,3,Low
+2025-04-18,EMP-5160,Finance,Financial Analyst,149979,4,Low
+2025-04-19,EMP-5004,Sales,Financial Analyst,84113,3,Low
+2025-04-19,EMP-5138,Engineering,Sales Executive,88332,4,Medium
+2025-04-20,EMP-5108,Sales,Financial Analyst,81639,3,High
+2025-04-22,EMP-5126,Sales,Marketing Specialist,128495,3,Low
+2025-04-24,EMP-5085,HR,HR Generalist,140781,2,Low
+2025-04-25,EMP-5061,Finance,Software Engineer,103784,4,Low
+2025-04-27,EMP-5308,Engineering,Software Engineer,104990,2,Low
+2025-04-27,EMP-5102,Sales,HR Generalist,70994,2,Low
+2025-04-27,EMP-5203,HR,Support Lead,182101,3,Low
+2025-04-27,EMP-5124,Marketing,Financial Analyst,172478,5,Low
+2025-04-28,EMP-5204,Sales,HR Generalist,149699,3,Medium
+2025-04-28,EMP-5218,Finance,Support Lead,86819,3,Low
+2025-04-29,EMP-5018,Engineering,Marketing Specialist,179023,1,Medium
+2025-04-30,EMP-5109,Engineering,Marketing Specialist,72205,4,Low
+2025-04-30,EMP-5156,HR,Financial Analyst,92500,2,Medium
+2025-04-30,EMP-5157,Engineering,Support Lead,88785,1,Medium
+2025-05-01,EMP-5240,Finance,Marketing Specialist,163103,4,Low
+2025-05-01,EMP-5344,Marketing,Support Lead,119360,3,Low
+2025-05-01,EMP-5117,Finance,HR Generalist,82304,4,Medium
+2025-05-02,EMP-5329,HR,Financial Analyst,173361,4,Low
+2025-05-02,EMP-5013,Engineering,Financial Analyst,118288,3,Low
+2025-05-03,EMP-5305,Finance,Marketing Specialist,115277,2,Low
+2025-05-04,EMP-5279,Engineering,HR Generalist,128927,5,Low
+2025-05-06,EMP-5056,Customer Success,Financial Analyst,69799,4,Medium
+2025-05-06,EMP-5261,Engineering,Sales Executive,98162,3,Low
+2025-05-07,EMP-5083,Marketing,Support Lead,117515,3,Low
+2025-05-09,EMP-5214,Customer Success,Support Lead,173972,3,Low
+2025-05-10,EMP-5082,Engineering,Sales Executive,79624,3,Low
+2025-05-10,EMP-5280,Customer Success,Sales Executive,133194,4,Low
+2025-05-10,EMP-5115,Finance,Software Engineer,147509,3,Low
+2025-05-10,EMP-5011,Sales,Support Lead,154340,4,Low
+2025-05-11,EMP-5285,Engineering,Financial Analyst,149455,5,High
+2025-05-11,EMP-5194,Finance,Software Engineer,116720,5,Low
+2025-05-11,EMP-5336,Engineering,Software Engineer,115231,4,Low
+2025-05-11,EMP-5182,Finance,Support Lead,59042,3,Low
+2025-05-11,EMP-5328,Engineering,HR Generalist,81572,3,Low
+2025-05-12,EMP-5153,Marketing,Marketing Specialist,79127,4,Low
+2025-05-14,EMP-5297,Finance,Software Engineer,103733,1,Low
+2025-05-14,EMP-5226,HR,HR Generalist,113032,4,Low
+2025-05-15,EMP-5322,Customer Success,Marketing Specialist,103632,5,Medium
+2025-05-15,EMP-5040,Marketing,Sales Executive,128282,5,Low
+2025-05-17,EMP-5120,Engineering,Support Lead,142876,3,Medium
+2025-05-20,EMP-5254,HR,Sales Executive,64079,4,Low
+2025-05-22,EMP-5250,Finance,Support Lead,80523,3,High
+2025-05-23,EMP-5326,Customer Success,Support Lead,158002,3,Low
+2025-05-24,EMP-5209,Finance,Sales Executive,156128,4,Low
+2025-05-24,EMP-5220,Finance,Support Lead,137421,1,High
+2025-05-24,EMP-5227,Finance,Marketing Specialist,170074,3,Low
+2025-05-25,EMP-5111,Sales,Financial Analyst,87930,4,Low
+2025-05-25,EMP-5139,Marketing,Marketing Specialist,140178,4,Low
+2025-05-26,EMP-5133,HR,Sales Executive,112241,2,Low
+2025-05-28,EMP-5228,Customer Success,Marketing Specialist,154273,3,High
+2025-05-28,EMP-5155,Marketing,Support Lead,149389,2,Low
+2025-05-29,EMP-5055,Sales,HR Generalist,142985,3,High
+2025-05-29,EMP-5132,Finance,Financial Analyst,154226,4,Medium
+2025-05-29,EMP-5265,Marketing,Software Engineer,83477,3,Low
+2025-05-29,EMP-5343,Customer Success,Support Lead,67963,4,High
+2025-05-29,EMP-5341,Customer Success,Support Lead,99678,3,Low
+2025-05-31,EMP-5032,Sales,Support Lead,130645,4,Low
+2025-06-01,EMP-5210,HR,Marketing Specialist,118745,3,Low
+2025-06-01,EMP-5136,Sales,HR Generalist,101505,3,Medium
+2025-06-03,EMP-5340,HR,Financial Analyst,127233,4,Low
+2025-06-03,EMP-5247,Sales,Software Engineer,124263,2,Low
+2025-06-03,EMP-5234,Sales,Support Lead,58052,3,Low
+2025-06-03,EMP-5174,Sales,Support Lead,114412,1,Low
+2025-06-03,EMP-5175,Sales,Sales Executive,177406,4,Low
+2025-06-03,EMP-5198,Sales,Software Engineer,56986,3,Medium
+2025-06-03,EMP-5022,Finance,HR Generalist,173645,4,Low
+2025-06-04,EMP-5074,Finance,Financial Analyst,138795,3,Low
+2025-06-04,EMP-5317,Sales,Marketing Specialist,125309,2,Low
+2025-06-04,EMP-5164,Finance,Financial Analyst,126743,3,Low
+2025-06-05,EMP-5266,Engineering,Support Lead,79570,5,Low
+2025-06-06,EMP-5223,Marketing,Software Engineer,74950,4,Low
+2025-06-06,EMP-5151,Finance,Financial Analyst,177002,3,High
+2025-06-06,EMP-5135,Finance,Marketing Specialist,120030,4,High
+2025-06-06,EMP-5027,Engineering,Support Lead,92122,1,Low
+2025-06-06,EMP-5021,Sales,Sales Executive,175871,4,Low
+2025-06-07,EMP-5053,Customer Success,Support Lead,163984,4,Low
+2025-06-10,EMP-5238,Engineering,Support Lead,122819,3,Low
+2025-06-10,EMP-5189,Sales,Marketing Specialist,82938,3,Low
+2025-06-10,EMP-5257,HR,Support Lead,147906,2,Low
+2025-06-11,EMP-5294,Engineering,Financial Analyst,177863,5,Medium
+2025-06-15,EMP-5103,HR,Software Engineer,156039,3,Low
+2025-06-15,EMP-5346,Engineering,Marketing Specialist,121617,3,Low
+2025-06-17,EMP-5269,Finance,Marketing Specialist,93104,3,Medium
+2025-06-17,EMP-5107,Sales,Software Engineer,159672,5,Low
+2025-06-17,EMP-5128,HR,Financial Analyst,151090,3,Low
+2025-06-18,EMP-5030,Finance,Support Lead,184753,3,Medium
+2025-06-18,EMP-5031,Marketing,Software Engineer,178402,3,Medium
+2025-06-19,EMP-5064,Customer Success,Software Engineer,98333,3,Low
+2025-06-20,EMP-5101,Marketing,Sales Executive,158081,3,Low
+2025-06-22,EMP-5105,Customer Success,Marketing Specialist,177961,3,Low
+2025-06-23,EMP-5176,Customer Success,Software Engineer,111030,4,Low
+2025-06-25,EMP-5100,Sales,Financial Analyst,85286,3,Low
+2025-06-26,EMP-5191,HR,Financial Analyst,173171,3,Low
+2025-06-26,EMP-5178,Marketing,Marketing Specialist,123653,3,Low
+2025-06-26,EMP-5150,Sales,Sales Executive,120886,3,Medium
+2025-06-29,EMP-5245,Marketing,HR Generalist,143719,4,Low
+2025-06-29,EMP-5304,Customer Success,HR Generalist,144452,4,Medium
+2025-06-29,EMP-5045,Sales,Sales Executive,174622,2,Low
+2025-06-29,EMP-5171,Marketing,Sales Executive,93090,2,Low
+2025-06-30,EMP-5332,Sales,Software Engineer,171528,3,High
+2025-06-30,EMP-5181,Sales,Software Engineer,103291,4,Low
+2025-07-02,EMP-5286,Finance,Sales Executive,182763,3,Medium
+2025-07-02,EMP-5134,Customer Success,Marketing Specialist,65367,3,Low
+2025-07-03,EMP-5192,Customer Success,Support Lead,184638,4,High
+2025-07-04,EMP-5008,HR,HR Generalist,134955,4,Medium
+2025-07-05,EMP-5221,Finance,HR Generalist,147244,3,Low
+2025-07-05,EMP-5081,HR,Support Lead,148860,2,Low
+2025-07-05,EMP-5129,Sales,Software Engineer,91701,5,Low
+2025-07-06,EMP-5323,Engineering,Support Lead,76576,3,Low
+2025-07-06,EMP-5283,Finance,HR Generalist,143916,1,Low
+2025-07-06,EMP-5079,HR,Marketing Specialist,75316,2,Low
+2025-07-07,EMP-5091,Engineering,Support Lead,125821,4,Medium
+2025-07-07,EMP-5057,Finance,HR Generalist,169584,3,High
+2025-07-08,EMP-5211,Engineering,Software Engineer,181881,5,Low
+2025-07-10,EMP-5093,Engineering,Support Lead,168012,2,Low
+2025-07-10,EMP-5062,HR,Financial Analyst,175364,3,High
+2025-07-11,EMP-5299,Finance,Sales Executive,80993,4,Low
+2025-07-11,EMP-5327,Sales,HR Generalist,108463,3,Low
+2025-07-11,EMP-5066,HR,Support Lead,124526,2,Low
+2025-07-11,EMP-5006,HR,Support Lead,178607,4,High
+2025-07-13,EMP-5183,Finance,Software Engineer,117574,5,Low
+2025-07-14,EMP-5244,Customer Success,Financial Analyst,153426,4,Medium
+2025-07-17,EMP-5338,Marketing,Sales Executive,146356,4,Medium
+2025-07-18,EMP-5237,Customer Success,Support Lead,122838,2,Low
+2025-07-18,EMP-5086,Marketing,Software Engineer,101705,3,Medium
+2025-07-19,EMP-5222,Engineering,Marketing Specialist,120584,2,Low
+2025-07-19,EMP-5200,Finance,Marketing Specialist,137994,4,Low
+2025-07-20,EMP-5272,Marketing,Sales Executive,123359,3,Medium
+2025-07-22,EMP-5248,HR,Software Engineer,167036,5,Low
+2025-07-22,EMP-5130,HR,Software Engineer,58385,3,Low
+2025-07-22,EMP-5096,Customer Success,HR Generalist,99786,3,Low
+2025-07-23,EMP-5067,Customer Success,Financial Analyst,109362,3,Low
+2025-07-24,EMP-5162,Sales,Support Lead,62170,3,Low
+2025-07-24,EMP-5298,Engineering,Financial Analyst,159089,2,Low
+2025-07-24,EMP-5275,HR,HR Generalist,181150,1,Low
+2025-07-26,EMP-5002,HR,Software Engineer,63418,2,Low
+2025-07-27,EMP-5069,Engineering,Marketing Specialist,178973,4,Low
+2025-07-27,EMP-5019,Customer Success,HR Generalist,125601,5,Low
+2025-07-27,EMP-5219,Finance,Sales Executive,102779,4,Low
+2025-07-28,EMP-5058,HR,Financial Analyst,159843,3,High
+2025-07-28,EMP-5076,HR,Software Engineer,140326,3,Low
+2025-07-31,EMP-5242,Customer Success,HR Generalist,85461,3,Low
+2025-07-31,EMP-5143,Customer Success,Marketing Specialist,80563,4,Low
+2025-08-03,EMP-5090,Finance,Financial Analyst,123369,3,Low
+2025-08-04,EMP-5349,Engineering,Marketing Specialist,131312,4,Low
+2025-08-04,EMP-5260,Engineering,Sales Executive,137357,4,Medium
+2025-08-04,EMP-5112,Engineering,Marketing Specialist,128313,3,Medium
+2025-08-04,EMP-5119,Sales,Support Lead,151058,3,Low
+2025-08-05,EMP-5173,Marketing,Marketing Specialist,131768,3,Medium
+2025-08-06,EMP-5255,Marketing,Sales Executive,63399,5,Low
+2025-08-06,EMP-5094,Marketing,Support Lead,69116,4,Medium
+2025-08-07,EMP-5007,Customer Success,Sales Executive,118044,3,Low
+2025-08-08,EMP-5166,HR,Support Lead,90187,4,Low
+2025-08-10,EMP-5307,Sales,Sales Executive,166957,1,Low
+2025-08-11,EMP-5152,HR,HR Generalist,138848,3,Low
+2025-08-12,EMP-5312,Marketing,Financial Analyst,152372,3,Low
+2025-08-12,EMP-5180,Customer Success,Software Engineer,184626,4,Low
+2025-08-12,EMP-5046,Marketing,Sales Executive,173764,4,Low
+2025-08-13,EMP-5184,HR,Support Lead,92201,3,Low
+2025-08-13,EMP-5095,Sales,HR Generalist,128181,3,Low
+2025-08-14,EMP-5052,Customer Success,Software Engineer,98539,3,Low
+2025-08-16,EMP-5268,Finance,Software Engineer,66437,3,High
+2025-08-16,EMP-5054,Finance,Software Engineer,123321,3,Low
+2025-08-17,EMP-5113,Customer Success,Software Engineer,148851,1,Low
+2025-08-17,EMP-5167,HR,Marketing Specialist,120034,5,Low
+2025-08-19,EMP-5224,Finance,Marketing Specialist,70173,2,Low
+2025-08-20,EMP-5310,Engineering,Financial Analyst,117888,4,Low
+2025-08-21,EMP-5231,Engineering,HR Generalist,167857,4,Low
+2025-08-22,EMP-5271,HR,Marketing Specialist,59551,1,Low
+2025-08-24,EMP-5263,Marketing,Support Lead,66353,4,High
+2025-08-24,EMP-5188,Sales,HR Generalist,155962,3,Low
+2025-08-26,EMP-5078,Sales,Financial Analyst,184392,3,Low
+2025-08-26,EMP-5296,Customer Success,Financial Analyst,115686,4,Low
+2025-08-27,EMP-5063,Finance,Sales Executive,168034,3,Medium
+2025-08-28,EMP-5142,Sales,Software Engineer,141486,2,High
+2025-08-30,EMP-5080,Sales,Software Engineer,81183,1,Medium
+2025-09-03,EMP-5306,Sales,Financial Analyst,162044,3,Medium
+2025-09-04,EMP-5168,Finance,HR Generalist,126776,3,Medium

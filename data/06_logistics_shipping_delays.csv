@@ -1,0 +1,501 @@
+Shipment Date,Warehouse Origin,Carrier,Destination Country,Shipping Cost,Delay Days,Customs Cleared
+2025-01-01,Chicago Hub,FedEx,Brazil,770.55,8,Yes
+2025-01-03,Singapore Terminal,UPS,France,1107.48,12,Yes
+2025-01-04,Chicago Hub,UPS,Japan,1345.12,0,Yes
+2025-01-04,Dallas FC,DB Schenker,France,1583.89,0,Yes
+2025-01-08,Shenzhen Logistics,FedEx,Japan,1577.18,12,Yes
+2025-01-09,Rotterdam Port,UPS,USA,1574.08,8,Yes
+2025-01-09,Chicago Hub,FedEx,France,1010.77,0,Yes
+2025-01-10,Shenzhen Logistics,FedEx,Germany,822.24,0,Yes
+2025-01-10,Dallas FC,UPS,UK,1123.41,0,Yes
+2025-01-10,Dallas FC,Maersk,UK,47.11,0,Yes
+2025-01-11,Rotterdam Port,FedEx,France,1236.71,0,Yes
+2025-01-12,Shenzhen Logistics,DB Schenker,Brazil,1147.46,8,Yes
+2025-01-12,Rotterdam Port,Maersk,UK,1775.38,0,Yes
+2025-01-13,Dallas FC,DHL,Germany,386.58,0,Yes
+2025-01-13,Chicago Hub,Maersk,Brazil,1313.45,8,Yes
+2025-01-14,Chicago Hub,DB Schenker,Japan,696.84,3,Yes
+2025-01-14,Shenzhen Logistics,FedEx,Germany,1519.34,12,Yes
+2025-01-15,Shenzhen Logistics,FedEx,USA,701.96,0,Yes
+2025-01-16,Dallas FC,DB Schenker,UK,1366.89,8,Yes
+2025-01-16,Singapore Terminal,DHL,France,1238.77,0,No
+2025-01-17,Chicago Hub,FedEx,France,906.95,1,Yes
+2025-01-17,Singapore Terminal,DHL,France,901.11,2,Yes
+2025-01-17,Shenzhen Logistics,DB Schenker,UK,951.18,1,Yes
+2025-01-17,Shenzhen Logistics,FedEx,Japan,242.63,0,Yes
+2025-01-17,Rotterdam Port,DHL,Brazil,804.29,12,Yes
+2025-01-18,Rotterdam Port,DHL,Germany,754.06,5,Yes
+2025-01-18,Rotterdam Port,DB Schenker,France,1416.92,0,Yes
+2025-01-18,Shenzhen Logistics,DHL,Japan,94.6,2,Yes
+2025-01-18,Chicago Hub,Maersk,Japan,307.25,2,Yes
+2025-01-19,Chicago Hub,FedEx,UK,245.16,12,No
+2025-01-19,Shenzhen Logistics,UPS,Japan,183.09,0,Yes
+2025-01-19,Singapore Terminal,FedEx,Germany,987.65,3,Yes
+2025-01-20,Shenzhen Logistics,UPS,France,1371.27,0,Yes
+2025-01-20,Rotterdam Port,FedEx,UK,1478.59,1,Yes
+2025-01-21,Dallas FC,Maersk,Japan,1350.26,0,Yes
+2025-01-23,Dallas FC,DB Schenker,Brazil,1124.21,3,Yes
+2025-01-23,Chicago Hub,DB Schenker,USA,623.83,8,Yes
+2025-01-24,Rotterdam Port,FedEx,Japan,938.3,3,Yes
+2025-01-25,Rotterdam Port,UPS,France,552.0,5,Yes
+2025-01-26,Dallas FC,DB Schenker,Brazil,1785.25,3,Yes
+2025-01-27,Shenzhen Logistics,DHL,Brazil,417.28,0,Yes
+2025-01-27,Chicago Hub,DB Schenker,Germany,1035.6,0,No
+2025-01-27,Shenzhen Logistics,DB Schenker,UK,388.7,12,Yes
+2025-01-28,Dallas FC,UPS,USA,352.43,0,Yes
+2025-01-28,Singapore Terminal,UPS,Japan,1278.5,3,Yes
+2025-01-31,Chicago Hub,UPS,France,1126.92,0,Yes
+2025-01-31,Chicago Hub,UPS,France,1178.58,0,Yes
+2025-02-01,Singapore Terminal,DB Schenker,UK,1006.51,12,Yes
+2025-02-01,Singapore Terminal,FedEx,France,619.85,0,Yes
+2025-02-05,Rotterdam Port,UPS,USA,1378.8,0,Yes
+2025-02-05,Singapore Terminal,FedEx,Germany,876.49,2,Yes
+2025-02-05,Dallas FC,DHL,UK,1100.58,1,Yes
+2025-02-05,Rotterdam Port,DHL,Germany,1723.74,2,Yes
+2025-02-06,Chicago Hub,Maersk,Brazil,668.81,1,Yes
+2025-02-06,Rotterdam Port,Maersk,Japan,1111.99,0,No
+2025-02-07,Dallas FC,DB Schenker,France,1763.94,0,Yes
+2025-02-07,Singapore Terminal,Maersk,USA,564.37,8,Yes
+2025-02-09,Chicago Hub,DB Schenker,Germany,1245.79,5,Yes
+2025-02-10,Dallas FC,FedEx,France,1410.02,12,Yes
+2025-02-10,Shenzhen Logistics,DHL,Germany,1086.19,2,Yes
+2025-02-10,Singapore Terminal,UPS,UK,773.46,3,Yes
+2025-02-11,Dallas FC,Maersk,UK,1431.36,0,Yes
+2025-02-12,Rotterdam Port,UPS,Germany,1146.16,0,Yes
+2025-02-12,Shenzhen Logistics,Maersk,Brazil,630.67,2,Yes
+2025-02-12,Shenzhen Logistics,DHL,USA,517.72,3,Yes
+2025-02-12,Singapore Terminal,DHL,France,230.64,0,Yes
+2025-02-13,Rotterdam Port,Maersk,UK,139.24,3,Yes
+2025-02-14,Shenzhen Logistics,UPS,France,1202.25,3,Yes
+2025-02-15,Shenzhen Logistics,UPS,Japan,1008.94,8,Yes
+2025-02-15,Rotterdam Port,FedEx,Germany,502.72,0,Yes
+2025-02-16,Singapore Terminal,Maersk,USA,895.79,1,Yes
+2025-02-16,Chicago Hub,DHL,Brazil,1121.5,5,Yes
+2025-02-17,Rotterdam Port,DHL,UK,474.11,0,Yes
+2025-02-17,Rotterdam Port,DB Schenker,UK,778.34,0,Yes
+2025-02-19,Singapore Terminal,UPS,Brazil,1195.57,12,Yes
+2025-02-19,Singapore Terminal,DB Schenker,UK,1754.27,12,Yes
+2025-02-20,Rotterdam Port,UPS,Japan,201.63,0,Yes
+2025-02-21,Dallas FC,UPS,UK,1348.49,5,Yes
+2025-02-21,Chicago Hub,DHL,UK,1420.4,0,Yes
+2025-02-22,Singapore Terminal,DB Schenker,Germany,416.31,3,Yes
+2025-02-25,Dallas FC,DB Schenker,Germany,1105.15,0,Yes
+2025-02-25,Chicago Hub,DB Schenker,USA,495.01,2,Yes
+2025-02-27,Singapore Terminal,UPS,Germany,1429.61,1,Yes
+2025-02-27,Shenzhen Logistics,FedEx,Japan,1182.53,5,Yes
+2025-02-28,Singapore Terminal,UPS,France,741.05,5,Yes
+2025-02-28,Chicago Hub,FedEx,USA,228.41,0,Yes
+2025-02-28,Chicago Hub,DHL,Brazil,1382.72,12,Yes
+2025-02-28,Shenzhen Logistics,DHL,USA,449.39,0,Yes
+2025-03-02,Singapore Terminal,DB Schenker,France,1797.72,3,Yes
+2025-03-03,Shenzhen Logistics,DHL,Japan,557.15,2,Yes
+2025-03-03,Dallas FC,DHL,UK,984.05,0,Yes
+2025-03-04,Shenzhen Logistics,Maersk,USA,244.29,3,Yes
+2025-03-05,Dallas FC,DHL,UK,1695.96,1,Yes
+2025-03-05,Singapore Terminal,DB Schenker,Germany,706.32,1,Yes
+2025-03-05,Chicago Hub,DB Schenker,Brazil,170.85,3,No
+2025-03-07,Singapore Terminal,FedEx,Japan,495.58,8,Yes
+2025-03-09,Rotterdam Port,DHL,Japan,1376.93,3,Yes
+2025-03-10,Rotterdam Port,DB Schenker,USA,1387.77,1,Yes
+2025-03-10,Dallas FC,DHL,France,1126.25,12,Yes
+2025-03-11,Singapore Terminal,DB Schenker,UK,807.41,5,Yes
+2025-03-12,Singapore Terminal,UPS,France,356.0,0,Yes
+2025-03-12,Chicago Hub,DHL,Brazil,896.62,8,Yes
+2025-03-12,Singapore Terminal,Maersk,USA,59.57,2,Yes
+2025-03-14,Shenzhen Logistics,DB Schenker,Germany,240.36,3,Yes
+2025-03-14,Rotterdam Port,DB Schenker,UK,319.24,5,Yes
+2025-03-15,Rotterdam Port,DHL,Brazil,1237.54,8,Yes
+2025-03-15,Shenzhen Logistics,UPS,UK,1308.01,0,Yes
+2025-03-19,Rotterdam Port,DB Schenker,Japan,486.67,8,Yes
+2025-03-19,Shenzhen Logistics,Maersk,UK,791.42,2,Yes
+2025-03-19,Dallas FC,UPS,Germany,1609.11,1,Yes
+2025-03-20,Dallas FC,UPS,Germany,1725.97,0,Yes
+2025-03-20,Shenzhen Logistics,UPS,Brazil,398.54,0,Yes
+2025-03-21,Rotterdam Port,DB Schenker,Japan,140.72,1,Yes
+2025-03-21,Dallas FC,FedEx,Germany,442.1,0,Yes
+2025-03-21,Dallas FC,DHL,Japan,442.21,5,Yes
+2025-03-22,Shenzhen Logistics,DB Schenker,Brazil,1744.92,0,Yes
+2025-03-22,Chicago Hub,DHL,France,312.91,5,Yes
+2025-03-23,Chicago Hub,Maersk,France,649.6,0,Yes
+2025-03-24,Dallas FC,DB Schenker,Brazil,381.76,2,Yes
+2025-03-25,Rotterdam Port,UPS,UK,984.85,2,Yes
+2025-03-25,Shenzhen Logistics,Maersk,Germany,1399.53,12,Yes
+2025-03-25,Shenzhen Logistics,DB Schenker,France,1546.58,0,Yes
+2025-03-25,Rotterdam Port,Maersk,France,1535.12,8,Yes
+2025-03-26,Rotterdam Port,UPS,UK,1468.58,2,Yes
+2025-03-27,Singapore Terminal,UPS,Germany,521.08,8,Yes
+2025-03-28,Singapore Terminal,UPS,USA,1467.99,3,Yes
+2025-03-31,Shenzhen Logistics,DB Schenker,Germany,900.46,1,Yes
+2025-04-02,Rotterdam Port,DHL,Japan,1540.68,1,Yes
+2025-04-02,Singapore Terminal,Maersk,Brazil,225.47,12,No
+2025-04-03,Chicago Hub,FedEx,Brazil,1063.21,12,Yes
+2025-04-05,Chicago Hub,DB Schenker,Brazil,1243.22,12,Yes
+2025-04-06,Singapore Terminal,FedEx,USA,452.1,0,Yes
+2025-04-08,Rotterdam Port,DB Schenker,Japan,1407.12,5,Yes
+2025-04-08,Rotterdam Port,FedEx,France,1142.91,0,Yes
+2025-04-08,Shenzhen Logistics,DHL,USA,1665.12,8,No
+2025-04-09,Singapore Terminal,UPS,USA,970.41,3,Yes
+2025-04-11,Dallas FC,DB Schenker,Brazil,1383.81,8,Yes
+2025-04-11,Chicago Hub,DB Schenker,USA,1555.8,0,Yes
+2025-04-13,Dallas FC,FedEx,France,241.93,1,Yes
+2025-04-13,Dallas FC,Maersk,Brazil,682.5,0,Yes
+2025-04-14,Shenzhen Logistics,DB Schenker,Japan,1437.12,0,Yes
+2025-04-14,Rotterdam Port,DB Schenker,Germany,637.01,0,Yes
+2025-04-15,Rotterdam Port,DB Schenker,USA,1778.91,1,Yes
+2025-04-16,Chicago Hub,UPS,France,1589.59,8,Yes
+2025-04-16,Dallas FC,FedEx,USA,931.48,3,Yes
+2025-04-16,Chicago Hub,FedEx,UK,586.23,1,Yes
+2025-04-17,Rotterdam Port,Maersk,France,225.04,1,Yes
+2025-04-18,Singapore Terminal,DB Schenker,USA,1600.86,1,Yes
+2025-04-19,Singapore Terminal,DB Schenker,Japan,1191.49,3,Yes
+2025-04-21,Rotterdam Port,Maersk,Japan,67.1,3,Yes
+2025-04-22,Dallas FC,UPS,UK,177.1,0,Yes
+2025-04-23,Dallas FC,FedEx,France,1769.26,3,Yes
+2025-04-23,Dallas FC,UPS,Germany,1761.21,0,Yes
+2025-04-23,Chicago Hub,DHL,Brazil,1090.64,0,Yes
+2025-04-25,Singapore Terminal,DB Schenker,Germany,1341.64,8,Yes
+2025-04-27,Dallas FC,DHL,UK,474.64,3,Yes
+2025-04-27,Dallas FC,DHL,Brazil,936.3,5,Yes
+2025-04-28,Shenzhen Logistics,DB Schenker,France,189.53,0,Yes
+2025-04-30,Shenzhen Logistics,DHL,USA,1038.66,0,Yes
+2025-04-30,Shenzhen Logistics,DB Schenker,Brazil,792.9,1,Yes
+2025-05-02,Shenzhen Logistics,Maersk,France,572.42,2,Yes
+2025-05-02,Rotterdam Port,DHL,Japan,1750.93,0,Yes
+2025-05-02,Dallas FC,Maersk,France,430.66,1,Yes
+2025-05-03,Singapore Terminal,Maersk,Brazil,558.93,3,Yes
+2025-05-03,Singapore Terminal,DHL,USA,1237.83,3,Yes
+2025-05-07,Dallas FC,Maersk,France,781.49,8,Yes
+2025-05-07,Dallas FC,DHL,Japan,1012.59,12,Yes
+2025-05-09,Dallas FC,DB Schenker,UK,1501.89,0,Yes
+2025-05-09,Singapore Terminal,Maersk,Brazil,1763.56,0,Yes
+2025-05-10,Shenzhen Logistics,FedEx,Brazil,133.0,3,Yes
+2025-05-11,Singapore Terminal,Maersk,Japan,1209.37,0,Yes
+2025-05-12,Dallas FC,DHL,UK,595.03,0,No
+2025-05-13,Shenzhen Logistics,FedEx,Germany,627.12,0,Yes
+2025-05-14,Shenzhen Logistics,DHL,Brazil,658.28,2,Yes
+2025-05-15,Rotterdam Port,Maersk,Germany,244.07,0,Yes
+2025-05-15,Dallas FC,Maersk,UK,1456.72,8,Yes
+2025-05-15,Shenzhen Logistics,FedEx,Brazil,1083.38,5,Yes
+2025-05-16,Shenzhen Logistics,Maersk,France,135.77,2,Yes
+2025-05-17,Singapore Terminal,DB Schenker,USA,1747.45,1,No
+2025-05-17,Rotterdam Port,DB Schenker,UK,307.68,2,Yes
+2025-05-18,Shenzhen Logistics,DB Schenker,Japan,1505.56,0,Yes
+2025-05-19,Rotterdam Port,DHL,UK,1431.58,0,Yes
+2025-05-21,Shenzhen Logistics,DHL,UK,222.06,12,Yes
+2025-05-22,Shenzhen Logistics,Maersk,Germany,87.05,8,No
+2025-05-23,Dallas FC,FedEx,UK,904.18,1,Yes
+2025-05-24,Dallas FC,DB Schenker,Japan,1298.28,1,Yes
+2025-05-24,Shenzhen Logistics,DB Schenker,USA,802.64,5,Yes
+2025-05-26,Dallas FC,Maersk,Brazil,597.03,0,Yes
+2025-05-27,Shenzhen Logistics,DB Schenker,France,1385.84,8,Yes
+2025-05-27,Shenzhen Logistics,DB Schenker,Brazil,1113.25,1,Yes
+2025-05-27,Rotterdam Port,DB Schenker,Germany,1696.91,3,Yes
+2025-05-28,Chicago Hub,DB Schenker,Germany,626.6,0,Yes
+2025-05-28,Chicago Hub,UPS,Germany,1310.59,0,Yes
+2025-05-29,Singapore Terminal,Maersk,France,864.58,12,Yes
+2025-06-03,Chicago Hub,FedEx,Brazil,1520.76,3,Yes
+2025-06-03,Singapore Terminal,FedEx,Brazil,867.36,8,Yes
+2025-06-04,Chicago Hub,DB Schenker,UK,1240.4,0,Yes
+2025-06-06,Singapore Terminal,DB Schenker,France,971.74,5,Yes
+2025-06-06,Shenzhen Logistics,Maersk,Japan,1196.54,3,Yes
+2025-06-09,Dallas FC,Maersk,Japan,309.04,12,Yes
+2025-06-10,Singapore Terminal,Maersk,Germany,372.33,0,Yes
+2025-06-11,Dallas FC,DHL,France,1781.69,0,Yes
+2025-06-11,Chicago Hub,DHL,UK,187.84,8,Yes
+2025-06-12,Rotterdam Port,DB Schenker,UK,1506.65,0,No
+2025-06-14,Singapore Terminal,DHL,UK,1645.67,0,Yes
+2025-06-16,Shenzhen Logistics,UPS,USA,850.14,2,Yes
+2025-06-16,Rotterdam Port,FedEx,France,798.86,1,Yes
+2025-06-16,Singapore Terminal,UPS,UK,328.64,0,Yes
+2025-06-17,Dallas FC,FedEx,France,426.29,0,Yes
+2025-06-18,Dallas FC,FedEx,UK,1107.7,12,Yes
+2025-06-18,Singapore Terminal,DHL,UK,347.24,2,Yes
+2025-06-18,Shenzhen Logistics,DHL,Brazil,1206.67,0,Yes
+2025-06-21,Chicago Hub,Maersk,France,492.93,0,Yes
+2025-06-23,Rotterdam Port,UPS,France,648.41,8,Yes
+2025-06-23,Rotterdam Port,DHL,Brazil,1098.22,0,Yes
+2025-06-25,Singapore Terminal,Maersk,Brazil,594.22,5,Yes
+2025-06-25,Chicago Hub,UPS,Japan,1422.28,0,Yes
+2025-06-26,Rotterdam Port,FedEx,France,133.12,0,Yes
+2025-06-27,Shenzhen Logistics,Maersk,France,1223.73,0,Yes
+2025-06-27,Singapore Terminal,DB Schenker,UK,591.14,2,Yes
+2025-06-27,Singapore Terminal,FedEx,USA,1779.62,2,Yes
+2025-06-27,Dallas FC,DB Schenker,Germany,796.74,0,Yes
+2025-06-28,Shenzhen Logistics,FedEx,UK,566.38,1,Yes
+2025-06-29,Chicago Hub,DB Schenker,France,1621.38,0,Yes
+2025-07-01,Chicago Hub,DHL,UK,1210.98,0,Yes
+2025-07-01,Shenzhen Logistics,DB Schenker,Brazil,222.47,8,Yes
+2025-07-04,Rotterdam Port,DHL,USA,1731.3,12,Yes
+2025-07-05,Rotterdam Port,UPS,USA,371.35,1,Yes
+2025-07-05,Dallas FC,DHL,France,611.94,2,Yes
+2025-07-07,Rotterdam Port,DB Schenker,UK,1065.25,1,Yes
+2025-07-08,Chicago Hub,DHL,USA,1107.78,3,Yes
+2025-07-08,Singapore Terminal,DHL,USA,1727.5,3,Yes
+2025-07-08,Shenzhen Logistics,UPS,Germany,845.46,0,Yes
+2025-07-08,Chicago Hub,UPS,Brazil,996.38,12,Yes
+2025-07-09,Shenzhen Logistics,UPS,Japan,1120.78,3,No
+2025-07-10,Singapore Terminal,UPS,Germany,306.66,12,Yes
+2025-07-11,Shenzhen Logistics,UPS,Japan,372.85,0,Yes
+2025-07-11,Rotterdam Port,DHL,USA,1797.03,3,Yes
+2025-07-11,Rotterdam Port,Maersk,Brazil,1156.1,2,Yes
+2025-07-12,Singapore Terminal,FedEx,UK,841.51,8,Yes
+2025-07-12,Singapore Terminal,Maersk,Japan,423.28,2,Yes
+2025-07-12,Shenzhen Logistics,DHL,Japan,525.85,0,Yes
+2025-07-12,Dallas FC,DB Schenker,USA,1502.67,2,Yes
+2025-07-13,Rotterdam Port,DHL,Brazil,220.08,8,Yes
+2025-07-13,Shenzhen Logistics,DHL,USA,1720.83,12,Yes
+2025-07-15,Singapore Terminal,DHL,USA,272.1,0,Yes
+2025-07-16,Chicago Hub,Maersk,Japan,416.23,0,Yes
+2025-07-16,Shenzhen Logistics,FedEx,UK,1016.22,12,Yes
+2025-07-17,Singapore Terminal,Maersk,France,285.54,8,Yes
+2025-07-17,Shenzhen Logistics,DHL,Japan,1202.83,0,Yes
+2025-07-18,Rotterdam Port,DB Schenker,Brazil,1782.22,2,Yes
+2025-07-18,Shenzhen Logistics,Maersk,Germany,1621.39,12,Yes
+2025-07-19,Singapore Terminal,FedEx,Japan,172.56,3,Yes
+2025-07-20,Dallas FC,DHL,France,1770.59,12,Yes
+2025-07-20,Dallas FC,UPS,USA,239.9,12,Yes
+2025-07-21,Chicago Hub,DHL,France,157.73,2,Yes
+2025-07-21,Rotterdam Port,DHL,Japan,866.49,2,Yes
+2025-07-21,Chicago Hub,FedEx,UK,897.05,0,Yes
+2025-07-22,Rotterdam Port,DB Schenker,Japan,1749.23,5,Yes
+2025-07-22,Dallas FC,DHL,Japan,1647.75,0,Yes
+2025-07-22,Singapore Terminal,FedEx,USA,1194.36,8,Yes
+2025-07-22,Chicago Hub,Maersk,France,1497.23,0,Yes
+2025-07-23,Rotterdam Port,DHL,USA,1299.28,1,Yes
+2025-07-23,Singapore Terminal,DHL,Japan,1436.44,3,Yes
+2025-07-24,Shenzhen Logistics,FedEx,France,754.57,8,Yes
+2025-07-24,Rotterdam Port,UPS,France,173.75,0,Yes
+2025-07-25,Singapore Terminal,Maersk,France,223.26,1,Yes
+2025-07-25,Dallas FC,DHL,UK,1096.55,0,Yes
+2025-07-26,Shenzhen Logistics,Maersk,UK,453.2,3,Yes
+2025-07-27,Rotterdam Port,Maersk,USA,73.38,0,Yes
+2025-07-27,Chicago Hub,FedEx,Germany,1226.8,12,No
+2025-07-29,Singapore Terminal,FedEx,Brazil,1776.05,8,Yes
+2025-07-29,Shenzhen Logistics,Maersk,UK,1005.4,0,Yes
+2025-07-31,Singapore Terminal,Maersk,Japan,1091.22,8,Yes
+2025-08-01,Rotterdam Port,FedEx,France,859.02,5,Yes
+2025-08-01,Singapore Terminal,DB Schenker,Brazil,418.15,2,Yes
+2025-08-02,Chicago Hub,DHL,USA,157.56,5,Yes
+2025-08-02,Singapore Terminal,Maersk,Japan,514.48,0,Yes
+2025-08-02,Rotterdam Port,DHL,France,315.22,0,No
+2025-08-04,Rotterdam Port,DHL,Japan,1221.18,3,Yes
+2025-08-04,Rotterdam Port,UPS,USA,1029.75,0,Yes
+2025-08-04,Shenzhen Logistics,DHL,Brazil,661.39,2,Yes
+2025-08-05,Singapore Terminal,Maersk,USA,730.77,12,Yes
+2025-08-06,Rotterdam Port,DHL,UK,1770.54,12,Yes
+2025-08-07,Chicago Hub,FedEx,UK,812.07,2,Yes
+2025-08-08,Rotterdam Port,UPS,UK,1484.2,0,Yes
+2025-08-08,Dallas FC,DB Schenker,Brazil,1286.03,1,Yes
+2025-08-08,Dallas FC,UPS,Brazil,1119.32,2,Yes
+2025-08-09,Chicago Hub,FedEx,UK,1010.23,5,Yes
+2025-08-09,Dallas FC,DHL,Germany,923.37,0,Yes
+2025-08-10,Singapore Terminal,UPS,USA,735.48,12,Yes
+2025-08-11,Chicago Hub,Maersk,UK,257.6,0,Yes
+2025-08-11,Shenzhen Logistics,FedEx,USA,1180.14,2,Yes
+2025-08-12,Chicago Hub,DB Schenker,Germany,694.36,0,Yes
+2025-08-12,Dallas FC,Maersk,Germany,1677.16,3,Yes
+2025-08-13,Rotterdam Port,UPS,Brazil,427.11,3,No
+2025-08-15,Dallas FC,DB Schenker,USA,65.06,0,Yes
+2025-08-15,Shenzhen Logistics,FedEx,France,1760.06,1,Yes
+2025-08-16,Rotterdam Port,FedEx,USA,717.02,0,Yes
+2025-08-18,Shenzhen Logistics,DHL,Japan,765.14,0,Yes
+2025-08-19,Dallas FC,DB Schenker,France,574.62,0,Yes
+2025-08-20,Singapore Terminal,DB Schenker,USA,1460.78,0,Yes
+2025-08-22,Dallas FC,Maersk,Brazil,1127.63,0,Yes
+2025-08-24,Chicago Hub,DHL,Germany,524.17,8,Yes
+2025-08-25,Chicago Hub,Maersk,Germany,55.68,0,Yes
+2025-08-26,Rotterdam Port,DHL,Brazil,619.22,3,Yes
+2025-08-27,Singapore Terminal,FedEx,UK,1702.11,5,Yes
+2025-08-27,Dallas FC,Maersk,Brazil,624.7,3,Yes
+2025-08-27,Chicago Hub,DB Schenker,France,598.68,8,Yes
+2025-08-28,Rotterdam Port,DHL,Brazil,1759.96,5,Yes
+2025-08-28,Shenzhen Logistics,Maersk,Brazil,1645.13,12,Yes
+2025-08-28,Rotterdam Port,UPS,France,862.77,12,Yes
+2025-08-29,Chicago Hub,FedEx,Brazil,1217.09,0,No
+2025-08-29,Dallas FC,Maersk,USA,158.68,1,Yes
+2025-08-30,Chicago Hub,UPS,Japan,634.53,3,Yes
+2025-08-31,Dallas FC,DHL,UK,131.09,0,Yes
+2025-09-01,Rotterdam Port,FedEx,USA,685.66,8,No
+2025-09-01,Chicago Hub,DHL,France,385.56,8,Yes
+2025-09-01,Chicago Hub,DHL,USA,179.47,0,Yes
+2025-09-02,Shenzhen Logistics,DHL,USA,1242.75,12,Yes
+2025-09-02,Rotterdam Port,Maersk,France,254.28,8,Yes
+2025-09-02,Dallas FC,DB Schenker,USA,1116.68,0,Yes
+2025-09-02,Rotterdam Port,Maersk,Japan,1194.4,3,Yes
+2025-09-03,Chicago Hub,DHL,Germany,1186.39,12,Yes
+2025-09-04,Dallas FC,UPS,UK,1086.78,0,Yes
+2025-09-05,Singapore Terminal,UPS,France,633.76,0,Yes
+2025-09-06,Singapore Terminal,FedEx,UK,1435.84,2,Yes
+2025-09-06,Dallas FC,DHL,USA,544.82,1,Yes
+2025-09-06,Dallas FC,DHL,Brazil,1470.12,0,Yes
+2025-09-06,Singapore Terminal,Maersk,UK,113.87,0,Yes
+2025-09-07,Chicago Hub,Maersk,Brazil,1642.77,0,Yes
+2025-09-08,Shenzhen Logistics,DB Schenker,UK,1386.21,0,Yes
+2025-09-09,Rotterdam Port,Maersk,France,1383.51,0,Yes
+2025-09-12,Shenzhen Logistics,DB Schenker,Germany,532.48,5,Yes
+2025-09-13,Shenzhen Logistics,Maersk,USA,1122.62,0,Yes
+2025-09-13,Singapore Terminal,FedEx,Brazil,318.64,8,Yes
+2025-09-13,Rotterdam Port,Maersk,France,981.31,0,No
+2025-09-14,Shenzhen Logistics,UPS,Germany,727.98,5,No
+2025-09-15,Dallas FC,DB Schenker,UK,621.26,8,Yes
+2025-09-15,Dallas FC,DB Schenker,France,1384.75,2,Yes
+2025-09-15,Dallas FC,DHL,UK,680.82,5,Yes
+2025-09-15,Singapore Terminal,Maersk,Brazil,1452.62,3,Yes
+2025-09-16,Singapore Terminal,Maersk,UK,325.7,1,Yes
+2025-09-18,Shenzhen Logistics,DHL,France,688.5,2,Yes
+2025-09-18,Dallas FC,FedEx,Japan,704.46,1,Yes
+2025-09-18,Shenzhen Logistics,FedEx,USA,74.03,2,Yes
+2025-09-19,Dallas FC,DB Schenker,Japan,1052.65,0,Yes
+2025-09-19,Shenzhen Logistics,FedEx,Brazil,1532.48,0,Yes
+2025-09-20,Singapore Terminal,Maersk,Germany,1786.03,1,Yes
+2025-09-20,Chicago Hub,DB Schenker,Germany,1436.54,3,Yes
+2025-09-20,Chicago Hub,UPS,Brazil,68.97,2,Yes
+2025-09-20,Chicago Hub,DB Schenker,Germany,1241.06,3,Yes
+2025-09-20,Shenzhen Logistics,DB Schenker,Brazil,273.95,2,Yes
+2025-09-21,Rotterdam Port,Maersk,Brazil,287.24,2,Yes
+2025-09-21,Dallas FC,UPS,Japan,1444.59,12,Yes
+2025-09-21,Chicago Hub,Maersk,France,230.29,2,Yes
+2025-09-22,Singapore Terminal,DB Schenker,Brazil,558.04,3,Yes
+2025-09-25,Chicago Hub,Maersk,USA,181.32,5,Yes
+2025-09-26,Singapore Terminal,DB Schenker,Japan,397.71,0,Yes
+2025-09-27,Chicago Hub,Maersk,Japan,175.17,3,Yes
+2025-09-27,Singapore Terminal,Maersk,Brazil,523.29,8,Yes
+2025-09-27,Singapore Terminal,FedEx,France,284.9,12,Yes
+2025-09-27,Shenzhen Logistics,FedEx,USA,906.82,8,Yes
+2025-09-28,Rotterdam Port,DHL,France,923.83,3,Yes
+2025-09-28,Singapore Terminal,DHL,Germany,561.78,5,Yes
+2025-09-29,Rotterdam Port,FedEx,Japan,377.32,0,Yes
+2025-09-29,Chicago Hub,Maersk,Germany,405.88,0,Yes
+2025-09-30,Shenzhen Logistics,DB Schenker,France,181.27,12,Yes
+2025-09-30,Shenzhen Logistics,Maersk,Japan,1402.73,8,Yes
+2025-10-02,Singapore Terminal,FedEx,Brazil,1561.24,5,Yes
+2025-10-02,Singapore Terminal,UPS,UK,427.0,1,Yes
+2025-10-03,Singapore Terminal,FedEx,USA,347.56,3,Yes
+2025-10-03,Singapore Terminal,UPS,France,1264.66,0,Yes
+2025-10-04,Rotterdam Port,DHL,France,415.37,12,Yes
+2025-10-05,Dallas FC,UPS,Germany,608.97,8,Yes
+2025-10-05,Dallas FC,DHL,Japan,1123.29,8,Yes
+2025-10-05,Chicago Hub,UPS,Japan,806.29,0,Yes
+2025-10-05,Chicago Hub,UPS,UK,1581.2,8,Yes
+2025-10-08,Chicago Hub,FedEx,France,103.22,0,Yes
+2025-10-08,Singapore Terminal,DB Schenker,Germany,212.9,1,Yes
+2025-10-08,Shenzhen Logistics,Maersk,Germany,363.53,0,Yes
+2025-10-09,Chicago Hub,Maersk,France,488.45,8,No
+2025-10-13,Rotterdam Port,FedEx,UK,1545.39,5,Yes
+2025-10-13,Singapore Terminal,DHL,USA,1792.29,0,Yes
+2025-10-14,Shenzhen Logistics,DB Schenker,Japan,157.19,0,Yes
+2025-10-14,Dallas FC,FedEx,USA,1786.26,12,Yes
+2025-10-14,Dallas FC,FedEx,Brazil,111.69,0,Yes
+2025-10-15,Shenzhen Logistics,UPS,UK,1079.58,0,Yes
+2025-10-16,Shenzhen Logistics,FedEx,USA,1436.7,3,Yes
+2025-10-16,Singapore Terminal,UPS,Japan,375.25,3,Yes
+2025-10-17,Shenzhen Logistics,UPS,Germany,595.86,5,No
+2025-10-17,Rotterdam Port,UPS,Japan,1716.29,0,Yes
+2025-10-18,Rotterdam Port,DHL,USA,474.01,12,Yes
+2025-10-20,Singapore Terminal,UPS,Germany,1362.88,3,Yes
+2025-10-20,Rotterdam Port,DB Schenker,Germany,1283.16,0,Yes
+2025-10-20,Singapore Terminal,Maersk,Germany,759.05,5,Yes
+2025-10-21,Rotterdam Port,FedEx,Germany,1064.5,2,Yes
+2025-10-21,Dallas FC,DHL,UK,858.93,0,No
+2025-10-21,Chicago Hub,DB Schenker,Germany,1206.4,1,Yes
+2025-10-23,Chicago Hub,Maersk,Brazil,203.98,0,Yes
+2025-10-24,Singapore Terminal,DB Schenker,Germany,1388.45,3,Yes
+2025-10-25,Shenzhen Logistics,DHL,France,677.01,2,Yes
+2025-10-26,Rotterdam Port,DHL,UK,291.27,2,Yes
+2025-10-27,Singapore Terminal,DHL,Brazil,1727.2,0,Yes
+2025-10-27,Singapore Terminal,Maersk,UK,612.88,5,Yes
+2025-10-27,Singapore Terminal,FedEx,UK,504.77,8,Yes
+2025-10-27,Dallas FC,FedEx,USA,1672.35,2,Yes
+2025-10-28,Chicago Hub,Maersk,Japan,1782.64,8,Yes
+2025-10-29,Rotterdam Port,DHL,Japan,552.04,3,Yes
+2025-10-29,Shenzhen Logistics,UPS,UK,1415.61,2,Yes
+2025-10-30,Singapore Terminal,Maersk,France,280.59,8,Yes
+2025-10-31,Shenzhen Logistics,FedEx,Brazil,114.13,0,Yes
+2025-11-02,Shenzhen Logistics,Maersk,USA,1607.5,0,Yes
+2025-11-02,Rotterdam Port,UPS,Brazil,1523.08,0,Yes
+2025-11-02,Chicago Hub,DHL,France,408.43,2,Yes
+2025-11-03,Rotterdam Port,Maersk,USA,72.05,0,Yes
+2025-11-04,Dallas FC,Maersk,Japan,662.46,3,Yes
+2025-11-04,Dallas FC,FedEx,USA,893.29,12,Yes
+2025-11-04,Shenzhen Logistics,Maersk,Japan,1100.4,3,Yes
+2025-11-06,Shenzhen Logistics,DB Schenker,Germany,858.46,2,Yes
+2025-11-07,Singapore Terminal,Maersk,Germany,526.18,12,Yes
+2025-11-07,Rotterdam Port,UPS,France,623.64,0,Yes
+2025-11-07,Rotterdam Port,FedEx,UK,1360.42,0,Yes
+2025-11-08,Rotterdam Port,FedEx,USA,1666.68,8,Yes
+2025-11-08,Dallas FC,DB Schenker,UK,375.55,5,Yes
+2025-11-08,Shenzhen Logistics,DHL,Japan,175.45,1,Yes
+2025-11-08,Singapore Terminal,FedEx,France,321.74,5,Yes
+2025-11-08,Shenzhen Logistics,DHL,Brazil,450.71,2,Yes
+2025-11-10,Rotterdam Port,FedEx,UK,1463.85,8,Yes
+2025-11-11,Rotterdam Port,DHL,USA,834.19,1,Yes
+2025-11-12,Chicago Hub,UPS,Germany,1050.84,8,Yes
+2025-11-12,Shenzhen Logistics,FedEx,UK,1767.93,2,Yes
+2025-11-12,Rotterdam Port,DB Schenker,Germany,1490.16,8,Yes
+2025-11-14,Shenzhen Logistics,FedEx,UK,295.59,8,Yes
+2025-11-14,Rotterdam Port,DHL,Japan,939.83,1,Yes
+2025-11-14,Rotterdam Port,Maersk,Germany,420.43,1,Yes
+2025-11-15,Dallas FC,Maersk,Brazil,766.7,0,Yes
+2025-11-16,Dallas FC,DHL,UK,1183.11,12,Yes
+2025-11-17,Rotterdam Port,DHL,Germany,420.5,2,Yes
+2025-11-17,Chicago Hub,DHL,USA,532.75,0,Yes
+2025-11-19,Dallas FC,UPS,Germany,487.43,0,Yes
+2025-11-20,Rotterdam Port,Maersk,Japan,1704.96,5,Yes
+2025-11-21,Shenzhen Logistics,DB Schenker,Germany,121.45,5,Yes
+2025-11-21,Singapore Terminal,FedEx,USA,1458.98,0,Yes
+2025-11-22,Rotterdam Port,DB Schenker,UK,539.13,0,Yes
+2025-11-24,Singapore Terminal,DHL,UK,522.51,5,Yes
+2025-11-24,Singapore Terminal,UPS,UK,657.49,8,Yes
+2025-11-25,Chicago Hub,UPS,UK,516.74,0,Yes
+2025-11-28,Singapore Terminal,FedEx,USA,67.21,0,Yes
+2025-11-28,Chicago Hub,Maersk,Germany,454.61,0,Yes
+2025-11-29,Rotterdam Port,FedEx,France,1089.17,3,Yes
+2025-11-29,Shenzhen Logistics,UPS,Germany,837.09,0,Yes
+2025-11-30,Dallas FC,Maersk,UK,1143.05,5,Yes
+2025-11-30,Shenzhen Logistics,DHL,USA,1221.31,1,Yes
+2025-12-02,Chicago Hub,FedEx,France,1031.81,8,Yes
+2025-12-04,Singapore Terminal,UPS,UK,940.51,8,Yes
+2025-12-05,Rotterdam Port,DHL,Germany,137.97,12,Yes
+2025-12-05,Dallas FC,UPS,Japan,308.52,3,Yes
+2025-12-05,Chicago Hub,UPS,Germany,1373.53,2,Yes
+2025-12-06,Chicago Hub,FedEx,Japan,1774.79,0,Yes
+2025-12-07,Rotterdam Port,FedEx,Japan,376.72,3,Yes
+2025-12-08,Rotterdam Port,Maersk,UK,732.42,12,Yes
+2025-12-08,Chicago Hub,DB Schenker,USA,1411.36,5,Yes
+2025-12-08,Dallas FC,DHL,USA,1747.48,8,Yes
+2025-12-08,Singapore Terminal,FedEx,USA,1122.65,0,Yes
+2025-12-11,Rotterdam Port,UPS,UK,71.17,3,Yes
+2025-12-11,Dallas FC,Maersk,USA,869.5,2,Yes
+2025-12-11,Singapore Terminal,UPS,France,1078.33,12,Yes
+2025-12-11,Chicago Hub,Maersk,France,1075.83,2,Yes
+2025-12-12,Shenzhen Logistics,FedEx,UK,1159.47,12,Yes
+2025-12-13,Singapore Terminal,UPS,France,655.16,1,Yes
+2025-12-13,Singapore Terminal,UPS,UK,795.18,1,Yes
+2025-12-13,Chicago Hub,Maersk,UK,1408.34,5,Yes
+2025-12-14,Shenzhen Logistics,UPS,France,1588.38,2,Yes
+2025-12-14,Shenzhen Logistics,DHL,France,1060.62,5,Yes
+2025-12-15,Dallas FC,FedEx,Germany,875.28,0,Yes
+2025-12-16,Dallas FC,FedEx,France,1626.02,1,Yes
+2025-12-17,Chicago Hub,DHL,USA,1780.83,0,Yes
+2025-12-17,Dallas FC,FedEx,France,1560.34,3,Yes
+2025-12-18,Shenzhen Logistics,DHL,USA,1678.14,0,Yes
+2025-12-18,Dallas FC,DHL,Germany,1212.79,3,Yes
+2025-12-18,Singapore Terminal,FedEx,Japan,1542.21,8,Yes
+2025-12-18,Shenzhen Logistics,DHL,France,646.26,3,Yes
+2025-12-19,Shenzhen Logistics,FedEx,Germany,1593.61,3,Yes
+2025-12-20,Rotterdam Port,FedEx,France,1746.21,1,Yes
+2025-12-20,Dallas FC,DB Schenker,Japan,514.19,1,Yes
+2025-12-21,Rotterdam Port,DB Schenker,USA,1444.16,8,No
+2025-12-22,Rotterdam Port,DHL,France,875.18,1,Yes
+2025-12-22,Singapore Terminal,Maersk,Brazil,262.41,12,Yes
+2025-12-23,Dallas FC,Maersk,Japan,793.6,1,Yes
+2025-12-23,Dallas FC,UPS,Japan,164.96,5,No
+2025-12-24,Dallas FC,FedEx,France,790.64,12,Yes
+2025-12-25,Shenzhen Logistics,Maersk,Germany,412.53,8,Yes
+2025-12-25,Dallas FC,Maersk,UK,643.81,1,Yes
+2025-12-25,Singapore Terminal,FedEx,Germany,558.24,0,Yes
+2025-12-26,Dallas FC,UPS,Brazil,199.99,1,Yes
+2025-12-26,Dallas FC,DHL,Japan,299.99,0,Yes
+2025-12-27,Rotterdam Port,FedEx,UK,1404.82,1,Yes
+2025-12-28,Dallas FC,Maersk,France,1723.77,2,No
+2025-12-28,Chicago Hub,Maersk,Germany,766.38,0,Yes
